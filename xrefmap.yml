@@ -1319,6 +1319,31 @@ references:
   isSpec: "True"
   fullName: Docfx.Docset.Build
   nameWithType: Docset.Build
+- uid: Docfx.Docset.Pdf(System.String)
+  name: Pdf(string)
+  href: api/Docfx.Docset.html#Docfx_Docset_Pdf_System_String_
+  commentId: M:Docfx.Docset.Pdf(System.String)
+  name.vb: Pdf(String)
+  fullName: Docfx.Docset.Pdf(string)
+  fullName.vb: Docfx.Docset.Pdf(String)
+  nameWithType: Docset.Pdf(string)
+  nameWithType.vb: Docset.Pdf(String)
+- uid: Docfx.Docset.Pdf(System.String,Docfx.BuildOptions)
+  name: Pdf(string, BuildOptions)
+  href: api/Docfx.Docset.html#Docfx_Docset_Pdf_System_String_Docfx_BuildOptions_
+  commentId: M:Docfx.Docset.Pdf(System.String,Docfx.BuildOptions)
+  name.vb: Pdf(String, BuildOptions)
+  fullName: Docfx.Docset.Pdf(string, Docfx.BuildOptions)
+  fullName.vb: Docfx.Docset.Pdf(String, Docfx.BuildOptions)
+  nameWithType: Docset.Pdf(string, BuildOptions)
+  nameWithType.vb: Docset.Pdf(String, BuildOptions)
+- uid: Docfx.Docset.Pdf*
+  name: Pdf
+  href: api/Docfx.Docset.html#Docfx_Docset_Pdf_
+  commentId: Overload:Docfx.Docset.Pdf
+  isSpec: "True"
+  fullName: Docfx.Docset.Pdf
+  nameWithType: Docset.Pdf
 - uid: Docfx.Dotnet
   name: Docfx.Dotnet
   href: api/Docfx.Dotnet.html
