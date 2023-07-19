@@ -158,11 +158,11 @@ For example: <code>docfx metadata --property TargetFramework=net48</code> genera
 <p>If <code>toc.yml</code> or <code>toc.md</code> is found in current folder, it will be rendered as the top level TABLE-OF-CONTENT. As in website, it will be rendered as the top navigation bar. Path in <code>toc.yml</code> or <code>toc.md</code> are relative to the TOC file.</p>
 <div class="NOTE">
 <h5>Note</h5>
-<p>Please note that <code>homepage</code> is not supported in <code>toc.md</code>.
-And if <code>href</code> is referencing to a <strong>folder</strong>, it must end with <code>/</code>.</p>
+<p><code>homepage</code> is not supported in <code>toc.md</code>.
+If <code>href</code> is referencing a <strong>folder</strong>, it must end with <code>/</code>.</p>
 </div>
-<p><strong>toc.yml syntax</strong>
-<code>toc.yml</code> is an array of items. Each item can have following properties:</p>
+<p><strong>toc.yml syntax</strong></p>
+<p><code>toc.yml</code> is an array of items. Each item can have following properties:</p>
 <table>
 <thead>
 <tr>
@@ -177,7 +177,7 @@ And if <code>href</code> is referencing to a <strong>folder</strong>, it must en
 </tr>
 <tr>
 <td>href</td>
-<td><strong>Required</strong>. Can be a folder or a file <em>UNDER</em> current folder. A folder must end with <code>/</code>. In case of a folder, TOC.md inside the folder will be rendered as second level TABLE-OF-CONTENT. As in website, it will be rendered as a sidebar.</td>
+<td><strong>Required</strong>. A folder or a file <em>UNDER</em> the current folder. A folder must end with <code>/</code>. If referencing a folder, a TOC.md file inside the folder will be rendered as a second level TABLE-OF-CONTENT. As in website, it will be rendered as a sidebar.</td>
 </tr>
 <tr>
 <td>homepage</td>

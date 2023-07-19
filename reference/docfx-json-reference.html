@@ -196,11 +196,11 @@
 </tr>
 <tr>
 <td>resource</td>
-<td>Contains all the resource files that conceptual and metadata files dependent on, e.g. image files. <code>name-files</code> file mapping with several ways to define it, as to be described in <strong>Section4</strong>.</td>
+<td>Contains all the resource files that conceptual and metadata files depend on (e.g., image files). <code>name-files</code> file mapping with several ways to define it, as to be described in <strong>Section4</strong>.</td>
 </tr>
 <tr>
 <td>overwrite</td>
-<td>Contains all the conceptual files which contains yaml header with <code>uid</code> and is intended to override the existing metadata <code>yml</code> files. <code>name-files</code> file mapping with several ways to define it, as to be described in <strong>Section4</strong>.</td>
+<td>Contains all the conceptual files that contain yaml headers with <code>uid</code> values and is intended to override the existing metadata <code>yml</code> files. <code>name-files</code> file mapping with several ways to define it, as to be described in <strong>Section4</strong>.</td>
 </tr>
 <tr>
 <td>globalMetadata</td>
@@ -212,15 +212,15 @@
 </tr>
 <tr>
 <td>globalMetadataFiles</td>
-<td>Specify a list of JSON file path containing globalMetadata settings, as similar to <code>{&quot;key&quot;:&quot;value&quot;}</code>. Please read <strong>Section3.2.3</strong> for detail.</td>
+<td>Specifies a list of JSON file paths containing globalMetadata settings, as similar to <code>{&quot;key&quot;:&quot;value&quot;}</code>. See <strong>Section3.2.3</strong> for more detail.</td>
 </tr>
 <tr>
 <td>fileMetadataFiles</td>
-<td>Specify a list of JSON file path containing fileMetadata settings, as similar to <code>{&quot;key&quot;:&quot;value&quot;}</code>. Please read <strong>Section3.2.3</strong> for detail.</td>
+<td>Specifies a list of JSON file paths containing fileMetadata settings, as similar to <code>{&quot;key&quot;:&quot;value&quot;}</code>. See <strong>Section3.2.3</strong> for more detail.</td>
 </tr>
 <tr>
 <td>template</td>
-<td>The templates applied to each file in the documentation. It can be a string or an array. The latter ones will override the former ones if the name of the file inside the template collides. If omitted, embedded <code>default</code> template will be used.</td>
+<td>The templates applied to each file in the documentation. Specify a string or an array. The latter ones will override the former ones if the name of the file inside the template collides. If omitted, the embedded <code>default</code> template will be used.</td>
 </tr>
 <tr>
 <td>theme</td>
@@ -236,7 +236,7 @@
 </tr>
 <tr>
 <td>rawModelOutputFolder</td>
-<td>Specify the output folder for the raw model. If not set, the raw model will be generated to the same folder as the output documentation.</td>
+<td>Specifies the output folder for the raw model. If not set, the raw model will appear in the same folder as the output documentation.</td>
 </tr>
 <tr>
 <td>exportViewModel</td>
@@ -244,36 +244,36 @@
 </tr>
 <tr>
 <td>viewModelOutputFolder</td>
-<td>Specify the output folder for the view model. If not set, the view model will be generated to the same folder as the output documentation.</td>
+<td>Specifies the output folder for the view model. If not set, the view model will appear in the same folder as the output documentation.</td>
 </tr>
 <tr>
 <td>dryRun</td>
-<td>If set to true, template will not be actually applied to the documents. This option is always used with <code>--exportRawModel</code> or <code>--exportViewModel</code>, so that only raw model files or view model files are generated.</td>
+<td>If set to true, the template will not be applied to the documents. This option is always used with <code>--exportRawModel</code> or <code>--exportViewModel</code> so that only raw model files or view model files will be generated.</td>
 </tr>
 <tr>
 <td>maxParallelism</td>
-<td>Set the max parallelism, 0 (default) is same as the count of CPU cores.</td>
+<td>Sets the max parallelism. Setting 0 (default) is the same as setting to the count of CPU cores.</td>
 </tr>
 <tr>
 <td>markdownEngineProperties</td>
-<td>Set the parameters for markdown engine, value is a JSON object.</td>
+<td>Sets the parameters for the markdown engine, value is a JSON object.</td>
 </tr>
 <tr>
 <td>keepFileLink</td>
-<td>If set to true, docfx does not dereference (aka. copy) file to the output folder, instead, it saves a <code>link_to_path</code> property inside <code>manifest.json</code> to indicate the physical location of that file. A file link will be created by incremental build and copy resource file.</td>
+<td>If set to true, docfx does not dereference (i.e., copy) the file to the output folder, instead, it saves a <code>link_to_path</code> property inside <code>manifest.json</code> to indicate the physical location of that file. A file link will be created by incremental build and copy resource file.</td>
 </tr>
 <tr>
 <td>sitemap</td>
-<td>In format <a href="#125-sitemapoptions">SitemapOptions</a> Specifies the options for the sitemap.xml file.</td>
+<td>In format <a href="#125-sitemapoptions">SitemapOptions</a>. Specifies the options for the sitemap.xml file.</td>
 </tr>
 <tr>
 <td>disableGitFeatures</td>
-<td>Disable fetching Git related information for articles. Set to <code>true</code> if fetching git related information is slow for huge Git repositories. Default value is <code>false</code>.</td>
+<td>Disable fetching Git related information for articles. Set to <code>true</code> if fetching Git related information is slow for huge Git repositories. Default value is <code>false</code>.</td>
 </tr>
 </tbody>
 </table>
 <h4 id="121-templates-and-themes">1.2.1 <code>Template</code>s and <code>Theme</code>s</h4>
-<p><em>Template</em>s are used to transform <em>YAML</em> files generated by <code>docfx</code> to human-readable <em>page</em>s. A <em>page</em> can be a markdown file, a html file or even a plain text file. Each <em>YAML</em> file will be transformed to ONE <em>page</em> and be exported to the output folder preserving its relative path to <code>src</code>. For example, if <em>page</em>s are in <em>HTML</em> format, a static website will be generated in the output folder.</p>
+<p><em>Template</em>s are used to transform <em>YAML</em> files generated by <code>docfx</code> to human-readable <em>page</em>s. A <em>page</em> can be a markdown file, an html file or even a plain text file. Each <em>YAML</em> file will be transformed to ONE <em>page</em> and be exported to the output folder preserving its relative path to <code>src</code>. For example, if <em>page</em>s are in <em>HTML</em> format, a static website will be generated in the output folder.</p>
 <p><em>Theme</em> is to provide general styles for all the generated <em>page</em>s. Files inside a <em>theme</em> will be generally <strong>COPIED</strong> to the output folder. A typical usage is, after <em>YAML</em> files are transformed to <em>HTML</em> pages, well-designed <em>CSS</em> style files in a <em>Theme</em> can then overwrite the default styles defined in <em>template</em>, e.g. <em>main.css</em>.</p>
 <p>There are two ways to use custom templates and themes.</p>
 <p>To use a custom template, one way is to specify template path with <code>--template</code> (or <code>-t</code>) command option, multiple templates must be separated by <code>,</code> with no spaces. The other way is to set key-value mapping in <code>docfx.json</code>:</p>
@@ -310,7 +310,7 @@
 <p>DocFX has embedded templates: <code>default</code>, <code>default(zh-cn)</code>, <code>pdf.default</code>, <code>statictoc</code> and <code>common</code>.
 Please avoid using these as template folder name.</p>
 </div>
-<p>To custom theme, one way is to specify theme name with <code>--theme</code> command option, multiple themes must be separated by <code>,</code> with no spaces. The other way is to set key-value mapping in <code>docfx.json</code> as similar to defining template. Also, both <code>.zip</code> file and folder are supported.</p>
+<p>One way to set a custom theme is to specify the theme name with the <code>--theme</code> command option. Multiple themes must be separated by <code>,</code> with no spaces. The other way is to set a key-value mapping in <code>docfx.json</code> similar to the way templates are defined. Also, either a <code>.zip</code> file or a folder can be used.</p>
 <p>Please refer to <a href="../tutorial/howto_create_custom_template.html">How to Create Custom Templates</a> to create custom templates.</p>
 <p><strong>Sample</strong></p>
 <pre><code class="lang-json">{
@@ -434,13 +434,13 @@ Reserved metadatas:</p>
 </tbody>
 </table>
 <h4 id="123-separated-metadata-files-for-global-metadata-and-file-metadata">1.2.3 Separated metadata files for global metadata and file metadata</h4>
-<p>There're three ways to set metadata for a file in DocFX:</p>
+<p>There are three ways to set metadata for a file in DocFX:</p>
 <ol>
-<li>using global metadata, it will set metadata for every file.</li>
-<li>using file metadata, it will set metadata for files that match pattern.</li>
-<li>using YAML header, it will set metadata for current file.</li>
+<li>Using global metadata, which will set metadata for every file.</li>
+<li>Using file metadata, which will set metadata for files that match the pattern you specify.</li>
+<li>Using YAML header, which will set metadata for the current file.</li>
 </ol>
-<p>In above ways, the later way will always overwrite the former way if the same key of metadata is set.</p>
+<p>In the list above, the later method way will always overwrite the former if the same key of metadata is set.</p>
 <p>Here we will show you how to set global metadata and file metadata using separated metadata files. Take global metadata for example, you can set <code>globalMetadataFiles</code> in <code>docfx.json</code> or <code>--globalMetadataFiles</code> in build command line. The usage of <code>fileMetadataFiles</code> is the same as <code>globalMetadataFiles</code>.</p>
 <p>There're some metadata file examples:</p>
 <ul>
