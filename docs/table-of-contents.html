@@ -108,8 +108,6 @@
 <li><code>uid</code>: The uid of the article. Can be used instead of <code>href</code>.</li>
 <li><code>expanded</code>: Expand children on load, only works if the template is <code>modern</code>.</li>
 </ul>
-<h2 id="navigation-bar">Navigation Bar</h2>
-<p>The <code>toc.yml</code> file in the <code>docfx.json</code> folder will be used to fill the content of the navigation bar at the top of the page.</p>
 <h2 id="nested-tocs">Nested TOCs</h2>
 <p>To nest a TOC within another TOC, set the <code>href</code> property to point to the <code>toc.yml</code> file that you want to nest. You can also use this structure as a way to reuse a TOC structure in one or more TOC files.</p>
 <p>Consider the following two <code>toc.yml</code> files:</p>
@@ -132,6 +130,40 @@
 Reference
 ├─ System.String
 ├─ System.Float
+</code></pre>
+<h2 id="reference-tocs">Reference TOCs</h2>
+<p>To reference another TOC without embeding it to a parent TOC using nested TOCs, set the <code>href</code> property to point to the directory that you want to reference and end the string with <code>/</code>, this will generate a link pointing to the first article in the referenced TOC.</p>
+<p>Consider the following folder structure:</p>
+<pre><code>toc.yml
+├─ System
+    ├─ toc.yml
+├─ System.Collections
+    ├─ toc.yml
+</code></pre>
+<p><em>toc.yml</em>:</p>
+<pre><code class="lang-yml">- name: System
+  href: System/
+- name: System.Collections
+  href: System.Collections/
+</code></pre>
+<p>This structure renders as follows:</p>
+<pre><code class="lang-yml">System # Link to the first article in System/toc.yml
+System.Collections  # Link to the first article in System.Collections/toc.yml
+</code></pre>
+<h2 id="navigation-bar">Navigation Bar</h2>
+<p>The <code>toc.yml</code> file in the <code>docfx.json</code> folder will be used to fill the content of the navigation bar at the top of the page. It usually uses <a href="#reference-tocs">Reference TOCs</a> to navigate to child pages.</p>
+<p>The following example creates a navigation bar with two  <em>Docs</em> and <em>API</em> entries:</p>
+<pre><code>toc.yml
+├─ docs
+    ├─ toc.yml
+├─ api
+    ├─ toc.yml
+</code></pre>
+<p><em>toc.yml</em>:</p>
+<pre><code class="lang-yml">- name: Docs
+  href: docs/
+- name: API
+  href: api/
 </code></pre>
 </article>
 
