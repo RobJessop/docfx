@@ -677,6 +677,16 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "reference/docfx-environment-variables-reference.md",
+      "output": {
+        ".html": {
+          "relative_path": "reference/docfx-environment-variables-reference.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "reference/docfx-json-reference.md",
       "output": {
         ".html": {

@@ -1458,6 +1458,9 @@ references:
 - uid: docfx_cli_reference
   name: docfx CLI reference
   href: reference/docfx-cli-reference.html
+- uid: docfx_environment_variables_reference
+  name: docfx environment variables reference
+  href: reference/docfx-environment-variables-reference.html
 - uid: docfx_json_refence
   name: docfx.json reference
   href: reference/docfx-json-reference.html
