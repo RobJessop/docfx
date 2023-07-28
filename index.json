@@ -1,4 +1,9 @@
 {
+  "README.html": {
+    "href": "README.html",
+    "title": "| docfx",
+    "keywords": "Documentation project uses docfx.console nuget package to generate documentation for docfx project, along with conceputal files, with docfx.json to provide configuration for docfx."
+  },
   "api/Docfx.BuildOptions.html": {
     "href": "api/Docfx.BuildOptions.html",
     "title": "Class BuildOptions | docfx",
