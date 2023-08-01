@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>docfx.json reference | docfx </title>
+      <title>Config Reference | docfx </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="docfx.json reference | docfx ">
+      <meta name="title" content="Config Reference | docfx ">
       
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
@@ -82,473 +82,140 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="docfx_json_refence">
-<h1 id="docfxjson-configuration-reference"><code>docfx.json</code> Configuration Reference</h1>
+        <article data-uid="">
 
-<h2 id="introduction">Introduction</h2>
-<p><code>docfx.json</code> is the main configuration file for Docfx.  The following is a description of the format of that file.</p>
-<h2 id="1-docfxjson-format">1. <code>docfx.json</code> Format</h2>
-<p>Top level <code>docfx.json</code> structure is key-value pair. <code>key</code> is the name of the subcommand, current supported subcommands are <code>metadata</code> and <code>build</code>.</p>
-<h3 id="11-properties-for-metadata">1.1 Properties for <code>metadata</code></h3>
-<p><code>Metadata</code> section defines an array of source projects and their output folder. Each item has <code>src</code> and <code>dest</code> property. <code>src</code> defines the source projects to have metadata generated, which is in <code>File Mapping Format</code>. Detailed syntax is described in <strong>4. Supported <code>name-files</code> File Mapping Format</strong> below. <code>dest</code> defines the output folder of the generated metadata files.</p>
-<table>
-<thead>
-<tr>
-<th>Key</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>src</td>
-<td>Defines the source projects to have metadata generated, which is in <code>File Mapping Format</code>. Relative paths are relative to the docfx.json file being used. To go up a folder use <code>../</code>.</td>
-</tr>
-<tr>
-<td>dest</td>
-<td>Defines the output folder of the generated metadata files. Relative paths are relative to the docfx.json file being used. To go up a folder use <code>../</code>.</td>
-</tr>
-<tr>
-<td>shouldSkipMarkup</td>
-<td>If set to true, DocFX would not render triple-slash-comments in source code as markdown.</td>
-</tr>
-<tr>
-<td>filter</td>
-<td>Defines the filter configuration file, please go to <a href="../tutorial/howto_filter_out_unwanted_apis_attributes.html">How to filter out unwanted apis attributes</a> for more details.</td>
-</tr>
-<tr>
-<td>disableDefaultFilter</td>
-<td>Disables the default filter configuration file.</td>
-</tr>
-<tr>
-<td>disableGitFeatures</td>
-<td>Disables generation of view source links.</td>
-</tr>
-<tr>
-<td>properties</td>
-<td>Defines an optional set of MSBuild properties used when interpreting project files. These are the same properties that are passed to msbuild via the <code>/property:name=value</code> command line argument.</td>
-</tr>
-<tr>
-<td>noRestore</td>
-<td>Do not run <code>dotnet restore</code> before building the projects.</td>
-</tr>
-<tr>
-<td>namespaceLayout</td>
-<td>Defines how namespaces in TOC are organized. When set to <em>flattened</em>, renders namespaces as a single flat list. When set to <em>nested</em>, renders namespaces in a nested tree form. The default is <em>flattened</em>.</td>
-</tr>
-<tr>
-<td>memberLayout</td>
-<td>Defines how member pages are organized. When set to <em>samePage</em>, places members in the same page as their containing type. When set to <em>separatePages</em>, places members in separate pages. The default is <em>samePage</em>.</td>
-</tr>
-<tr>
-<td>allowCompilationErrors</td>
-<td>When enabled, continues documentation generation in case of compilation errors.</td>
-</tr>
-</tbody>
-</table>
-<p><strong>Sample</strong></p>
+
+<p>The <code>docfx.json</code> file indicates that the directory is the root of a docfx project.</p>
 <pre><code class="lang-json">{
-  &quot;metadata&quot;: [
-    {
-      &quot;src&quot;: [
-        {
-          &quot;files&quot;: [&quot;**/*.csproj&quot;],
-          &quot;exclude&quot;: [ &quot;**/bin/**&quot;, &quot;**/obj/**&quot; ],
-          &quot;src&quot;: &quot;../src&quot;
-        }
-      ],
-      &quot;dest&quot;: &quot;obj/docfx/api/dotnet&quot;,
-      &quot;shouldSkipMarkup&quot;: true,
-      &quot;properties&quot;: {
-          &quot;TargetFramework&quot;: &quot;netstandard1.3&quot;
-      }
-    },
-    {
-      &quot;src&quot;: [
-        {
-          &quot;files&quot;: [&quot;**/*.js&quot;],
-          &quot;src&quot;: &quot;../src&quot;
-        }
-      ],
-      &quot;dest&quot;: &quot;obj/docfx/api/js&quot;,
-      &quot;properties&quot;: {
-          &quot;TargetFramework&quot;: &quot;net46&quot;
-      }
-    }
-  ]
+  &quot;build&quot;: { },
+  &quot;metadata&quot;: { },
+  &quot;pdf&quot;: { }
 }
 </code></pre>
-<div class="NOTE">
-<h5>Note</h5>
-<p>Make sure to specify <code>&quot;TargetFramework&quot;: &lt;one of the frameworks&gt;</code> in your docfx.json when the project is targeting for multiple platforms.</p>
-</div>
-<h3 id="12-properties-for-build">1.2 Properties for <code>build</code></h3>
-<table>
-<thead>
-<tr>
-<th>Key</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>content</td>
-<td>Contains all the files to generate documentation, including metadata <code>yml</code> files and conceptual <code>md</code> files. <code>name-files</code> file mapping with several ways to define it, as to be described in <strong>Section4</strong>. The <code>files</code> contains all the project files to have API generated.</td>
-</tr>
-<tr>
-<td>resource</td>
-<td>Contains all the resource files that conceptual and metadata files depend on (e.g., image files). <code>name-files</code> file mapping with several ways to define it, as to be described in <strong>Section4</strong>.</td>
-</tr>
-<tr>
-<td>overwrite</td>
-<td>Contains all the conceptual files that contain yaml headers with <code>uid</code> values and is intended to override the existing metadata <code>yml</code> files. <code>name-files</code> file mapping with several ways to define it, as to be described in <strong>Section4</strong>.</td>
-</tr>
-<tr>
-<td>globalMetadata</td>
-<td>Contains metadata that will be applied to every file, in key-value pair format. For example, you can define <code>&quot;_appTitle&quot;: &quot;This is the title&quot;</code> in this section, and when applying template <code>default</code>, it will be part of the page title as defined in the template.</td>
-</tr>
-<tr>
-<td>fileMetadata</td>
-<td>Contains metadata that will be applied to specific files. <code>name-files</code> file mapping with several ways to define it, as to be described in <strong>Section4</strong>.</td>
-</tr>
-<tr>
-<td>globalMetadataFiles</td>
-<td>Specifies a list of JSON file paths containing globalMetadata settings, as similar to <code>{&quot;key&quot;:&quot;value&quot;}</code>. See <strong>Section3.2.3</strong> for more detail.</td>
-</tr>
-<tr>
-<td>fileMetadataFiles</td>
-<td>Specifies a list of JSON file paths containing fileMetadata settings, as similar to <code>{&quot;key&quot;:&quot;value&quot;}</code>. See <strong>Section3.2.3</strong> for more detail.</td>
-</tr>
-<tr>
-<td>template</td>
-<td>The templates applied to each file in the documentation. Specify a string or an array. The latter ones will override the former ones if the name of the file inside the template collides. If omitted, the embedded <code>default</code> template will be used.</td>
-</tr>
-<tr>
-<td>theme</td>
-<td>The themes applied to the documentation. Theme is used to customize the styles generated by <code>template</code>. It can be a string or an array. The latter ones will override the former ones if the name of the file inside the template collides. If omitted, no theme will be applied, the default theme inside the template will be used.</td>
-</tr>
-<tr>
-<td>xref</td>
-<td>Specifies the urls of xrefmap used by content files. Currently, it supports following scheme: http, https, file.</td>
-</tr>
-<tr>
-<td>exportRawModel</td>
-<td>If set to true, data model to run template script will be extracted in <code>.raw.json</code> extension.</td>
-</tr>
-<tr>
-<td>rawModelOutputFolder</td>
-<td>Specifies the output folder for the raw model. If not set, the raw model will appear in the same folder as the output documentation.</td>
-</tr>
-<tr>
-<td>exportViewModel</td>
-<td>If set to true, data model to apply template will be extracted in <code>.view.json</code> extension.</td>
-</tr>
-<tr>
-<td>viewModelOutputFolder</td>
-<td>Specifies the output folder for the view model. If not set, the view model will appear in the same folder as the output documentation.</td>
-</tr>
-<tr>
-<td>dryRun</td>
-<td>If set to true, the template will not be applied to the documents. This option is always used with <code>--exportRawModel</code> or <code>--exportViewModel</code> so that only raw model files or view model files will be generated.</td>
-</tr>
-<tr>
-<td>maxParallelism</td>
-<td>Sets the max parallelism. Setting 0 (default) is the same as setting to the count of CPU cores.</td>
-</tr>
-<tr>
-<td>markdownEngineProperties</td>
-<td>Sets the parameters for the markdown engine, value is a JSON object.</td>
-</tr>
-<tr>
-<td>keepFileLink</td>
-<td>If set to true, docfx does not dereference (i.e., copy) the file to the output folder, instead, it saves a <code>link_to_path</code> property inside <code>manifest.json</code> to indicate the physical location of that file. A file link will be created by incremental build and copy resource file.</td>
-</tr>
-<tr>
-<td>sitemap</td>
-<td>In format <a href="#125-sitemapoptions">SitemapOptions</a>. Specifies the options for the sitemap.xml file.</td>
-</tr>
-<tr>
-<td>disableGitFeatures</td>
-<td>Disable fetching Git related information for articles. Set to <code>true</code> if fetching Git related information is slow for huge Git repositories. Default value is <code>false</code>.</td>
-</tr>
-</tbody>
-</table>
-<h4 id="121-templates-and-themes">1.2.1 <code>Template</code>s and <code>Theme</code>s</h4>
-<p><em>Template</em>s are used to transform <em>YAML</em> files generated by <code>docfx</code> to human-readable <em>page</em>s. A <em>page</em> can be a markdown file, an html file or even a plain text file. Each <em>YAML</em> file will be transformed to ONE <em>page</em> and be exported to the output folder preserving its relative path to <code>src</code>. For example, if <em>page</em>s are in <em>HTML</em> format, a static website will be generated in the output folder.</p>
-<p><em>Theme</em> is to provide general styles for all the generated <em>page</em>s. Files inside a <em>theme</em> will be generally <strong>COPIED</strong> to the output folder. A typical usage is, after <em>YAML</em> files are transformed to <em>HTML</em> pages, well-designed <em>CSS</em> style files in a <em>Theme</em> can then overwrite the default styles defined in <em>template</em>, e.g. <em>main.css</em>.</p>
-<p>There are two ways to use custom templates and themes.</p>
-<p>To use a custom template, one way is to specify template path with <code>--template</code> (or <code>-t</code>) command option, multiple templates must be separated by <code>,</code> with no spaces. The other way is to set key-value mapping in <code>docfx.json</code>:</p>
-<pre><code class="lang-json">{
-  ...
-  {
-    &quot;build&quot; :
-    {
-      ...
-      &quot;template&quot;: &quot;custom&quot;,
-      ...
-    }
-  ...
-}
-</code></pre>
-<pre><code class="lang-json">{
-  ...
-  {
-    &quot;build&quot; :
-    {
-      ...
-      &quot;template&quot;: [&quot;default&quot;, &quot;X:/template/custom&quot;],
-      ...
-    }
-  ...
-}
-</code></pre>
-<div class="NOTE">
-<h5>Note</h5>
-<p>The template path could either be a zip file called <code>&lt;template&gt;.zip</code> or a folder called <code>&lt;template&gt;</code>.</p>
-</div>
-<div class="WARNING">
-<h5>Warning</h5>
-<p>DocFX has embedded templates: <code>default</code>, <code>default(zh-cn)</code>, <code>pdf.default</code>, <code>statictoc</code> and <code>common</code>.
-Please avoid using these as template folder name.</p>
-</div>
-<p>One way to set a custom theme is to specify the theme name with the <code>--theme</code> command option. Multiple themes must be separated by <code>,</code> with no spaces. The other way is to set a key-value mapping in <code>docfx.json</code> similar to the way templates are defined. Also, either a <code>.zip</code> file or a folder can be used.</p>
-<p>Please refer to <a href="../tutorial/howto_create_custom_template.html">How to Create Custom Templates</a> to create custom templates.</p>
-<p><strong>Sample</strong></p>
+<h2 id="build"><code>build</code></h2>
+<p>Configuration options that are applied for <code>docfx build</code> command:</p>
 <pre><code class="lang-json">{
   &quot;build&quot;: {
-    &quot;content&quot;:
-      [
-        {
-          &quot;files&quot;: [&quot;**/*.yml&quot;],
-          &quot;src&quot;: &quot;obj/docfx&quot;
-        },
-        {
-          &quot;files&quot;: [&quot;tutorial/**/*.md&quot;, &quot;spec/**/*.md&quot;, &quot;spec/**/toc.yml&quot;]
-        },
-        {
-          &quot;files&quot;: [&quot;toc.yml&quot;]
-        }
-      ],
-    &quot;resource&quot;: [
-        {
-          &quot;files&quot;: [&quot;spec/images/**&quot;]
-        }
-    ],
-    &quot;overwrite&quot;: &quot;apispec/*.md&quot;,
-    &quot;externalReference&quot;: [
-    ],
+    &quot;content&quot;: [&quot;**/*.{md|yml}&quot;],
+    &quot;resource&quot;: [&quot;**/media/**&quot;],
     &quot;globalMetadata&quot;: {
-      &quot;_appTitle&quot;: &quot;DocFX website&quot;,
-      &quot;_gitContribute&quot;: {
-        &quot;repo&quot;: &quot;https://github.com/org/repo&quot;,
-        &quot;branch&quot;: &quot;dev&quot;,
-        &quot;apiSpecFolder&quot;: &quot;docs-ref-overwrite&quot;
-      }
-    },
-    &quot;dest&quot;: &quot;_site&quot;,
-    &quot;template&quot;: &quot;default&quot;
+      &quot;_appTitle&quot;: &quot;My App&quot;
+    }
   }
 }
 </code></pre>
-<h4 id="122-reserved-metadata">1.2.2 Reserved Metadata</h4>
-<p>After passing values through global metadata or file metadata, DocFX can use these metadata in templates to control the output html.
-Reserved metadatas:</p>
-<table>
-<thead>
-<tr>
-<th>Metadata Name</th>
-<th>Type</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>_appTitle</td>
-<td>string</td>
-<td>Will be appended to each output page's head title.</td>
-</tr>
-<tr>
-<td>_appFooter</td>
-<td>string</td>
-<td>The footer text. Will show DocFX's Copyright text if not specified.</td>
-</tr>
-<tr>
-<td>_appLogoPath</td>
-<td>string</td>
-<td>Logo file's path from output root. Will show DocFX's logo if not specified. Remember to add file to resource.</td>
-</tr>
-<tr>
-<td>_appFaviconPath</td>
-<td>string</td>
-<td>Favicon file's path from output root. Will show DocFX's favicon if not specified. Remember to add file to resource.</td>
-</tr>
-<tr>
-<td>_enableSearch</td>
-<td>bool</td>
-<td>Indicate whether to show the search box on the top of page.</td>
-</tr>
-<tr>
-<td>_enableNewTab</td>
-<td>bool</td>
-<td>Indicate whether to open a new tab when clicking an external link. (internal link always shows within the current tab)</td>
-</tr>
-<tr>
-<td>_disableNavbar</td>
-<td>bool</td>
-<td>Indicate whether to show the navigation bar on the top of page.</td>
-</tr>
-<tr>
-<td>_disableBreadcrumb</td>
-<td>bool</td>
-<td>Indicate whether to show breadcrumb on the top of page.</td>
-</tr>
-<tr>
-<td>_disableToc</td>
-<td>bool</td>
-<td>Indicate whether to show table of contents on the left of page.</td>
-</tr>
-<tr>
-<td>_disableAffix</td>
-<td>bool</td>
-<td>Indicate whether to show the affix bar on the right of page.</td>
-</tr>
-<tr>
-<td>_disableContribution</td>
-<td>bool</td>
-<td>Indicate whether to show the <code>View Source</code> and <code>Improve this Doc</code> buttons.</td>
-</tr>
-<tr>
-<td>_gitContribute</td>
-<td>object</td>
-<td>Customize the <code>Improve this Doc</code> URL button for public contributors. Use <code>repo</code> to specify the contribution repository URL. Use <code>branch</code> to specify the contribution branch. Use <code>apiSpecFolder</code> to specify the folder for new overwrite files. If not set, the git URL and branch of the current git repository will be used.</td>
-</tr>
-<tr>
-<td>_gitUrlPattern</td>
-<td>string</td>
-<td>Choose the URL pattern of the generated link for <code>View Source</code> and <code>Improve this Doc</code>. Supports <code>github</code> and <code>vso</code> currently. If not set, DocFX will try speculating the pattern from domain name of the git URL.</td>
-</tr>
-<tr>
-<td>_noindex</td>
-<td>bool</td>
-<td>File(s) specified are not returned in search results</td>
-</tr>
-</tbody>
-</table>
-<h4 id="123-separated-metadata-files-for-global-metadata-and-file-metadata">1.2.3 Separated metadata files for global metadata and file metadata</h4>
-<p>There are three ways to set metadata for a file in DocFX:</p>
-<ol>
-<li>Using global metadata, which will set metadata for every file.</li>
-<li>Using file metadata, which will set metadata for files that match the pattern you specify.</li>
-<li>Using YAML header, which will set metadata for the current file.</li>
-</ol>
-<p>In the list above, the later method way will always overwrite the former if the same key of metadata is set.</p>
-<p>Here we will show you how to set global metadata and file metadata using separated metadata files. Take global metadata for example, you can set <code>globalMetadataFiles</code> in <code>docfx.json</code> or <code>--globalMetadataFiles</code> in build command line. The usage of <code>fileMetadataFiles</code> is the same as <code>globalMetadataFiles</code>.</p>
-<p>There're some metadata file examples:</p>
-<ul>
-<li><p>globalMetadata file example</p>
+<h3 id="content"><code>content</code></h3>
+<p>Specifies an array of content files to include in the project. Supports <a href="#file-mappings">File Mappings</a></p>
 <pre><code class="lang-json">{
-    &quot;_appTitle&quot;: &quot;DocFX website&quot;,
-    &quot;_enableSearch&quot;: &quot;true&quot;
+  &quot;build&quot;: {
+    &quot;content&quot;: [&quot;**/*.{md,yml}&quot;]
+  }
 }
 </code></pre>
-</li>
-<li><p>fileMetadata file example</p>
+<h3 id="resource"><code>resource</code></h3>
+<p>Specifies an array of resource files to include in the project. Supports <a href="#file-mappings">File Mappings</a>.</p>
 <pre><code class="lang-json">{
-    &quot;priority&quot;: {
-        &quot;**.md&quot;: 2.5,
-        &quot;spec/**.md&quot;: 3
-    },
-    &quot;keywords&quot;: {
-        &quot;obj/docfx/**&quot;: [&quot;API&quot;, &quot;Reference&quot;],
-        &quot;spec/**.md&quot;: [&quot;Spec&quot;, &quot;Conceptual&quot;]
-    },
-    _noindex: {
-        &quot;articles/**/article.md&quot;: true
+  &quot;build&quot;: {
+    &quot;resources&quot;: [&quot;**/*.png&quot;]
+  }
+}
+</code></pre>
+<h3 id="overwrite"><code>overwrite</code></h3>
+<p>Contains all the conceptual files that contain yaml headers with <code>uid</code> values and is intended to override the existing metadata <code>yml</code> files. Supports <a href="#file-mappings">File Mappings</a>.</p>
+<h3 id="globalmetadata"><code>globalMetadata</code></h3>
+<p>Contains metadata that will be applied to every file, in key-value pair format. For example, you can define <code>&quot;_appTitle&quot;: &quot;This is the title&quot;</code> in this section, and when applying template <code>default</code>, it will be part of the page title as defined in the template.</p>
+<pre><code class="lang-json">{
+  &quot;build&quot;: {
+    &quot;globalMetadata&quot;: {
+      &quot;_appTitle&quot;: &quot;DocFX website&quot;,
+      &quot;_enableSearch&quot;: &quot;true&quot;
     }
+  }
 }
 </code></pre>
-</li>
-</ul>
-<p>There're some examples about how to use separated metadata files.</p>
-<ul>
-<li><p>use <code>globalMetadataFiles</code> in <code>docfx.json</code></p>
-<pre><code class="lang-json">...
-&quot;globalMetadataFiles&quot;: [&quot;global1.json&quot;, &quot;global2.json&quot;],
-...
+<p>See <a href="#predefined-metadata">Predefined Metadata</a> section for a list of predefined metadata.</p>
+<h3 id="filemetadata"><code>fileMetadata</code></h3>
+<p>Specifies metadata associated with a particular file in order of metadata name, file <a href="#glob-patterns">glob patterns</a> and metadata value:</p>
+<pre><code class="lang-json">{
+  &quot;build&quot;: {
+    &quot;fileMetadata&quot;: {
+        &quot;priority&quot;: {
+            &quot;**.md&quot;: 2.5,
+            &quot;spec/**.md&quot;: 3
+        },
+        &quot;keywords&quot;: {
+            &quot;obj/docfx/**&quot;: [&quot;API&quot;, &quot;Reference&quot;],
+            &quot;spec/**.md&quot;: [&quot;Spec&quot;, &quot;Conceptual&quot;]
+        },
+        &quot;_noindex&quot;: {
+            &quot;articles/**/article.md&quot;: true
+        }
+    }
+  }
+}
 </code></pre>
-</li>
-<li><p>use <code>--globalMetadataFiles</code> in build command line</p>
-<pre><code>docfx build --globalMetadataFiles global1.json,global2.json
+<p>See <a href="#predefined-metadata">Predefined Metadata</a> section for a list of predefined metadata.</p>
+<h3 id="globalmetadatafiles"><code>globalMetadataFiles</code></h3>
+<p>Set <a href="#globalmetadata"><code>globalMetadata</code></a> from external files.</p>
+<pre><code class="lang-json">{
+  &quot;build&quot;: {
+    &quot;globalMetadataFiles&quot;:  [&quot;global1.json&quot;, &quot;global2.json&quot;]
+  }
+}
 </code></pre>
-</li>
-<li><p>use <code>fileMetadataFiles</code> in <code>docfx.json</code></p>
-<pre><code class="lang-json">...
-&quot;fileMetadataFiles&quot;: [&quot;file1.json&quot;, &quot;file2.json&quot;],
-...
+<h3 id="filemetadatafiles"><code>fileMetadataFiles</code></h3>
+<p>Set <a href="#filemetadata"><code>fileMetadata</code></a> from external files.</p>
+<pre><code class="lang-json">{
+  &quot;build&quot;: {
+    &quot;fileMetadataFiles&quot;: [&quot;file1.json&quot;, &quot;file2.json&quot;],
+  }
+}
 </code></pre>
-</li>
-<li><p>use <code>--fileMetadataFiles</code> in build command line</p>
-<pre><code>docfx build --fileMetadataFiles file1.json,file2.json
+<h3 id="template"><code>template</code></h3>
+<p>The templates applied to each file in the documentation. Specify a string or an array. The latter ones will override the former ones if the name of the file inside the template collides. If omitted, the embedded <code>default</code> template will be used.</p>
+<p>Templates are used to transform YAML files generated by <code>docfx</code> to human-readable pages. A page can be a markdown file, an html file or a plain text file. Each YAML file will be transformed to one page and be exported to the output folder preserving its relative path to <code>src</code>. For example, if pages are in HTML format, a static website will be generated in the output folder.</p>
+<pre><code class="lang-json">{
+  &quot;build&quot;: {
+    &quot;template&quot;: &quot;custom&quot;,
+  }
+}
 </code></pre>
-</li>
-</ul>
-<p>Note that, metadata set in command line will merge with metadata set in <code>docfx.json</code>.</p>
-<ul>
-<li><p>If same key for global metadata was set, the order to be overwritten would be(the later one will overwrite the former one):</p>
-<ol>
-<li>global metadata from docfx config file</li>
-<li>global metadata from global metadata files</li>
-<li>global metadata from command line</li>
-</ol>
-</li>
-<li><p>If same file pattern for file metadata was set, the order to be overwritten would be(the later one will overwrite the former one):</p>
-<ol>
-<li>file metadata from docfx config file</li>
-<li>file metadata from file metadata files</li>
-</ol>
-</li>
-</ul>
-<p>Given multiple metadata files, the behavior would be <strong>undetermined</strong>, if same key is set in these files.</p>
-<h4 id="125-sitemapoptions">1.2.5 SitemapOptions</h4>
-<p>The SitemapOptions is to configure the values for generating <a href="https://www.sitemaps.org/protocol.html">sitemap.xml</a> file.</p>
-<table>
-<thead>
-<tr>
-<th>Property Name</th>
-<th>Type</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>baseUrl</code></td>
-<td>string</td>
-<td>Specifies the base url for the website to be published. It MUST begin with the protocol (such as http) and end with a trailing slash. For example, <code>https://dotnet.github.io/docfx/</code>. If the value is not specified, sitemap.xml will NOT be generated.</td>
-</tr>
-<tr>
-<td><code>lastmod</code></td>
-<td>DateTime</td>
-<td>Specifies the date of last modification of the file. If not specified, docfx automatically set the value to the time the file is built.</td>
-</tr>
-<tr>
-<td><code>changefreq</code></td>
-<td>enum</td>
-<td>Specifies the value of <a href="https://www.sitemaps.org/protocol.html#changefreqdef">changefreq</a> in sitemap.xml. Valid values are <code>always</code>, <code>hourly</code>, <code>daily</code>, <code>weekly</code>, <code>monthly</code>, <code>yearly</code>, <code>never</code>. If not specified, the default value is <code>daily</code></td>
-</tr>
-<tr>
-<td><code>priority</code></td>
-<td>double</td>
-<td>Specifies the value of <a href="https://www.sitemaps.org/protocol.html#prioritydef">priority</a> in sitemap.xml. Valid values between <code>0.0</code> and <code>1.0</code>. If not specified, the default value is <code>0.5</code></td>
-</tr>
-<tr>
-<td><code>fileOptions</code></td>
-<td>SitemapOptions</td>
-<td>Optional. This property can be used when some specific files have different sitemap settings. It is a set of key-value pairs, where key is the <a href="#23-glob-pattern"><em>glob</em> pattern</a> for input files, and value is the sitemap options. Order matters and the latter matching option overwrites the former ones.</td>
-</tr>
-</tbody>
-</table>
-<p>In the following sample settings, the yml files inside <code>api</code> folder are with priority 0.3 while Markdown files are with priority 0.8 and with a different baseUrl.</p>
-<p>Sample settings:</p>
-<pre><code class="lang-json">&quot;build&quot;: {
+<pre><code class="lang-json">{
+  &quot;build&quot;: {
+    &quot;template&quot;: [&quot;default&quot;, &quot;my-custom-template&quot;],
+  }
+}
+</code></pre>
+<div class="NOTE">
+<h5>Note</h5>
+<p>Docfx provides several builtin has embedded templates: <code>default</code>, <code>default(zh-cn)</code>, <code>pdf.default</code>, <code>statictoc</code> and <code>common</code>.
+Please avoid using these as template folder name.</p>
+</div>
+<h3 id="theme"><code>theme</code></h3>
+<p>The themes applied to the documentation. Theme is used to customize the styles generated by <code>template</code>. It can be a string or an array. The latter ones will override the former ones if the name of the file inside the template collides. If omitted, no theme will be applied, the default theme inside the template will be used.</p>
+<p>Theme is to provide general styles for all the generated pages. Files inside a theme will be generally copied to the output folder. A typical usage is, after YAML files are transformed to HTML pages, well-designed CSS style files in a Theme can then overwrite the default styles defined in template, e.g. <code>main.css</code>.</p>
+<h3 id="xref"><code>xref</code></h3>
+<p>Specifies the urls of xrefmap used by content files. Currently, it supports following scheme: http, https, file.</p>
+<h3 id="exportrawmodel"><code>exportRawModel</code></h3>
+<p>If set to true, data model to run template script will be extracted in <code>.raw.json</code> extension.</p>
+<h3 id="rawmodeloutputfolder"><code>rawModelOutputFolder</code></h3>
+<p>Specifies the output folder for the raw model. If not set, the raw model will appear in the same folder as the output documentation.</p>
+<h3 id="exportviewmodel"><code>exportViewModel</code></h3>
+<p>If set to true, data model to apply template will be extracted in <code>.view.json</code> extension.</p>
+<h3 id="viewmodeloutputfolder"><code>viewModelOutputFolder</code></h3>
+<p>Specifies the output folder for the view model. If not set, the view model will appear in the same folder as the output documentation.</p>
+<h3 id="dryrun"><code>dryRun</code></h3>
+<p>If set to true, the template will not be applied to the documents. This option is always used with <code>--exportRawModel</code> or <code>--exportViewModel</code> so that only raw model files or view model files will be generated.</p>
+<h3 id="maxparallelism"><code>maxParallelism</code></h3>
+<p>Sets the max parallelism. Setting 0 (default) is the same as setting to the count of CPU cores.</p>
+<h3 id="markdownengineproperties"><code>markdownEngineProperties</code></h3>
+<p>Sets the parameters for the markdown engine, value is a JSON object.</p>
+<h3 id="keepfilelink"><code>keepFileLink</code></h3>
+<p>If set to true, docfx does not dereference (i.e., copy) the file to the output folder, instead, it saves a <code>link_to_path</code> property inside <code>manifest.json</code> to indicate the physical location of that file. A file link will be created by incremental build and copy resource file.</p>
+<h3 id="sitemap"><code>sitemap</code></h3>
+<p>Specifies the options for generating <a href="https://www.sitemaps.org/protocol.html">sitemap.xml</a> file:</p>
+<pre><code class="lang-json">{
+  &quot;build&quot;: {
     &quot;sitemap&quot;:{
         &quot;baseUrl&quot;: &quot;https://dotnet.github.io/docfx&quot;,
         &quot;priority&quot;: 0.1,
@@ -565,9 +232,10 @@ Reserved metadatas:</p>
             }
         }
     }
+  }
 }
 </code></pre>
-<p>Possible generated sitemap.xml:</p>
+<p>Generated sitemap.xml:</p>
 <pre><code class="lang-xml">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
 &lt;urlset xmlns=&quot;http://www.sitemaps.org/schemas/sitemap/0.9&quot;&gt;
   &lt;url&gt;
@@ -590,164 +258,158 @@ Reserved metadatas:</p>
   &lt;/url&gt;
 &lt;/urlset&gt;
 </code></pre>
-<h3 id="13-properties-for-pdf">1.3 Properties for <code>pdf</code></h3>
-<p><code>pdf</code> supports <strong>ALL</strong> the <a href="#12-properties-for-build">properties for <code>build</code></a>, besides that, the following table lists additional properties specified for <code>pdf</code> only.</p>
-<table>
-<thead>
-<tr>
-<th>Key</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>name</td>
-<td>Specifies the prefix of the generated PDF files, e.g. PDF generated from <code>testproject\toc.yml</code> is named as <code>{name}.pdf</code>, <code>testproject\api\toc.yml</code> is named as <code>{name}_api.pdf</code>. If not specified, the value of <code>name</code> is the folder name <code>testproject</code>.</td>
-</tr>
-<tr>
-<td>generatesAppendices</td>
-<td>If specified, an <code>appendices.pdf</code> file is generated containing all the not-in-TOC articles.</td>
-</tr>
-<tr>
-<td>keepRawFiles</td>
-<td>If specified, the intermediate html files used to generate the PDF are not deleted after the PDF has been generated.</td>
-</tr>
-<tr>
-<td>wkhtmltopdf</td>
-<td>Contains additional options specific to wkhtmltopdf which is used internally to generate the PDF files.</td>
-</tr>
-<tr>
-<td>coverTitle</td>
-<td>The name of the bookmark to use for the cover page. If omitted, &quot;Cover Page&quot; will be used.</td>
-</tr>
-<tr>
-<td>tocTitle</td>
-<td>The name of the bookmark to use for the &quot;Table of Contents&quot;. If omitted, &quot;Table of Contents&quot; will be used.</td>
-</tr>
-<tr>
-<td>outline</td>
-<td>The type of outline to use. Valid values are <code>NoOutline</code>, <code>DefaultOutline</code>, <code>WkDefaultOutline</code>. If not specified, the default value is <code>DefaultOutline</code>. If <code>WkDefaultOutline</code> is specified, <code>--outline</code> is passed to wkhtmltopdf; otherwise <code>--no-outline</code> is passed to wkhtmltopdf.</td>
-</tr>
-<tr>
-<td>noStdin</td>
-<td>Do not use <code>--read-args-from-stdin</code> for the wkhtmltopdf. Html input file names are set using the command line. It has been introduced to use in the Azure pipeline build. Can cause maximum allowed arguments length overflow if too many input parts (like Appendices, TocTitle, CoverPageTitle) were set for certain html source file.</td>
-</tr>
-<tr>
-<td>excludeDefaultToc</td>
-<td>If true, excludes the table of contents (generated by DocFX) in the PDF file.</td>
-</tr>
-</tbody>
-</table>
-<h4 id="131-properties-for-the-wkhtmltopdf-key">1.3.1 Properties for the <code>wkhtmltopdf</code> Key</h4>
-<table>
-<thead>
-<tr>
-<th>Key</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>filePath</td>
-<td>The path and file name of a wkhtmltopdf.exe compatible executable.</td>
-</tr>
-<tr>
-<td>additionalArguments</td>
-<td>Additional arguments that should be passed to the wkhtmltopdf executable. For example, pass <code>--enable-local-file-access</code> if you are building on a local file system. This will ensure that the supporting *.js and *.css files are loaded when rendering the HTML being converted to PDF.</td>
-</tr>
-</tbody>
-</table>
-<h2 id="2-supported-file-mapping-format">2. Supported File Mapping Format</h2>
-<p>There are several ways to define file mapping.</p>
-<h3 id="21-array-format">2.1 Array Format</h3>
-<p>This form supports multiple file mappings, and also allows additional properties per mapping.
-Supported properties:</p>
-<table>
-<thead>
-<tr>
-<th>Property Name</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>files</td>
-<td><strong>REQUIRED</strong>. The file or file array, <code>glob</code> pattern is supported.</td>
-</tr>
-<tr>
-<td><del>name</del></td>
-<td><strong>Obsoleted</strong>, please use <code>dest</code>.</td>
-</tr>
-<tr>
-<td>exclude</td>
-<td>The files to be excluded, <code>glob</code> pattern is supported.</td>
-</tr>
-<tr>
-<td><del>cwd</del></td>
-<td><strong>Obsoleted</strong>, please use <code>src</code>.</td>
-</tr>
-<tr>
-<td>src</td>
-<td>Specifies the source directory. If omitted, the directory of the config file will be used. It is possible to set this path relative or absolute. Use the relative path defintion when you want to refer to files in relative folders while want to keep folder structure. e.g. set <code>src</code> to <code>..</code>. When you prefere absolut path, maybe it is more meaningful to use System Enviroment variables.</td>
-</tr>
-<tr>
-<td>dest</td>
-<td>The folder name for the generated files.</td>
-</tr>
-<tr>
-<td>version</td>
-<td>Version name for the current file mapping. If not set, treat the current file-mapping item as in default version. Mappings with the same version name will be built together. Cross reference doesn't support cross different versions.</td>
-</tr>
-<tr>
-<td>caseSensitive</td>
-<td><strong>TOBEIMPLEMENTED</strong>. Default value is <code>false</code>. If set to <code>true</code>, the glob pattern is case sensitive. e.g. <code>*.txt</code> will not match <code>1.TXT</code>. For OS Windows, file path is case insensitive while for Linux/Unix, file path is case sensitive. This option offers user the flexibility to determine how to search files.</td>
-</tr>
-<tr>
-<td>supportBackslash</td>
-<td><strong>TOBEIMPLEMENTED</strong>. Default value is <code>true</code>. If set to <code>true</code>, <code>\</code> will be considered as file path separator. Otherwise, <code>\</code> will be considered as normal character if <code>escape</code> is set to <code>true</code> and as escape character if <code>escape</code> is set to <code>false</code>. If <code>escape</code> is set to <code>true</code>, <code>\\</code> should be used to represent file path separator.</td>
-</tr>
-<tr>
-<td>escape</td>
-<td><strong>TOBEIMPLEMENTED</strong>. Default value is <code>false</code>. If set to <code>true</code>, <code>\</code> character is used as escape character, e.g. <code>\{\}.txt</code> will match <code>{}.txt</code>.</td>
-</tr>
-</tbody>
-</table>
-<pre><code class="lang-json">&quot;key&quot;: [
-  {&quot;files&quot;: [&quot;file1&quot;, &quot;file2&quot;], &quot;dest&quot;: &quot;dest1&quot;},
-  {&quot;files&quot;: &quot;file3&quot;, &quot;dest&quot;: &quot;dest2&quot;},
-  {&quot;files&quot;: [&quot;file4&quot;, &quot;file5&quot;], &quot;exclude&quot;: [&quot;file5&quot;], &quot;src&quot;: &quot;folder1&quot;},
-  {&quot;files&quot;: &quot;Example.yml&quot;, &quot;src&quot;: &quot;v1.0&quot;, &quot;dest&quot;:&quot;v1.0/api&quot;, &quot;version&quot;: &quot;v1.0&quot;},
-  {&quot;files&quot;: &quot;Example.yml&quot;, &quot;src&quot;: &quot;v2.0&quot;, &quot;dest&quot;:&quot;v2.0/api&quot;, &quot;version&quot;: &quot;v2.0&quot;}
-]
+<h4 id="baseurl"><code>baseUrl</code></h4>
+<p>Specifies the base url for the website to be published. It MUST begin with the protocol (such as http) and end with a trailing slash. For example, <code>https://dotnet.github.io/docfx/</code>. If the value is not specified, sitemap.xml will NOT be generated.</p>
+<h4 id="lastmod"><code>lastmod</code></h4>
+<p>Specifies the date of last modification of the file. If not specified, docfx automatically set the value to the time the file is built.</p>
+<h4 id="changefreq"><code>changefreq</code></h4>
+<p>Specifies the value of <a href="https://www.sitemaps.org/protocol.html#changefreqdef">changefreq</a> in sitemap.xml. Valid values are <code>always</code>, <code>hourly</code>, <code>daily</code>, <code>weekly</code>, <code>monthly</code>, <code>yearly</code>, <code>never</code>. If not specified, the default value is <code>daily</code></p>
+<h4 id="priority"><code>priority</code></h4>
+<p>Specifies the value of <a href="https://www.sitemaps.org/protocol.html#prioritydef">priority</a> in sitemap.xml. Valid values between <code>0.0</code> and <code>1.0</code>. If not specified, the default value is <code>0.5</code></p>
+<h4 id="fileoptions"><code>fileOptions</code></h4>
+<p>This property can be used when some specific files have different sitemap settings. It is a set of key-value pairs, where key is the <a href="#23-glob-pattern"><em>glob</em> pattern</a> for input files, and value is the sitemap options. Order matters and the latter matching option overwrites the former ones.</p>
+<h3 id="disablegitfeatures"><code>disableGitFeatures</code></h3>
+<p>Disable fetching Git related information for articles. Set to <code>true</code> if fetching Git related information is slow for huge Git repositories. Default value is <code>false</code>.</p>
+<h2 id="metadata"><code>metadata</code></h2>
+<p>Configuration options that are applied for <code>docfx metadata</code> command:</p>
+<pre><code class="lang-json">{
+  &quot;metadata&quot;: [
+    {
+      &quot;src&quot;: [
+        {
+          &quot;files&quot;: [&quot;**/*.csproj&quot;],
+          &quot;exclude&quot;: [ &quot;**/bin/**&quot;, &quot;**/obj/**&quot; ],
+          &quot;src&quot;: &quot;../src&quot;
+        }
+      ],
+      &quot;dest&quot;: &quot;api&quot;
+    }
+  ]
+}
 </code></pre>
-<h3 id="22-compact-format">2.2 Compact Format</h3>
-<pre><code class="lang-json">&quot;key&quot;: [&quot;file1&quot;, &quot;file2&quot;]
+<h3 id="src"><code>src</code></h3>
+<p>Specifies the source projects using <a href="#file-mappings">File Mappings</a>.</p>
+<h3 id="dest"><code>dest</code></h3>
+<p>Defines the output folder of the generated metadata files. Relative paths are relative to the docfx.json file being used. To go up a folder use <code>../</code>.</p>
+<h3 id="shouldskipmarkup"><code>shouldSkipMarkup</code></h3>
+<p>If set to true, DocFX would not render triple-slash-comments in source code as markdown.</p>
+<h3 id="filter"><code>filter</code></h3>
+<p>Defines the filter configuration file, please go to <a href="../tutorial/howto_filter_out_unwanted_apis_attributes.html">How to filter out unwanted apis attributes</a> for more details.</p>
+<h3 id="disabledefaultfilter"><code>disableDefaultFilter</code></h3>
+<p>Disables the default filter configuration file.</p>
+<h3 id="disablegitfeatures-1"><code>disableGitFeatures</code></h3>
+<p>Disables generation of view source links.</p>
+<h3 id="properties"><code>properties</code></h3>
+<p>Defines an optional set of MSBuild properties used when interpreting project files. These are the same properties that are passed to msbuild via the <code>/property:name=value</code> command line argument.</p>
+<pre><code class="lang-json">{
+  &quot;metadata&quot;: [
+    {
+      &quot;properties&quot;: {
+          &quot;TargetFramework&quot;: &quot;netstandard2.0&quot;
+      }
+    }
+  ]
+}
 </code></pre>
-<h3 id="23-glob-pattern">2.3 Glob Pattern</h3>
-<p><code>DocFX</code> uses <a href="https://github.com/vicancy/Glob">Glob</a> to support <em>glob</em> pattern in file path.
-It offers several options to determine how to parse the Glob pattern:</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>Make sure to specify <code>&quot;TargetFramework&quot;: &lt;one of the frameworks&gt;</code> in your docfx.json when the project is targeting for multiple platforms.</p>
+</div>
+<h3 id="norestore"><code>noRestore</code></h3>
+<p>Do not run <code>dotnet restore</code> before building the projects.</p>
+<h3 id="namespacelayout"><code>namespaceLayout</code></h3>
+<p>Defines how namespaces in TOC are organized. When set to <em>flattened</em>, renders namespaces as a single flat list. When set to <em>nested</em>, renders namespaces in a nested tree form. The default is <em>flattened</em>.</p>
+<h3 id="memberlayout"><code>memberLayout</code></h3>
+<p>Defines how member pages are organized. When set to <em>samePage</em>, places members in the same page as their containing type. When set to <em>separatePages</em>, places members in separate pages. The default is <em>samePage</em>.</p>
+<h3 id="allowcompilationerrors"><code>allowCompilationErrors</code></h3>
+<p>When enabled, continues documentation generation in case of compilation errors.</p>
+<h2 id="pdf"><code>pdf</code></h2>
+<p>Configuration options that are applied for <code>docfx pdf</code> command:</p>
+<h3 id="name"><code>name</code></h3>
+<p>Specifies the prefix of the generated PDF files, e.g. PDF generated from <code>testproject\toc.yml</code> is named as <code>{name}.pdf</code>, <code>testproject\api\toc.yml</code> is named as <code>{name}_api.pdf</code>. If not specified, the value of <code>name</code> is the folder name <code>testproject</code>.</p>
+<h3 id="generatesappendices"><code>generatesAppendices</code></h3>
+<p>If specified, an <code>appendices.pdf</code> file is generated containing all the not-in-TOC articles.</p>
+<h3 id="keeprawfiles"><code>keepRawFiles</code></h3>
+<p>If specified, the intermediate html files used to generate the PDF are not deleted after the PDF has been generated.</p>
+<h3 id="wkhtmltopdf"><code>wkhtmltopdf</code></h3>
+<p>Contains additional options specific to wkhtmltopdf which is used internally to generate the PDF files.</p>
+<h3 id="filepath"><code>filePath</code></h3>
+<p>The path and file name of a wkhtmltopdf.exe compatible executable.</p>
+<h3 id="additionalarguments"><code>additionalArguments</code></h3>
+<p>Additional arguments that should be passed to the wkhtmltopdf executable. For example, pass <code>--enable-local-file-access</code> if you are building on a local file system. This will ensure that the supporting *.js and *.css files are loaded when rendering the HTML being converted to PDF.</p>
+<h3 id="covertitle"><code>coverTitle</code></h3>
+<p>The name of the bookmark to use for the cover page. If omitted, &quot;Cover Page&quot; will be used.</p>
+<h3 id="toctitle"><code>tocTitle</code></h3>
+<p>The name of the bookmark to use for the &quot;Table of Contents&quot;. If omitted, &quot;Table of Contents&quot; will be used.</p>
+<h3 id="outline"><code>outline</code></h3>
+<p>The type of outline to use. Valid values are <code>NoOutline</code>, <code>DefaultOutline</code>, <code>WkDefaultOutline</code>. If not specified, the default value is <code>DefaultOutline</code>. If <code>WkDefaultOutline</code> is specified, <code>--outline</code> is passed to wkhtmltopdf; otherwise <code>--no-outline</code> is passed to wkhtmltopdf.</p>
+<h3 id="nostdin"><code>noStdin</code></h3>
+<p>Do not use <code>--read-args-from-stdin</code> for the wkhtmltopdf. Html input file names are set using the command line. It has been introduced to use in the Azure pipeline build. Can cause maximum allowed arguments length overflow if too many input parts (like Appendices, TocTitle, CoverPageTitle) were set for certain html source file.</p>
+<h3 id="excludedefaulttoc"><code>excludeDefaultToc</code></h3>
+<p>If true, excludes the table of contents (generated by DocFX) in the PDF file.</p>
+<h2 id="file-mappings">File Mappings</h2>
+<p>In the short-hand form, these filenames are resolved relative to the directory containing the <code>docfx.json</code> file:</p>
+<pre><code class="lang-json">{
+  &quot;build&quot;: {
+    &quot;content&quot;: [&quot;**/*.md&quot;, &quot;TOC.yml&quot;]
+  }
+}
+</code></pre>
+<p>In the expanded form, the <code>files</code> are resolved relative to <code>src</code> directory, or the directory containing the <code>docfx.json</code> file in absence of the <code>src</code> property:</p>
+<pre><code class="lang-json">{
+  &quot;build&quot;: {
+    &quot;content&quot;: [
+      {&quot;files&quot;: &quot;docs/**/*.md&quot;, &quot;dest&quot;: &quot;docs&quot;},
+      {&quot;files&quot;: [&quot;**/*.yml&quot;, &quot;*.md&quot;], &quot;exclude&quot;: [&quot;**/*Private*&quot;], &quot;src&quot;: &quot;../api&quot;, &quot;dest&quot;: &quot;api&quot; }
+    ]
+  }
+}
+</code></pre>
+<h3 id="files"><code>files</code></h3>
+<p>The file or file array, supports <a href="#glob-patterns">glob patterns</a>.</p>
+<h3 id="exclude"><code>exclude</code></h3>
+<p>The files to be excluded, supports <a href="#glob-patterns">glob patterns</a>.</p>
+<h3 id="src-1"><code>src</code></h3>
+<p>Specifies the source directory relative to the <code>docfx.json</code> directory, supports relative directory outside of the <code>docfx.json</code> directory such as <code>..</code>.</p>
+<h3 id="dest-1"><code>dest</code></h3>
+<p>The folder name for the generated files.</p>
+<h3 id="glob-patterns">Glob Patterns</h3>
 <ul>
-<li><code>caseSensitive</code>: Default value is <code>false</code>. If set to <code>true</code>, the glob pattern is case sensitive. e.g. <code>*.txt</code> will not match <code>1.TXT</code>. For OS Windows, file path is case insensitive while for Linux/Unix, file path is case sensitive. This option offers user the flexibility to determine how to search files.</li>
-<li><code>supportBackslash</code>: Default value is <code>true</code>. If set to <code>true</code>, <code>\</code> will be considered as file path separator. Otherwise, <code>\</code> will be considered as normal character if <code>escape</code> is set to <code>true</code> and as escape character if <code>escape</code> is set to <code>false</code>. If <code>escape</code> is set to <code>true</code>, <code>\\</code> should be used to represent file path separator.</li>
-<li><code>escape</code>: Default value is <code>false</code>. If set to <code>true</code>, <code>\</code> character is used as escape character, e.g. <code>\{\}.txt</code> will match <code>{}.txt</code>.</li>
+<li><code>*</code>: Matches 0 or more charactors in a single path portion.</li>
+<li><code>?</code>: Matches 1 character in a signle path portion.</li>
+<li><code>**</code>: Matches 0 or more directories and subdirectories.</li>
+<li><code>{}</code>: Expands the comma-delimited sections within the braces into a set.</li>
 </ul>
-<p>In general, the <em>glob</em> pattern contains the following rules:</p>
-<ol>
-<li><code>*</code> matches any number of characters, but not <code>/</code></li>
-<li><code>?</code> matches a single character, but not <code>/</code></li>
-<li><code>**</code> matches any number of characters, including <code>/</code>, as long as it's the only thing in a path part</li>
-<li><code>{}</code> allows for a comma-separated list of <strong>OR</strong> expressions</li>
-</ol>
-<p><strong>SAMPLES</strong></p>
-<h2 id="3-q--a">3. Q &amp; A</h2>
-<ol>
-<li>Do we support files outside current project folder (the folder where <code>docfx.json</code> exists)?<br>
-A: YES. DO specify <code>src</code> and files outside of current folder will be copied to output folder keeping the same relative path to <code>src</code>.</li>
-<li>Do we support output folder outside current project folder (the folder where <code>docfx.json</code> exists)?<br>
-A: YES.</li>
-<li>Do we support <strong>referencing</strong> files outside of current project folder (the folder where <code>docfx.json</code> exists)?<br>
-A: NO.</li>
-</ol>
+<h2 id="predefined-metadata">Predefined Metadata</h2>
+<p>These are the standard metadata predefined by docfx. They are supported by builtin templates and SHOULD be supported by 3rd-party templates:</p>
+<h3 id="_apptitle"><code>_appTitle</code></h3>
+<p>A string suffix appended to the title of every page.</p>
+<h3 id="_appfooter"><code>_appFooter</code></h3>
+<p>The footer text. Shows Docfx's Copyright text if not specified.</p>
+<h3 id="_applogopath"><code>_appLogoPath</code></h3>
+<p>Logo file's path from output root. Will show DocFX's logo if not specified. Remember to add file to resource.</p>
+<h3 id="_appfaviconpath"><code>_appFaviconPath</code></h3>
+<p>Favicon file's path from output root. Will show DocFX's favicon if not specified. Remember to add file to resource.</p>
+<h3 id="_enablesearch"><code>_enableSearch</code></h3>
+<p>Indicate whether to show the search box on the top of page.</p>
+<h3 id="_enablenewtab"><code>_enableNewTab</code></h3>
+<p>Indicate whether to open a new tab when clicking an external link. (internal link always shows within the current tab)</p>
+<h3 id="_disablenavbar"><code>_disableNavbar</code></h3>
+<p>Indicate whether to show the navigation bar on the top of page.</p>
+<h3 id="_disablebreadcrumb"><code>_disableBreadcrumb</code></h3>
+<p>Indicate whether to show breadcrumb on the top of page.</p>
+<h3 id="_disabletoc"><code>_disableToc</code></h3>
+<p>Indicate whether to show table of contents on the left of page.</p>
+<h3 id="_disableaffix"><code>_disableAffix</code></h3>
+<p>Indicate whether to show the affix bar on the right of page.</p>
+<h3 id="_disablecontribution"><code>_disableContribution</code></h3>
+<p>Indicate whether to show the <code>View Source</code> and <code>Improve this Doc</code> buttons.</p>
+<h3 id="_gitcontribute"><code>_gitContribute</code></h3>
+<p>Customize the <code>Improve this Doc</code> URL button for public contributors. Use <code>repo</code> to specify the contribution repository URL. Use <code>branch</code> to specify the contribution branch. Use <code>apiSpecFolder</code> to specify the folder for new overwrite files. If not set, the git URL and branch of the current git repository will be used.</p>
+<h3 id="_giturlpattern"><code>_gitUrlPattern</code></h3>
+<p>Choose the URL pattern of the generated link for <code>View Source</code> and <code>Improve this Doc</code>. Supports <code>github</code> and <code>vso</code> currently. If not set, DocFX will try speculating the pattern from domain name of the git URL.</p>
+<h3 id="_noindex"><code>_noindex</code></h3>
+<p>File(s) specified are not returned in search results</p>
 </article>
 
         <div class="contribution d-print-none">
