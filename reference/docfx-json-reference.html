@@ -318,11 +318,25 @@ Please avoid using these as template folder name.</p>
 <h3 id="norestore"><code>noRestore</code></h3>
 <p>Do not run <code>dotnet restore</code> before building the projects.</p>
 <h3 id="namespacelayout"><code>namespaceLayout</code></h3>
-<p>Defines how namespaces in TOC are organized. When set to <em>flattened</em>, renders namespaces as a single flat list. When set to <em>nested</em>, renders namespaces in a nested tree form. The default is <em>flattened</em>.</p>
+<p>Defines how namespaces in TOC are organized:</p>
+<ul>
+<li><code>flattened</code> (default): Renders namespaces as a single flat list.</li>
+<li><code>nested</code>: Renders namespaces in a nested tree form.</li>
+</ul>
 <h3 id="memberlayout"><code>memberLayout</code></h3>
-<p>Defines how member pages are organized. When set to <em>samePage</em>, places members in the same page as their containing type. When set to <em>separatePages</em>, places members in separate pages. The default is <em>samePage</em>.</p>
+<p>Defines how member pages are organized:</p>
+<ul>
+<li><code>samePage</code> (default): Places members in the same page as their containing type.</li>
+<li><code>separatePages</code>: Places members in separate pages.</li>
+</ul>
 <h3 id="allowcompilationerrors"><code>allowCompilationErrors</code></h3>
 <p>When enabled, continues documentation generation in case of compilation errors.</p>
+<h3 id="enumsortorder"><code>EnumSortOrder</code></h3>
+<p>Defines how enum members are sorted:</p>
+<ul>
+<li><code>alphabetic</code> (default): Sort enum members in alphabetic order.</li>
+<li><code>declaringOrder</code>: Sort enum members in the order as they are declared in the source code.</li>
+</ul>
 <h2 id="pdf"><code>pdf</code></h2>
 <p>Configuration options that are applied for <code>docfx pdf</code> command:</p>
 <h3 id="name"><code>name</code></h3>
