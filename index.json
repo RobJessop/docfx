@@ -102,12 +102,12 @@
   "api/Docfx.MemberLayout.html": {
     "href": "api/Docfx.MemberLayout.html",
     "title": "Enum MemberLayout | docfx",
-    "keywords": "Enum MemberLayout Namespace Docfx Assembly Docfx.Dotnet.dll public enum MemberLayout Fields SamePage = 0 Place members in the same page as their containing type SeparatePages = 1 Place members in separate pages"
+    "keywords": "Enum MemberLayout Namespace Docfx Assembly Docfx.Dotnet.dll Specifies the layout of members. public enum MemberLayout Fields SamePage = 0 Place members in the same page as their containing type SeparatePages = 1 Place members in separate pages"
   },
   "api/Docfx.html": {
     "href": "api/Docfx.html",
     "title": "Namespace Docfx | docfx",
-    "keywords": "Namespace Docfx Classes BuildOptions Provides options to be used with Build(string, BuildOptions). Docset Provides access to a set of documentations and their associated configs, compilations and models. Enums MemberLayout"
+    "keywords": "Namespace Docfx Classes BuildOptions Provides options to be used with Build(string, BuildOptions). Docset Provides access to a set of documentations and their associated configs, compilations and models. Enums MemberLayout Specifies the layout of members."
   },
   "docs/basic-concepts.html": {
     "href": "docs/basic-concepts.html",
