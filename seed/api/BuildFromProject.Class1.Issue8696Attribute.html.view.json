@@ -2858,6 +2858,7 @@
     "themeLight": "Light",
     "themeDark": "Dark",
     "themeAuto": "Auto",
+    "changeTheme": "Change theme",
     "copy": "Copy",
     "todo": "MY TODO",
     "_shared": {}
