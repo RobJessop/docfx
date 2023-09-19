@@ -4,7 +4,6 @@
     "changefreq": "daily",
     "priority": 0.5
   },
-  "homepages": [],
   "source_base_path": "/home/runner/work/docfx/docfx/docs",
   "xrefmap": "xrefmap.yml",
   "files": [
@@ -989,7 +988,6 @@
       "version": ""
     }
   ],
-  "version_info": {},
   "groups": [
     {
       "xrefmap": "xrefmap.yml"
