@@ -1,6 +1,6 @@
 # Class ExplicitLayoutClass
 
-__Namespace:__ [CatLibrary](CatLibrary.md).[Core](CatLibrary.Core.md)  
+__Namespace:__ [CatLibrary.Core](CatLibrary.Core.md)  
 __Assembly:__ CatLibrary.Core.dll
 
 ```csharp
