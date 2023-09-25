@@ -84,6 +84,1738 @@
       "version": ""
     },
     {
+      "type": "Conceptual",
+      "source_relative_path": "md/BuildFromAssembly.Class1.md",
+      "output": {
+        ".html": {
+          "relative_path": "md/BuildFromAssembly.Class1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md/BuildFromAssembly.md",
+      "output": {
+        ".html": {
+          "relative_path": "md/BuildFromAssembly.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md/BuildFromCSharpSourceCode.CSharp.md",
+      "output": {
+        ".html": {
+          "relative_path": "md/BuildFromCSharpSourceCode.CSharp.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md/BuildFromCSharpSourceCode.md",
+      "output": {
+        ".html": {
+          "relative_path": "md/BuildFromCSharpSourceCode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md/BuildFromProject.Class1.IIssue8948.md",
+      "output": {
+        ".html": {
+          "relative_path": "md/BuildFromProject.Class1.IIssue8948.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md/BuildFromProject.Class1.Issue8665.md",
+      "output": {
+        ".html": {
+          "relative_path": "md/BuildFromProject.Class1.Issue8665.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md/BuildFromProject.Class1.Issue8696Attribute.md",
+      "output": {
+        ".html": {
+          "relative_path": "md/BuildFromProject.Class1.Issue8696Attribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md/BuildFromProject.Class1.Issue8948.md",
+      "output": {
+        ".html": {
+          "relative_path": "md/BuildFromProject.Class1.Issue8948.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md/BuildFromProject.Class1.Test-1.md",
+      "output": {
+        ".html": {
+          "relative_path": "md/BuildFromProject.Class1.Test-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md/BuildFromProject.Class1.md",
+      "output": {
+        ".html": {
+          "relative_path": "md/BuildFromProject.Class1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md/BuildFromProject.IInheritdoc.md",
+      "output": {
+        ".html": {
+          "relative_path": "md/BuildFromProject.IInheritdoc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md/BuildFromProject.Inheritdoc.Issue6366.Class1-1.md",
+      "output": {
+        ".html": {
+          "relative_path": "md/BuildFromProject.Inheritdoc.Issue6366.Class1-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "md/BuildFromProject.Inheritdoc.Issue6366.Class2.md",
+      "output": {
+        ".html": {
+          "relative_path": "md/BuildFromProject.Inheritdoc.Issue6366.Class2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md/BuildFromProject.Inheritdoc.Issue6366.md",
+      "output": {
+        ".html": {
+          "relative_path": "md/BuildFromProject.Inheritdoc.Issue6366.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md/BuildFromProject.Inheritdoc.Issue7035.md",
+      "output": {
+        ".html": {
+          "relative_path": "md/BuildFromProject.Inheritdoc.Issue7035.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md/BuildFromProject.Inheritdoc.Issue7484.md",
+      "output": {
+        ".html": {
+          "relative_path": "md/BuildFromProject.Inheritdoc.Issue7484.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md/BuildFromProject.Inheritdoc.Issue8101.md",
+      "output": {
+        ".html": {
+          "relative_path": "md/BuildFromProject.Inheritdoc.Issue8101.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md/BuildFromProject.Inheritdoc.Issue8129.md",
+      "output": {
+        ".html": {
+          "relative_path": "md/BuildFromProject.Inheritdoc.Issue8129.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md/BuildFromProject.Inheritdoc.md",
+      "output": {
+        ".html": {
+          "relative_path": "md/BuildFromProject.Inheritdoc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md/BuildFromProject.Issue8540.A.A.md",
+      "output": {
+        ".html": {
+          "relative_path": "md/BuildFromProject.Issue8540.A.A.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md/BuildFromProject.Issue8540.A.md",
+      "output": {
+        ".html": {
+          "relative_path": "md/BuildFromProject.Issue8540.A.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md/BuildFromProject.Issue8540.B.B.md",
+      "output": {
+        ".html": {
+          "relative_path": "md/BuildFromProject.Issue8540.B.B.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md/BuildFromProject.Issue8540.B.md",
+      "output": {
+        ".html": {
+          "relative_path": "md/BuildFromProject.Issue8540.B.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md/BuildFromProject.Issue8540.md",
+      "output": {
+        ".html": {
+          "relative_path": "md/BuildFromProject.Issue8540.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md/BuildFromProject.md",
+      "output": {
+        ".html": {
+          "relative_path": "md/BuildFromProject.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md/BuildFromVBSourceCode.BaseClass1.md",
+      "output": {
+        ".html": {
+          "relative_path": "md/BuildFromVBSourceCode.BaseClass1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md/BuildFromVBSourceCode.Class1.md",
+      "output": {
+        ".html": {
+          "relative_path": "md/BuildFromVBSourceCode.Class1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md/BuildFromVBSourceCode.md",
+      "output": {
+        ".html": {
+          "relative_path": "md/BuildFromVBSourceCode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md/CatLibrary.Cat-2.md",
+      "output": {
+        ".html": {
+          "relative_path": "md/CatLibrary.Cat-2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md/CatLibrary.CatException-1.md",
+      "output": {
+        ".html": {
+          "relative_path": "md/CatLibrary.CatException-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md/CatLibrary.Complex-2.md",
+      "output": {
+        ".html": {
+          "relative_path": "md/CatLibrary.Complex-2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md/CatLibrary.Core.ContainersRefType.ColorType.md",
+      "output": {
+        ".html": {
+          "relative_path": "md/CatLibrary.Core.ContainersRefType.ColorType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md/CatLibrary.Core.ContainersRefType.ContainersRefTypeChild.md",
+      "output": {
+        ".html": {
+          "relative_path": "md/CatLibrary.Core.ContainersRefType.ContainersRefTypeChild.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md/CatLibrary.Core.ContainersRefType.ContainersRefTypeChildInterface.md",
+      "output": {
+        ".html": {
+          "relative_path": "md/CatLibrary.Core.ContainersRefType.ContainersRefTypeChildInterface.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md/CatLibrary.Core.ContainersRefType.ContainersRefTypeDelegate.md",
+      "output": {
+        ".html": {
+          "relative_path": "md/CatLibrary.Core.ContainersRefType.ContainersRefTypeDelegate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md/CatLibrary.Core.ContainersRefType.md",
+      "output": {
+        ".html": {
+          "relative_path": "md/CatLibrary.Core.ContainersRefType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md/CatLibrary.Core.ExplicitLayoutClass.md",
+      "output": {
+        ".html": {
+          "relative_path": "md/CatLibrary.Core.ExplicitLayoutClass.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md/CatLibrary.Core.Issue231.md",
+      "output": {
+        ".html": {
+          "relative_path": "md/CatLibrary.Core.Issue231.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md/CatLibrary.Core.md",
+      "output": {
+        ".html": {
+          "relative_path": "md/CatLibrary.Core.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md/CatLibrary.FakeDelegate-1.md",
+      "output": {
+        ".html": {
+          "relative_path": "md/CatLibrary.FakeDelegate-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md/CatLibrary.IAnimal.md",
+      "output": {
+        ".html": {
+          "relative_path": "md/CatLibrary.IAnimal.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md/CatLibrary.ICat.md",
+      "output": {
+        ".html": {
+          "relative_path": "md/CatLibrary.ICat.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md/CatLibrary.ICatExtension.md",
+      "output": {
+        ".html": {
+          "relative_path": "md/CatLibrary.ICatExtension.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md/CatLibrary.MRefDelegate-3.md",
+      "output": {
+        ".html": {
+          "relative_path": "md/CatLibrary.MRefDelegate-3.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md/CatLibrary.MRefNormalDelegate.md",
+      "output": {
+        ".html": {
+          "relative_path": "md/CatLibrary.MRefNormalDelegate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md/CatLibrary.Tom.md",
+      "output": {
+        ".html": {
+          "relative_path": "md/CatLibrary.Tom.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md/CatLibrary.TomFromBaseClass.md",
+      "output": {
+        ".html": {
+          "relative_path": "md/CatLibrary.TomFromBaseClass.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md/CatLibrary.md",
+      "output": {
+        ".html": {
+          "relative_path": "md/CatLibrary.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md/MRef.Demo.Enumeration.ColorType.md",
+      "output": {
+        ".html": {
+          "relative_path": "md/MRef.Demo.Enumeration.ColorType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md/MRef.Demo.Enumeration.md",
+      "output": {
+        ".html": {
+          "relative_path": "md/MRef.Demo.Enumeration.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md/MRef.Demo.md",
+      "output": {
+        ".html": {
+          "relative_path": "md/MRef.Demo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md/MRef.md",
+      "output": {
+        ".html": {
+          "relative_path": "md/MRef.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "md/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "md/toc.html"
+        },
+        ".json": {
+          "relative_path": "md/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/BuildFromAssembly.Class1.-ctor.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/BuildFromAssembly.Class1.-ctor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/BuildFromAssembly.Class1.HelloWorld.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/BuildFromAssembly.Class1.HelloWorld.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/BuildFromAssembly.Class1.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/BuildFromAssembly.Class1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/BuildFromAssembly.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/BuildFromAssembly.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/BuildFromCSharpSourceCode.CSharp.Main.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/BuildFromCSharpSourceCode.CSharp.Main.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/BuildFromCSharpSourceCode.CSharp.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/BuildFromCSharpSourceCode.CSharp.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/BuildFromCSharpSourceCode.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/BuildFromCSharpSourceCode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/BuildFromProject.Class1.IIssue8948.DoNothing.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/BuildFromProject.Class1.IIssue8948.DoNothing.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/BuildFromProject.Class1.IIssue8948.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/BuildFromProject.Class1.IIssue8948.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/BuildFromProject.Class1.Issue1651.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/BuildFromProject.Class1.Issue1651.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/BuildFromProject.Class1.Issue1887.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/BuildFromProject.Class1.Issue1887.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/BuildFromProject.Class1.Issue2623.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/BuildFromProject.Class1.Issue2623.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/BuildFromProject.Class1.Issue2723.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/BuildFromProject.Class1.Issue2723.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/BuildFromProject.Class1.Issue4017.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/BuildFromProject.Class1.Issue4017.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/BuildFromProject.Class1.Issue4392.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/BuildFromProject.Class1.Issue4392.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/BuildFromProject.Class1.Issue7484.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/BuildFromProject.Class1.Issue7484.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/BuildFromProject.Class1.Issue8665.-ctor.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/BuildFromProject.Class1.Issue8665.-ctor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/BuildFromProject.Class1.Issue8665.Bar.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/BuildFromProject.Class1.Issue8665.Bar.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/BuildFromProject.Class1.Issue8665.Baz.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/BuildFromProject.Class1.Issue8665.Baz.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/BuildFromProject.Class1.Issue8665.Foo.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/BuildFromProject.Class1.Issue8665.Foo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/BuildFromProject.Class1.Issue8665.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/BuildFromProject.Class1.Issue8665.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/BuildFromProject.Class1.Issue8696Attribute.-ctor.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/BuildFromProject.Class1.Issue8696Attribute.-ctor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/BuildFromProject.Class1.Issue8696Attribute.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/BuildFromProject.Class1.Issue8696Attribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/BuildFromProject.Class1.Issue8764.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/BuildFromProject.Class1.Issue8764.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/BuildFromProject.Class1.Issue8948.DoNothing.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/BuildFromProject.Class1.Issue8948.DoNothing.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/BuildFromProject.Class1.Issue8948.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/BuildFromProject.Class1.Issue8948.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/BuildFromProject.Class1.Issue896.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/BuildFromProject.Class1.Issue896.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/BuildFromProject.Class1.Issue9216.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/BuildFromProject.Class1.Issue9216.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/BuildFromProject.Class1.Test-1.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/BuildFromProject.Class1.Test-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/BuildFromProject.Class1.XmlCommentIncludeTag.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/BuildFromProject.Class1.XmlCommentIncludeTag.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/BuildFromProject.Class1.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/BuildFromProject.Class1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/BuildFromProject.IInheritdoc.Issue7629.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/BuildFromProject.IInheritdoc.Issue7629.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/BuildFromProject.IInheritdoc.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/BuildFromProject.IInheritdoc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/BuildFromProject.Inheritdoc.Dispose.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/BuildFromProject.Inheritdoc.Dispose.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/BuildFromProject.Inheritdoc.Issue6366.Class1-1.TestMethod1.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/BuildFromProject.Inheritdoc.Issue6366.Class1-1.TestMethod1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/BuildFromProject.Inheritdoc.Issue6366.Class1-1.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/BuildFromProject.Inheritdoc.Issue6366.Class1-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/BuildFromProject.Inheritdoc.Issue6366.Class2.TestMethod1.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/BuildFromProject.Inheritdoc.Issue6366.Class2.TestMethod1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "md2/BuildFromProject.Inheritdoc.Issue6366.Class2.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/BuildFromProject.Inheritdoc.Issue6366.Class2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/BuildFromProject.Inheritdoc.Issue6366.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/BuildFromProject.Inheritdoc.Issue6366.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/BuildFromProject.Inheritdoc.Issue7035.A.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/BuildFromProject.Inheritdoc.Issue7035.A.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/BuildFromProject.Inheritdoc.Issue7035.B.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/BuildFromProject.Inheritdoc.Issue7035.B.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/BuildFromProject.Inheritdoc.Issue7035.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/BuildFromProject.Inheritdoc.Issue7035.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/BuildFromProject.Inheritdoc.Issue7484.-ctor.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/BuildFromProject.Inheritdoc.Issue7484.-ctor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/BuildFromProject.Inheritdoc.Issue7484.BoolReturningMethod.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/BuildFromProject.Inheritdoc.Issue7484.BoolReturningMethod.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/BuildFromProject.Inheritdoc.Issue7484.DoDad.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/BuildFromProject.Inheritdoc.Issue7484.DoDad.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/BuildFromProject.Inheritdoc.Issue7484.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/BuildFromProject.Inheritdoc.Issue7484.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/BuildFromProject.Inheritdoc.Issue7628.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/BuildFromProject.Inheritdoc.Issue7628.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/BuildFromProject.Inheritdoc.Issue7629.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/BuildFromProject.Inheritdoc.Issue7629.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/BuildFromProject.Inheritdoc.Issue8101.Tween.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/BuildFromProject.Inheritdoc.Issue8101.Tween.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/BuildFromProject.Inheritdoc.Issue8101.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/BuildFromProject.Inheritdoc.Issue8101.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/BuildFromProject.Inheritdoc.Issue8129.-ctor.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/BuildFromProject.Inheritdoc.Issue8129.-ctor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/BuildFromProject.Inheritdoc.Issue8129.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/BuildFromProject.Inheritdoc.Issue8129.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/BuildFromProject.Inheritdoc.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/BuildFromProject.Inheritdoc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/BuildFromProject.Issue8540.A.A.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/BuildFromProject.Issue8540.A.A.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/BuildFromProject.Issue8540.A.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/BuildFromProject.Issue8540.A.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/BuildFromProject.Issue8540.B.B.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/BuildFromProject.Issue8540.B.B.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/BuildFromProject.Issue8540.B.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/BuildFromProject.Issue8540.B.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/BuildFromProject.Issue8540.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/BuildFromProject.Issue8540.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/BuildFromProject.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/BuildFromProject.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/BuildFromVBSourceCode.BaseClass1.WithDeclarationKeyword.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/BuildFromVBSourceCode.BaseClass1.WithDeclarationKeyword.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/BuildFromVBSourceCode.BaseClass1.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/BuildFromVBSourceCode.BaseClass1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/BuildFromVBSourceCode.Class1.Keyword.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/BuildFromVBSourceCode.Class1.Keyword.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/BuildFromVBSourceCode.Class1.Value.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/BuildFromVBSourceCode.Class1.Value.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/BuildFromVBSourceCode.Class1.ValueClass.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/BuildFromVBSourceCode.Class1.ValueClass.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/BuildFromVBSourceCode.Class1.WithDeclarationKeyword.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/BuildFromVBSourceCode.Class1.WithDeclarationKeyword.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/BuildFromVBSourceCode.Class1.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/BuildFromVBSourceCode.Class1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/BuildFromVBSourceCode.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/BuildFromVBSourceCode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/CatLibrary.Cat-2.-ctor.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/CatLibrary.Cat-2.-ctor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/CatLibrary.Cat-2.Age.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/CatLibrary.Cat-2.Age.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/CatLibrary.Cat-2.CalculateFood.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/CatLibrary.Cat-2.CalculateFood.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/CatLibrary.Cat-2.Equals.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/CatLibrary.Cat-2.Equals.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/CatLibrary.Cat-2.GetTailLength.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/CatLibrary.Cat-2.GetTailLength.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/CatLibrary.Cat-2.Item.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/CatLibrary.Cat-2.Item.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/CatLibrary.Cat-2.Jump.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/CatLibrary.Cat-2.Jump.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/CatLibrary.Cat-2.Name.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/CatLibrary.Cat-2.Name.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/CatLibrary.Cat-2.isHealthy.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/CatLibrary.Cat-2.isHealthy.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/CatLibrary.Cat-2.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/CatLibrary.Cat-2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/CatLibrary.Cat-2.op_Addition.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/CatLibrary.Cat-2.op_Addition.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/CatLibrary.Cat-2.op_Explicit.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/CatLibrary.Cat-2.op_Explicit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/CatLibrary.Cat-2.op_Subtraction.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/CatLibrary.Cat-2.op_Subtraction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/CatLibrary.Cat-2.ownEat.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/CatLibrary.Cat-2.ownEat.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/CatLibrary.CatException-1.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/CatLibrary.CatException-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/CatLibrary.Complex-2.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/CatLibrary.Complex-2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/CatLibrary.Core.ContainersRefType.ColorCount.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/CatLibrary.Core.ContainersRefType.ColorCount.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/CatLibrary.Core.ContainersRefType.ColorType.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/CatLibrary.Core.ContainersRefType.ColorType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/CatLibrary.Core.ContainersRefType.ContainersRefTypeChild.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/CatLibrary.Core.ContainersRefType.ContainersRefTypeChild.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/CatLibrary.Core.ContainersRefType.ContainersRefTypeChildInterface.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/CatLibrary.Core.ContainersRefType.ContainersRefTypeChildInterface.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/CatLibrary.Core.ContainersRefType.ContainersRefTypeDelegate.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/CatLibrary.Core.ContainersRefType.ContainersRefTypeDelegate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/CatLibrary.Core.ContainersRefType.ContainersRefTypeEventHandler.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/CatLibrary.Core.ContainersRefType.ContainersRefTypeEventHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/CatLibrary.Core.ContainersRefType.ContainersRefTypeNonRefMethod.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/CatLibrary.Core.ContainersRefType.ContainersRefTypeNonRefMethod.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/CatLibrary.Core.ContainersRefType.GetColorCount.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/CatLibrary.Core.ContainersRefType.GetColorCount.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/CatLibrary.Core.ContainersRefType.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/CatLibrary.Core.ContainersRefType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/CatLibrary.Core.ExplicitLayoutClass.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/CatLibrary.Core.ExplicitLayoutClass.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/CatLibrary.Core.Issue231.Bar.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/CatLibrary.Core.Issue231.Bar.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/CatLibrary.Core.Issue231.Foo.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/CatLibrary.Core.Issue231.Foo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/CatLibrary.Core.Issue231.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/CatLibrary.Core.Issue231.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/CatLibrary.Core.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/CatLibrary.Core.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/CatLibrary.FakeDelegate-1.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/CatLibrary.FakeDelegate-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/CatLibrary.IAnimal.Eat.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/CatLibrary.IAnimal.Eat.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/CatLibrary.IAnimal.Item.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/CatLibrary.IAnimal.Item.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/CatLibrary.IAnimal.Name.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/CatLibrary.IAnimal.Name.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/CatLibrary.IAnimal.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/CatLibrary.IAnimal.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/CatLibrary.ICat.eat.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/CatLibrary.ICat.eat.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/CatLibrary.ICat.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/CatLibrary.ICat.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/CatLibrary.ICatExtension.Play.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/CatLibrary.ICatExtension.Play.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/CatLibrary.ICatExtension.Sleep.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/CatLibrary.ICatExtension.Sleep.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/CatLibrary.ICatExtension.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/CatLibrary.ICatExtension.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/CatLibrary.MRefDelegate-3.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/CatLibrary.MRefDelegate-3.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/CatLibrary.MRefNormalDelegate.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/CatLibrary.MRefNormalDelegate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/CatLibrary.Tom.TomMethod.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/CatLibrary.Tom.TomMethod.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/CatLibrary.Tom.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/CatLibrary.Tom.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/CatLibrary.TomFromBaseClass.-ctor.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/CatLibrary.TomFromBaseClass.-ctor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/CatLibrary.TomFromBaseClass.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/CatLibrary.TomFromBaseClass.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/CatLibrary.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/CatLibrary.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/MRef.Demo.Enumeration.ColorType.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/MRef.Demo.Enumeration.ColorType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/MRef.Demo.Enumeration.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/MRef.Demo.Enumeration.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/MRef.Demo.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/MRef.Demo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/MRef.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/MRef.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "md2/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "md2/toc.html"
+        },
+        ".json": {
+          "relative_path": "md2/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "ManagedReference",
       "source_relative_path": "obj/api/BuildFromAssembly.Class1.yml",
       "output": {
