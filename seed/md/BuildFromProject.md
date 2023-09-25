@@ -6,9 +6,9 @@
 
 ## Classes
 
-[Inheritdoc](BuildFromProject.Inheritdoc.md).[Issue6366](BuildFromProject.Inheritdoc.Issue6366.md).[Class1](BuildFromProject.Inheritdoc.Issue6366.Class1-1.md)<T>
-
 [Class1](BuildFromProject.Class1.md)
+
+[Inheritdoc](BuildFromProject.Inheritdoc.md).[Issue6366](BuildFromProject.Inheritdoc.Issue6366.md).[Class1](BuildFromProject.Inheritdoc.Issue6366.Class1-1.md)<T>
 
 [Inheritdoc](BuildFromProject.Inheritdoc.md).[Issue6366](BuildFromProject.Inheritdoc.Issue6366.md).[Class2](BuildFromProject.Inheritdoc.Issue6366.Class2.md)
 

@@ -23,10 +23,10 @@
       "items": [
         {
           "name": ".NET API",
-          "href": "api/BuildFromCSharpSourceCode.html",
+          "href": "api/BuildFromAssembly.html",
           "tocHref": "api/toc.html",
-          "topicHref": "api/BuildFromCSharpSourceCode.html",
-          "topicUid": "BuildFromCSharpSourceCode",
+          "topicHref": "api/BuildFromAssembly.html",
+          "topicUid": "BuildFromAssembly",
           "level": 3.0,
           "items": [],
           "leaf": true

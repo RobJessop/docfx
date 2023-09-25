@@ -1,4 +1,10 @@
 ### YamlMime:TableOfContent
+- name: BuildFromAssembly
+  href: BuildFromAssembly.md
+  items:
+  - name: Classes
+  - name: Class1
+    href: BuildFromAssembly.Class1.md
 - name: BuildFromCSharpSourceCode
   href: BuildFromCSharpSourceCode.md
   items:

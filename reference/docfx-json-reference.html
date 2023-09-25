@@ -300,8 +300,10 @@ Please avoid using these as template folder name.</p>
 </code></pre>
 <h3 id="src"><code>src</code></h3>
 <p>Specifies the source projects using <a href="#file-mappings">File Mappings</a>.</p>
+<h3 id="output"><code>output</code></h3>
+<p>Defines the output folder of the generated metadata files relative to <code>docfx.json</code> directory. The <code>docfx metadata --output &lt;outdir&gt;</code> command line argument overrides this value.</p>
 <h3 id="dest"><code>dest</code></h3>
-<p>Defines the output folder of the generated metadata files. Relative paths are relative to the docfx.json file being used. To go up a folder use <code>../</code>.</p>
+<p>Defines the output folder of the generated metadata files relative to <code>docfx.json</code> directory.  The <code>docfx metadata --output &lt;outdir&gt;</code> command line argument prepends this value.</p>
 <h3 id="shouldskipmarkup"><code>shouldSkipMarkup</code></h3>
 <p>If set to true, DocFX would not render triple-slash-comments in source code as markdown.</p>
 <h3 id="filter"><code>filter</code></h3>

@@ -85,6 +85,26 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "obj/api/BuildFromAssembly.Class1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BuildFromAssembly.Class1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/BuildFromAssembly.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BuildFromAssembly.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "obj/api/BuildFromCSharpSourceCode.CSharp.yml",
       "output": {
         ".html": {
