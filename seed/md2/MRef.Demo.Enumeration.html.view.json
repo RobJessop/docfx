@@ -1,5 +1,5 @@
 {
-  "conceptual": "\n<h2 id=\"enums\" sourcefile=\"md2/MRef.Demo.Enumeration.md\" sourcestartlinenumber=\"3\">Enums</h2>\n<p sourcefile=\"md2/MRef.Demo.Enumeration.md\" sourcestartlinenumber=\"5\"><a href=\"~/md2/MRef.Demo.Enumeration.ColorType.md\" sourcefile=\"md2/MRef.Demo.Enumeration.md\" sourcestartlinenumber=\"5\">ColorType</a></p>\n<p sourcefile=\"md2/MRef.Demo.Enumeration.md\" sourcestartlinenumber=\"7\">Enumeration ColorType</p>\n",
+  "conceptual": "\n<h3 id=\"enums\" sourcefile=\"md2/MRef.Demo.Enumeration.md\" sourcestartlinenumber=\"3\">Enums</h3>\n<p sourcefile=\"md2/MRef.Demo.Enumeration.md\" sourcestartlinenumber=\"5\"><a href=\"~/md2/MRef.Demo.Enumeration.ColorType.md\" sourcefile=\"md2/MRef.Demo.Enumeration.md\" sourcestartlinenumber=\"5\">ColorType</a></p>\n<p sourcefile=\"md2/MRef.Demo.Enumeration.md\" sourcestartlinenumber=\"7\">Enumeration ColorType</p>\n",
   "type": "Conceptual",
   "source": {
     "remote": {

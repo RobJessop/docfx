@@ -1,32 +1,6 @@
 {
   "items": [
     {
-      "name": "BuildFromAssembly",
-      "href": "BuildFromAssembly.html",
-      "topicHref": "BuildFromAssembly.html",
-      "items": [
-        {
-          "name": "Classes",
-          "topicHref": null,
-          "tocHref": null,
-          "level": 3.0,
-          "items": [],
-          "leaf": true
-        },
-        {
-          "name": "Class1",
-          "href": "BuildFromAssembly.Class1.html",
-          "topicHref": "BuildFromAssembly.Class1.html",
-          "tocHref": null,
-          "level": 3.0,
-          "items": [],
-          "leaf": true
-        }
-      ],
-      "tocHref": null,
-      "level": 2.0
-    },
-    {
       "name": "BuildFromCSharpSourceCode",
       "href": "BuildFromCSharpSourceCode.html",
       "topicHref": "BuildFromCSharpSourceCode.html",
@@ -58,26 +32,10 @@
       "topicHref": "BuildFromProject.html",
       "items": [
         {
-          "name": "Namespaces",
-          "topicHref": null,
-          "tocHref": null,
-          "level": 3.0,
-          "items": [],
-          "leaf": true
-        },
-        {
           "name": "Issue8540",
           "href": "BuildFromProject.Issue8540.html",
           "topicHref": "BuildFromProject.Issue8540.html",
           "items": [
-            {
-              "name": "Namespaces",
-              "topicHref": null,
-              "tocHref": null,
-              "level": 4.0,
-              "items": [],
-              "leaf": true
-            },
             {
               "name": "A",
               "href": "BuildFromProject.Issue8540.A.html",
@@ -338,14 +296,6 @@
       "topicHref": "CatLibrary.html",
       "items": [
         {
-          "name": "Namespaces",
-          "topicHref": null,
-          "tocHref": null,
-          "level": 3.0,
-          "items": [],
-          "leaf": true
-        },
-        {
           "name": "Core",
           "href": "CatLibrary.Core.html",
           "topicHref": "CatLibrary.Core.html",
@@ -590,26 +540,10 @@
       "topicHref": "MRef.html",
       "items": [
         {
-          "name": "Namespaces",
-          "topicHref": null,
-          "tocHref": null,
-          "level": 3.0,
-          "items": [],
-          "leaf": true
-        },
-        {
           "name": "Demo",
           "href": "MRef.Demo.html",
           "topicHref": "MRef.Demo.html",
           "items": [
-            {
-              "name": "Namespaces",
-              "topicHref": null,
-              "tocHref": null,
-              "level": 4.0,
-              "items": [],
-              "leaf": true
-            },
             {
               "name": "Enumeration",
               "href": "MRef.Demo.Enumeration.html",
@@ -648,13 +582,13 @@
   "_appName": "Seed",
   "_appTitle": "docfx seed website",
   "_enableSearch": true,
-  "_key": "md/toc.yml",
+  "_key": "obj/md/toc.yml",
   "_navKey": "~/toc.yml",
   "_navPath": "toc.html",
   "_navRel": "../toc.html",
   "_path": "md/toc.html",
   "_rel": "../",
-  "_tocKey": "~/md/toc.yml",
+  "_tocKey": "~/obj/md/toc.yml",
   "_tocPath": "md/toc.html",
   "_tocRel": "toc.html",
   "__global": {

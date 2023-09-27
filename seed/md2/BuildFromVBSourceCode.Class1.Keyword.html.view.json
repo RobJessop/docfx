@@ -1,5 +1,5 @@
 {
-  "conceptual": "\n<p sourcefile=\"md2/BuildFromVBSourceCode.Class1.Keyword.md\" sourcestartlinenumber=\"3\"><strong sourcefile=\"md2/BuildFromVBSourceCode.Class1.Keyword.md\" sourcestartlinenumber=\"3\">Namespace:</strong> <a href=\"~/md2/BuildFromVBSourceCode.md\" sourcefile=\"md2/BuildFromVBSourceCode.Class1.Keyword.md\" sourcestartlinenumber=\"3\">BuildFromVBSourceCode</a><br>\n<strong sourcefile=\"md2/BuildFromVBSourceCode.Class1.Keyword.md\" sourcestartlinenumber=\"4\">Assembly:</strong> ?.dll</p>\n<h2 id=\"keyword\" sourcefile=\"md2/BuildFromVBSourceCode.Class1.Keyword.md\" sourcestartlinenumber=\"6\">Keyword</h2>\n<pre><code class=\"lang-csharp\" sourcefile=\"md2/BuildFromVBSourceCode.Class1.Keyword.md\" sourcestartlinenumber=\"8\">[Obsolete(&quot;This member is obsolete.&quot;, true)]\npublic Class1 Keyword { get; }\n</code></pre>\n<p sourcefile=\"md2/BuildFromVBSourceCode.Class1.Keyword.md\" sourcestartlinenumber=\"13\">Property Value</p>\n<p sourcefile=\"md2/BuildFromVBSourceCode.Class1.Keyword.md\" sourcestartlinenumber=\"15\"><a href=\"~/md2/BuildFromVBSourceCode.Class1.md\" sourcefile=\"md2/BuildFromVBSourceCode.Class1.Keyword.md\" sourcestartlinenumber=\"15\">Class1</a></p>\n",
+  "conceptual": "\n<p sourcefile=\"md2/BuildFromVBSourceCode.Class1.Keyword.md\" sourcestartlinenumber=\"3\">Namespace: <a href=\"~/md2/BuildFromVBSourceCode.md\" sourcefile=\"md2/BuildFromVBSourceCode.Class1.Keyword.md\" sourcestartlinenumber=\"3\">BuildFromVBSourceCode</a></p>\n<h2 id=\"keyword\" sourcefile=\"md2/BuildFromVBSourceCode.Class1.Keyword.md\" sourcestartlinenumber=\"4\">Keyword</h2>\n<pre><code class=\"lang-csharp\" sourcefile=\"md2/BuildFromVBSourceCode.Class1.Keyword.md\" sourcestartlinenumber=\"6\">[Obsolete(&quot;This member is obsolete.&quot;, true)]\npublic Class1 Keyword { get; }\n</code></pre>\n<h3 id=\"property-value\" sourcefile=\"md2/BuildFromVBSourceCode.Class1.Keyword.md\" sourcestartlinenumber=\"11\">Property Value</h3>\n<p sourcefile=\"md2/BuildFromVBSourceCode.Class1.Keyword.md\" sourcestartlinenumber=\"13\"><a href=\"~/md2/BuildFromVBSourceCode.Class1.md\" sourcefile=\"md2/BuildFromVBSourceCode.Class1.Keyword.md\" sourcestartlinenumber=\"13\">Class1</a></p>\n",
   "type": "Conceptual",
   "source": {
     "remote": {
@@ -37,7 +37,7 @@
   ],
   "rawTitle": "<h1 id=\"property-keyword\" sourcefile=\"md2/BuildFromVBSourceCode.Class1.Keyword.md\" sourcestartlinenumber=\"1\">Property Keyword</h1>",
   "title": "Property Keyword",
-  "wordCount": 19.0,
+  "wordCount": 17.0,
   "_key": "md2/BuildFromVBSourceCode.Class1.Keyword.md",
   "_navKey": "~/toc.yml",
   "_navPath": "toc.html",

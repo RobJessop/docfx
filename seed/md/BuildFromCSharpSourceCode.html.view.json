@@ -1,5 +1,5 @@
 {
-  "conceptual": "\n<h2 id=\"classes\" sourcefile=\"md/BuildFromCSharpSourceCode.md\" sourcestartlinenumber=\"3\">Classes</h2>\n<p sourcefile=\"md/BuildFromCSharpSourceCode.md\" sourcestartlinenumber=\"5\"><a href=\"~/md/BuildFromCSharpSourceCode.CSharp.md\" sourcefile=\"md/BuildFromCSharpSourceCode.md\" sourcestartlinenumber=\"5\">CSharp</a></p>\n",
+  "conceptual": "\n<h3 id=\"classes\" sourcefile=\"md/BuildFromCSharpSourceCode.md\" sourcestartlinenumber=\"3\">Classes</h3>\n<p sourcefile=\"md/BuildFromCSharpSourceCode.md\" sourcestartlinenumber=\"5\"><a href=\"~/md/BuildFromCSharpSourceCode.CSharp.md\" sourcefile=\"md/BuildFromCSharpSourceCode.md\" sourcestartlinenumber=\"5\">CSharp</a></p>\n",
   "type": "Conceptual",
   "source": {
     "remote": {
