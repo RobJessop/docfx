@@ -119,8 +119,8 @@ public class Cat&lt;T, K&gt; : ICat, IAnimal where T : class, new() where K : st
 <a href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object?, object?)</a>,
 <a href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a></p>
 <h6 id="extension-methods">Extension Methods</h6>
-<p><a href="CatLibrary.ICatExtension.Play.html#CatLibrary.ICatExtension.Play(CatLibrary.Core.ContainersRefType.ColorType)">ICatExtension.Play(ICat, ContainersRefType.ColorType)</a>,
-<a href="CatLibrary.ICatExtension.Sleep.html#CatLibrary.ICatExtension.Sleep(System.Int64)">ICatExtension.Sleep(ICat, long)</a></p>
+<p><a href="CatLibrary.ICatExtension.Play.html#CatLibrary_ICatExtension_Play_CatLibrary_ICat_CatLibrary_Core_ContainersRefType_ColorType_">ICatExtension.Play(ICat, ContainersRefType.ColorType)</a>,
+<a href="CatLibrary.ICatExtension.Sleep.html#CatLibrary_ICatExtension_Sleep_CatLibrary_ICat_System_Int64_">ICatExtension.Sleep(ICat, long)</a></p>
 <h2 id="examples">Examples</h2>
 <p>Here's example of how to create an instance of this class. As T is limited with <code>class</code> and K is limited with <code>struct</code>.</p>
 <pre><code class="lang-c#">var a = new Cat(object, int)();
@@ -133,41 +133,41 @@ unsafe
 <h2 id="remarks">Remarks</h2>
 <p>Here's all the content you can see in this class.</p>
 <h2 id="constructors">Constructors</h2>
-<p><a href="CatLibrary.Cat-2.-ctor.html#CatLibrary.Cat%602.#ctor">Cat()</a></p>
+<p><a href="CatLibrary.Cat-2.-ctor.html#CatLibrary_Cat_2__ctor">Cat()</a></p>
 <p>Default constructor.</p>
-<p><a href="CatLibrary.Cat-2.-ctor.html#CatLibrary.Cat%602.#ctor(%600)">Cat(T)</a></p>
+<p><a href="CatLibrary.Cat-2.-ctor.html#CatLibrary_Cat_2__ctor__0_">Cat(T)</a></p>
 <p>Constructor with one generic parameter.</p>
-<p><a href="CatLibrary.Cat-2.-ctor.html#CatLibrary.Cat%602.#ctor(System.String,System.Int32@,System.String,System.Boolean)">Cat(string, out int, string, bool)</a></p>
+<p><a href="CatLibrary.Cat-2.-ctor.html#CatLibrary_Cat_2__ctor_System_String_System_Int32__System_String_System_Boolean_">Cat(string, out int, string, bool)</a></p>
 <p>It's a complex constructor. The parameter will have some attributes.</p>
 <h2 id="fields">Fields</h2>
-<p><a href="CatLibrary.Cat-2.isHealthy.html#CatLibrary.Cat%602.isHealthy">isHealthy</a></p>
+<p><a href="CatLibrary.Cat-2.isHealthy.html#CatLibrary_Cat_2_isHealthy">isHealthy</a></p>
 <p>Field with attribute.</p>
 <h2 id="properties">Properties</h2>
-<p><a href="CatLibrary.Cat-2.Age.html#CatLibrary.Cat%602.Age">Age</a></p>
+<p><a href="CatLibrary.Cat-2.Age.html#CatLibrary_Cat_2_Age">Age</a></p>
 <p>Hint cat's age.</p>
-<p><a href="CatLibrary.Cat-2.Name.html#CatLibrary.Cat%602.Name">Name</a></p>
+<p><a href="CatLibrary.Cat-2.Name.html#CatLibrary_Cat_2_Name">Name</a></p>
 <p>EII property.</p>
-<p><a href="CatLibrary.Cat-2.Item.html#CatLibrary.Cat%602.Item(System.String)">this[string]</a></p>
+<p><a href="CatLibrary.Cat-2.Item.html#CatLibrary_Cat_2_Item_System_String_">this[string]</a></p>
 <p>This is index property of Cat. You can see that the visibility is different between <code>get</code> and <code>set</code> method.</p>
 <h2 id="methods">Methods</h2>
-<p><a href="CatLibrary.Cat-2.CalculateFood.html#CatLibrary.Cat%602.CalculateFood(System.DateTime)">CalculateFood(DateTime)</a></p>
+<p><a href="CatLibrary.Cat-2.CalculateFood.html#CatLibrary_Cat_2_CalculateFood_System_DateTime_">CalculateFood(DateTime)</a></p>
 <p>It's a method with complex return type.</p>
-<p><a href="CatLibrary.Cat-2.Equals.html#CatLibrary.Cat%602.Equals(System.Object)">Equals(object)</a></p>
+<p><a href="CatLibrary.Cat-2.Equals.html#CatLibrary_Cat_2_Equals_System_Object_">Equals(object)</a></p>
 <p>Override the method of <code>Object.Equals(object obj).</code></p>
-<p><a href="CatLibrary.Cat-2.GetTailLength.html#CatLibrary.Cat%602.GetTailLength(System.Int32*,System.Object%5B%5D)">GetTailLength(int*, params object[])</a></p>
+<p><a href="CatLibrary.Cat-2.GetTailLength.html#CatLibrary_Cat_2_GetTailLength_System_Int32__System_Object___">GetTailLength(int*, params object[])</a></p>
 <p>It's an <code>unsafe</code> method.
 As you see, <code class="paramref">catName</code> is a <b>pointer</b>, so we need to add <code class="languageKeyword">unsafe</code> keyword.</p>
-<p><a href="CatLibrary.Cat-2.Jump.html#CatLibrary.Cat%602.Jump(%600,%601,System.Boolean@)">Jump(T, K, ref bool)</a></p>
+<p><a href="CatLibrary.Cat-2.Jump.html#CatLibrary_Cat_2_Jump__0__1_System_Boolean__">Jump(T, K, ref bool)</a></p>
 <p>This method have attribute above it.</p>
-<p><a href="CatLibrary.Cat-2.ownEat.html#CatLibrary.Cat%602.ownEat">ownEat</a></p>
+<p><a href="CatLibrary.Cat-2.ownEat.html#CatLibrary_Cat_2_ownEat">ownEat</a></p>
 <p>Eat event of this cat</p>
 <h2 id="operators">Operators</h2>
-<p><a href="CatLibrary.Cat-2.op_Addition.html#CatLibrary.Cat%602.op_Addition(CatLibrary.Cat%7B%600,%601%7D,System.Int32)">operator +(Cat&lt;T, K&gt;, int)</a></p>
+<p><a href="CatLibrary.Cat-2.op_Addition.html#CatLibrary_Cat_2_op_Addition_CatLibrary_Cat__0__1__System_Int32_">operator +(Cat&lt;T, K&gt;, int)</a></p>
 <p>Addition operator of this class.</p>
-<p><a href="CatLibrary.Cat-2.op_Explicit.html#CatLibrary.Cat%602.op_Explicit(CatLibrary.Cat%7B%600,%601%7D)%7ECatLibrary.Tom">explicit operator Tom(Cat&lt;T, K&gt;)</a></p>
+<p><a href="CatLibrary.Cat-2.op_Explicit.html#CatLibrary_Cat_2_op_Explicit_CatLibrary_Cat__0__1___CatLibrary_Tom">explicit operator Tom(Cat&lt;T, K&gt;)</a></p>
 <p>Expilicit operator of this class.</p>
 <p>It means this cat can evolve to change to Tom. Tom and Jerry.</p>
-<p><a href="CatLibrary.Cat-2.op_Subtraction.html#CatLibrary.Cat%602.op_Subtraction(CatLibrary.Cat%7B%600,%601%7D,System.Int32)">operator -(Cat&lt;T, K&gt;, int)</a></p>
+<p><a href="CatLibrary.Cat-2.op_Subtraction.html#CatLibrary_Cat_2_op_Subtraction_CatLibrary_Cat__0__1__System_Int32_">operator -(Cat&lt;T, K&gt;, int)</a></p>
 <p>Similar with operaotr +, refer to that topic.</p>
 </article>
 

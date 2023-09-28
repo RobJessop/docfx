@@ -85,66 +85,6 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "md/BuildFromCSharpSourceCode.CSharp.md",
-      "output": {
-        ".html": {
-          "relative_path": "md/BuildFromCSharpSourceCode.CSharp.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "md/BuildFromCSharpSourceCode.md",
-      "output": {
-        ".html": {
-          "relative_path": "md/BuildFromCSharpSourceCode.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "md/BuildFromProject.Class1.IIssue8948.md",
-      "output": {
-        ".html": {
-          "relative_path": "md/BuildFromProject.Class1.IIssue8948.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "md/BuildFromProject.Class1.Issue8665.md",
-      "output": {
-        ".html": {
-          "relative_path": "md/BuildFromProject.Class1.Issue8665.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "md/BuildFromProject.Class1.Issue8696Attribute.md",
-      "output": {
-        ".html": {
-          "relative_path": "md/BuildFromProject.Class1.Issue8696Attribute.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "md/BuildFromProject.Class1.Issue8948.md",
-      "output": {
-        ".html": {
-          "relative_path": "md/BuildFromProject.Class1.Issue8948.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
       "source_relative_path": "md/BuildFromProject.Class1.Test-1.md",
       "output": {
         ".html": {
@@ -184,9 +124,6 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "md/BuildFromProject.Inheritdoc.Issue6366.Class2.md",
       "output": {
@@ -930,9 +867,6 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "md2/BuildFromProject.Inheritdoc.Issue6366.Class2.md",
       "output": {
@@ -2244,6 +2178,66 @@
         },
         ".json": {
           "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "obj/md/BuildFromCSharpSourceCode.CSharp.md",
+      "output": {
+        ".html": {
+          "relative_path": "md/BuildFromCSharpSourceCode.CSharp.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "obj/md/BuildFromCSharpSourceCode.md",
+      "output": {
+        ".html": {
+          "relative_path": "md/BuildFromCSharpSourceCode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "obj/md/BuildFromProject.Class1.IIssue8948.md",
+      "output": {
+        ".html": {
+          "relative_path": "md/BuildFromProject.Class1.IIssue8948.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "obj/md/BuildFromProject.Class1.Issue8665.md",
+      "output": {
+        ".html": {
+          "relative_path": "md/BuildFromProject.Class1.Issue8665.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "obj/md/BuildFromProject.Class1.Issue8696Attribute.md",
+      "output": {
+        ".html": {
+          "relative_path": "md/BuildFromProject.Class1.Issue8696Attribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "obj/md/BuildFromProject.Class1.Issue8948.md",
+      "output": {
+        ".html": {
+          "relative_path": "md/BuildFromProject.Class1.Issue8948.html"
         }
       },
       "version": ""
