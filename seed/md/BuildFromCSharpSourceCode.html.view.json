@@ -1,9 +1,9 @@
 {
-  "conceptual": "\n<h3 id=\"classes\" sourcefile=\"md/BuildFromCSharpSourceCode.md\" sourcestartlinenumber=\"3\">Classes</h3>\n<p sourcefile=\"md/BuildFromCSharpSourceCode.md\" sourcestartlinenumber=\"5\"><a href=\"~/md/BuildFromCSharpSourceCode.CSharp.md\" sourcefile=\"md/BuildFromCSharpSourceCode.md\" sourcestartlinenumber=\"5\">CSharp</a></p>\n",
+  "conceptual": "\n<h3 id=\"classes\" sourcefile=\"obj/md/BuildFromCSharpSourceCode.md\" sourcestartlinenumber=\"3\">Classes</h3>\n<p sourcefile=\"obj/md/BuildFromCSharpSourceCode.md\" sourcestartlinenumber=\"5\"><a href=\"~/obj/md/BuildFromCSharpSourceCode.CSharp.md\" sourcefile=\"obj/md/BuildFromCSharpSourceCode.md\" sourcestartlinenumber=\"5\">CSharp</a></p>\n",
   "type": "Conceptual",
   "source": {
     "remote": {
-      "path": "samples/seed/md/BuildFromCSharpSourceCode.md",
+      "path": "samples/seed/obj/md/BuildFromCSharpSourceCode.md",
       "branch": "main",
       "repo": "https://github.com/dotnet/docfx"
     },
@@ -11,10 +11,10 @@
     "endLine": 0.0,
     "isExternal": false
   },
-  "path": "md/BuildFromCSharpSourceCode.md",
+  "path": "obj/md/BuildFromCSharpSourceCode.md",
   "documentation": {
     "remote": {
-      "path": "samples/seed/md/BuildFromCSharpSourceCode.md",
+      "path": "samples/seed/obj/md/BuildFromCSharpSourceCode.md",
       "branch": "main",
       "repo": "https://github.com/dotnet/docfx"
     },
@@ -35,16 +35,16 @@
     "rawTitle",
     "wordCount"
   ],
-  "rawTitle": "<h1 id=\"namespace-buildfromcsharpsourcecode\" sourcefile=\"md/BuildFromCSharpSourceCode.md\" sourcestartlinenumber=\"1\">Namespace BuildFromCSharpSourceCode</h1>",
+  "rawTitle": "<h1 id=\"namespace-buildfromcsharpsourcecode\" sourcefile=\"obj/md/BuildFromCSharpSourceCode.md\" sourcestartlinenumber=\"1\">Namespace BuildFromCSharpSourceCode</h1>",
   "title": "Namespace BuildFromCSharpSourceCode",
   "wordCount": 2.0,
-  "_key": "md/BuildFromCSharpSourceCode.md",
+  "_key": "obj/md/BuildFromCSharpSourceCode.md",
   "_navKey": "~/toc.yml",
   "_navPath": "toc.html",
   "_navRel": "../toc.html",
   "_path": "md/BuildFromCSharpSourceCode.html",
   "_rel": "../",
-  "_tocKey": "~/md/toc.yml",
+  "_tocKey": "~/obj/md/toc.yml",
   "_tocPath": "md/toc.html",
   "_tocRel": "toc.html",
   "__global": {
@@ -122,5 +122,5 @@
     "_shared": {}
   },
   "_disableToc": false,
-  "docurl": "https://github.com/dotnet/docfx/blob/main/samples/seed/md/BuildFromCSharpSourceCode.md/#L1"
+  "docurl": "https://github.com/dotnet/docfx/blob/main/samples/seed/obj/md/BuildFromCSharpSourceCode.md/#L1"
 }
