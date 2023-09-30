@@ -454,156 +454,6 @@
       "version": ""
     },
     {
-      "type": "Conceptual",
-      "source_relative_path": "md/CatLibrary.Core.Issue231.md",
-      "output": {
-        ".html": {
-          "relative_path": "md/CatLibrary.Core.Issue231.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "md/CatLibrary.Core.md",
-      "output": {
-        ".html": {
-          "relative_path": "md/CatLibrary.Core.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "md/CatLibrary.FakeDelegate-1.md",
-      "output": {
-        ".html": {
-          "relative_path": "md/CatLibrary.FakeDelegate-1.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "md/CatLibrary.IAnimal.md",
-      "output": {
-        ".html": {
-          "relative_path": "md/CatLibrary.IAnimal.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "md/CatLibrary.ICat.md",
-      "output": {
-        ".html": {
-          "relative_path": "md/CatLibrary.ICat.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "md/CatLibrary.ICatExtension.md",
-      "output": {
-        ".html": {
-          "relative_path": "md/CatLibrary.ICatExtension.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "md/CatLibrary.MRefDelegate-3.md",
-      "output": {
-        ".html": {
-          "relative_path": "md/CatLibrary.MRefDelegate-3.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "md/CatLibrary.MRefNormalDelegate.md",
-      "output": {
-        ".html": {
-          "relative_path": "md/CatLibrary.MRefNormalDelegate.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "md/CatLibrary.Tom.md",
-      "output": {
-        ".html": {
-          "relative_path": "md/CatLibrary.Tom.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "md/CatLibrary.TomFromBaseClass.md",
-      "output": {
-        ".html": {
-          "relative_path": "md/CatLibrary.TomFromBaseClass.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "md/CatLibrary.md",
-      "output": {
-        ".html": {
-          "relative_path": "md/CatLibrary.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "md/MRef.Demo.Enumeration.ColorType.md",
-      "output": {
-        ".html": {
-          "relative_path": "md/MRef.Demo.Enumeration.ColorType.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "md/MRef.Demo.Enumeration.md",
-      "output": {
-        ".html": {
-          "relative_path": "md/MRef.Demo.Enumeration.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "md/MRef.Demo.md",
-      "output": {
-        ".html": {
-          "relative_path": "md/MRef.Demo.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "md/MRef.md",
-      "output": {
-        ".html": {
-          "relative_path": "md/MRef.html"
-        }
-      },
-      "version": ""
-    },
-    {
       "type": "Toc",
       "source_relative_path": "md/toc.yml",
       "output": {
@@ -2318,6 +2168,156 @@
         },
         ".json": {
           "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "obj/md/CatLibrary.Core.Issue231.md",
+      "output": {
+        ".html": {
+          "relative_path": "md/CatLibrary.Core.Issue231.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "obj/md/CatLibrary.Core.md",
+      "output": {
+        ".html": {
+          "relative_path": "md/CatLibrary.Core.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "obj/md/CatLibrary.FakeDelegate-1.md",
+      "output": {
+        ".html": {
+          "relative_path": "md/CatLibrary.FakeDelegate-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "obj/md/CatLibrary.IAnimal.md",
+      "output": {
+        ".html": {
+          "relative_path": "md/CatLibrary.IAnimal.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "obj/md/CatLibrary.ICat.md",
+      "output": {
+        ".html": {
+          "relative_path": "md/CatLibrary.ICat.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "obj/md/CatLibrary.ICatExtension.md",
+      "output": {
+        ".html": {
+          "relative_path": "md/CatLibrary.ICatExtension.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "obj/md/CatLibrary.MRefDelegate-3.md",
+      "output": {
+        ".html": {
+          "relative_path": "md/CatLibrary.MRefDelegate-3.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "obj/md/CatLibrary.MRefNormalDelegate.md",
+      "output": {
+        ".html": {
+          "relative_path": "md/CatLibrary.MRefNormalDelegate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "obj/md/CatLibrary.Tom.md",
+      "output": {
+        ".html": {
+          "relative_path": "md/CatLibrary.Tom.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "obj/md/CatLibrary.TomFromBaseClass.md",
+      "output": {
+        ".html": {
+          "relative_path": "md/CatLibrary.TomFromBaseClass.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "obj/md/CatLibrary.md",
+      "output": {
+        ".html": {
+          "relative_path": "md/CatLibrary.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "obj/md/MRef.Demo.Enumeration.ColorType.md",
+      "output": {
+        ".html": {
+          "relative_path": "md/MRef.Demo.Enumeration.ColorType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "obj/md/MRef.Demo.Enumeration.md",
+      "output": {
+        ".html": {
+          "relative_path": "md/MRef.Demo.Enumeration.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "obj/md/MRef.Demo.md",
+      "output": {
+        ".html": {
+          "relative_path": "md/MRef.Demo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "obj/md/MRef.md",
+      "output": {
+        ".html": {
+          "relative_path": "md/MRef.html"
         }
       },
       "version": ""
