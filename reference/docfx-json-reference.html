@@ -301,19 +301,25 @@ Please avoid using these as template folder name.</p>
 <h3 id="src"><code>src</code></h3>
 <p>Specifies the source projects using <a href="#file-mappings">File Mappings</a>.</p>
 <h3 id="output"><code>output</code></h3>
-<p>Defines the output folder of the generated metadata files relative to <code>docfx.json</code> directory. The <code>docfx metadata --output &lt;outdir&gt;</code> command line argument overrides this value.</p>
+<p>Specifies the output folder of the generated metadata files relative to <code>docfx.json</code> directory. The <code>docfx metadata --output &lt;outdir&gt;</code> command line argument overrides this value.</p>
+<h3 id="outputformat"><code>outputFormat</code></h3>
+<p>Specifies the generated output file format.</p>
+<ul>
+<li><code>mref</code> (default): output as ManagedReference YAML files.</li>
+<li><code>markdown</code>: Output as common-mark compliant markdown file.</li>
+</ul>
 <h3 id="dest"><code>dest</code></h3>
-<p>Defines the output folder of the generated metadata files relative to <code>docfx.json</code> directory.  The <code>docfx metadata --output &lt;outdir&gt;</code> command line argument prepends this value.</p>
+<p>Specifies the output folder of the generated metadata files relative to <code>docfx.json</code> directory.  The <code>docfx metadata --output &lt;outdir&gt;</code> command line argument prepends this value.</p>
 <h3 id="shouldskipmarkup"><code>shouldSkipMarkup</code></h3>
 <p>If set to true, DocFX would not render triple-slash-comments in source code as markdown.</p>
 <h3 id="filter"><code>filter</code></h3>
-<p>Defines the filter configuration file, please go to <a href="../tutorial/howto_filter_out_unwanted_apis_attributes.html">How to filter out unwanted apis attributes</a> for more details.</p>
+<p>Specifies the filter configuration file, please go to <a href="../tutorial/howto_filter_out_unwanted_apis_attributes.html">How to filter out unwanted apis attributes</a> for more details.</p>
 <h3 id="disabledefaultfilter"><code>disableDefaultFilter</code></h3>
 <p>Disables the default filter configuration file.</p>
 <h3 id="disablegitfeatures-1"><code>disableGitFeatures</code></h3>
 <p>Disables generation of view source links.</p>
 <h3 id="properties"><code>properties</code></h3>
-<p>Defines an optional set of MSBuild properties used when interpreting project files. These are the same properties that are passed to msbuild via the <code>/property:name=value</code> command line argument.</p>
+<p>Specifies an optional set of MSBuild properties used when interpreting project files. These are the same properties that are passed to msbuild via the <code>/property:name=value</code> command line argument.</p>
 <pre><code class="lang-json">{
   &quot;metadata&quot;: [
     {
@@ -331,13 +337,13 @@ Please avoid using these as template folder name.</p>
 <h3 id="norestore"><code>noRestore</code></h3>
 <p>Do not run <code>dotnet restore</code> before building the projects.</p>
 <h3 id="namespacelayout"><code>namespaceLayout</code></h3>
-<p>Defines how namespaces in TOC are organized:</p>
+<p>Specifies how namespaces in TOC are organized:</p>
 <ul>
 <li><code>flattened</code> (default): Renders namespaces as a single flat list.</li>
 <li><code>nested</code>: Renders namespaces in a nested tree form.</li>
 </ul>
 <h3 id="memberlayout"><code>memberLayout</code></h3>
-<p>Defines how member pages are organized:</p>
+<p>Specifies how member pages are organized:</p>
 <ul>
 <li><code>samePage</code> (default): Places members in the same page as their containing type.</li>
 <li><code>separatePages</code>: Places members in separate pages.</li>
@@ -345,7 +351,7 @@ Please avoid using these as template folder name.</p>
 <h3 id="allowcompilationerrors"><code>allowCompilationErrors</code></h3>
 <p>When enabled, continues documentation generation in case of compilation errors.</p>
 <h3 id="enumsortorder"><code>EnumSortOrder</code></h3>
-<p>Defines how enum members are sorted:</p>
+<p>Specifies how enum members are sorted:</p>
 <ul>
 <li><code>alphabetic</code> (default): Sort enum members in alphabetic order.</li>
 <li><code>declaringOrder</code>: Sort enum members in the order as they are declared in the source code.</li>

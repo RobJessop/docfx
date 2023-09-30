@@ -23,19 +23,19 @@
       "items": [
         {
           "name": ".NET API",
-          "href": "api/BuildFromCSharpSourceCode.html",
+          "href": "api/BuildFromAssembly.html",
           "tocHref": "api/toc.html",
-          "topicHref": "api/BuildFromCSharpSourceCode.html",
-          "topicUid": "BuildFromCSharpSourceCode",
+          "topicHref": "api/BuildFromAssembly.html",
+          "topicUid": "BuildFromAssembly",
           "level": 3.0,
           "items": [],
           "leaf": true
         },
         {
           "name": ".NET API (markdown)",
-          "href": "md/BuildFromCSharpSourceCode.html",
+          "href": "md/BuildFromAssembly.html",
           "tocHref": "md/toc.html",
-          "topicHref": "md/BuildFromCSharpSourceCode.html",
+          "topicHref": "md/BuildFromAssembly.html",
           "level": 3.0,
           "items": [],
           "leaf": true

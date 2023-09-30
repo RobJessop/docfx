@@ -1,6 +1,48 @@
 ### YamlMime:XRefMap
 sorted: true
 references:
+- uid: BuildFromAssembly
+  name: BuildFromAssembly
+  href: api/BuildFromAssembly.html
+  commentId: N:BuildFromAssembly
+  fullName: BuildFromAssembly
+  nameWithType: BuildFromAssembly
+- uid: BuildFromAssembly.Class1
+  name: Class1
+  href: api/BuildFromAssembly.Class1.html
+  commentId: T:BuildFromAssembly.Class1
+  fullName: BuildFromAssembly.Class1
+  nameWithType: Class1
+- uid: BuildFromAssembly.Class1.#ctor
+  name: Class1()
+  href: api/BuildFromAssembly.Class1.html#BuildFromAssembly_Class1__ctor
+  commentId: M:BuildFromAssembly.Class1.#ctor
+  name.vb: New()
+  fullName: BuildFromAssembly.Class1.Class1()
+  fullName.vb: BuildFromAssembly.Class1.New()
+  nameWithType: Class1.Class1()
+  nameWithType.vb: Class1.New()
+- uid: BuildFromAssembly.Class1.#ctor*
+  name: Class1
+  href: api/BuildFromAssembly.Class1.html#BuildFromAssembly_Class1__ctor_
+  commentId: Overload:BuildFromAssembly.Class1.#ctor
+  name.vb: New
+  fullName: BuildFromAssembly.Class1.Class1
+  fullName.vb: BuildFromAssembly.Class1.New
+  nameWithType: Class1.Class1
+  nameWithType.vb: Class1.New
+- uid: BuildFromAssembly.Class1.HelloWorld
+  name: HelloWorld()
+  href: api/BuildFromAssembly.Class1.html#BuildFromAssembly_Class1_HelloWorld
+  commentId: M:BuildFromAssembly.Class1.HelloWorld
+  fullName: BuildFromAssembly.Class1.HelloWorld()
+  nameWithType: Class1.HelloWorld()
+- uid: BuildFromAssembly.Class1.HelloWorld*
+  name: HelloWorld
+  href: api/BuildFromAssembly.Class1.html#BuildFromAssembly_Class1_HelloWorld_
+  commentId: Overload:BuildFromAssembly.Class1.HelloWorld
+  fullName: BuildFromAssembly.Class1.HelloWorld
+  nameWithType: Class1.HelloWorld
 - uid: BuildFromCSharpSourceCode
   name: BuildFromCSharpSourceCode
   href: api/BuildFromCSharpSourceCode.html

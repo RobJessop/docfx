@@ -99,7 +99,7 @@ Assembly: CatLibrary.dll</p>
 <pre><code class="lang-csharp">[Serializable]
 public class Cat&lt;T, K&gt; : ICat, IAnimal where T : class, new() where K : struct
 </code></pre>
-<h2 id="type-parameters">Type Parameters</h2>
+<h4 id="type-parameters">Type Parameters</h4>
 <p><code>T</code></p>
 <p>This type should be class and can new instance.</p>
 <p><code>K</code></p>
@@ -133,18 +133,18 @@ unsafe
 <h2 id="remarks">Remarks</h2>
 <p>Here's all the content you can see in this class.</p>
 <h2 id="constructors">Constructors</h2>
-<h3 id="CatLibrary_Cat_2__ctor"> Cat()</h3>
+<h3 id="CatLibrary_Cat_2__ctor">Cat()</h3>
 <p>Default constructor.</p>
 <pre><code class="lang-csharp">public Cat()
 </code></pre>
-<h3 id="CatLibrary_Cat_2__ctor__0_"> Cat(T)</h3>
+<h3 id="CatLibrary_Cat_2__ctor__0_">Cat(T)</h3>
 <p>Constructor with one generic parameter.</p>
 <pre><code class="lang-csharp">public Cat(T ownType)
 </code></pre>
 <h4 id="parameters">Parameters</h4>
 <p><code>ownType</code> T</p>
 <p>This parameter type defined by class.</p>
-<h3 id="CatLibrary_Cat_2__ctor_System_String_System_Int32__System_String_System_Boolean_"> Cat(string, out int, string, bool)</h3>
+<h3 id="CatLibrary_Cat_2__ctor_System_String_System_Int32__System_String_System_Boolean_">Cat(string, out int, string, bool)</h3>
 <p>It's a complex constructor. The parameter will have some attributes.</p>
 <pre><code class="lang-csharp">public Cat(string nickName, out int age, string realName, bool isHealthy)
 </code></pre>
@@ -158,7 +158,7 @@ unsafe
 <p><code>isHealthy</code> <a href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
 <p>It's an in parameter.</p>
 <h2 id="fields">Fields</h2>
-<h3 id="CatLibrary_Cat_2_isHealthy"> isHealthy</h3>
+<h3 id="CatLibrary_Cat_2_isHealthy">isHealthy</h3>
 <p>Field with attribute.</p>
 <pre><code class="lang-csharp">[ContextStatic]
 [NonSerialized]
@@ -167,26 +167,26 @@ public bool isHealthy
 <h4 id="field-value">Field Value</h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
 <h2 id="properties">Properties</h2>
-<h3 id="CatLibrary_Cat_2_Age"> Age</h3>
+<h3 id="CatLibrary_Cat_2_Age">Age</h3>
 <p>Hint cat's age.</p>
 <pre><code class="lang-csharp">protected int Age { get; set; }
 </code></pre>
 <h4 id="property-value">Property Value</h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></p>
-<h3 id="CatLibrary_Cat_2_Name"> Name</h3>
+<h3 id="CatLibrary_Cat_2_Name">Name</h3>
 <p>EII property.</p>
 <pre><code class="lang-csharp">public string Name { get; }
 </code></pre>
 <h4 id="property-value-1">Property Value</h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
-<h3 id="CatLibrary_Cat_2_Item_System_String_"> this[string]</h3>
+<h3 id="CatLibrary_Cat_2_Item_System_String_">this[string]</h3>
 <p>This is index property of Cat. You can see that the visibility is different between <code>get</code> and <code>set</code> method.</p>
 <pre><code class="lang-csharp">public int this[string a] { protected get; set; }
 </code></pre>
 <h4 id="property-value-2">Property Value</h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></p>
 <h2 id="methods">Methods</h2>
-<h3 id="CatLibrary_Cat_2_CalculateFood_System_DateTime_"> CalculateFood(DateTime)</h3>
+<h3 id="CatLibrary_Cat_2_CalculateFood_System_DateTime_">CalculateFood(DateTime)</h3>
 <p>It's a method with complex return type.</p>
 <pre><code class="lang-csharp">public Dictionary&lt;string, List&lt;int&gt;&gt; CalculateFood(DateTime date)
 </code></pre>
@@ -196,7 +196,7 @@ public bool isHealthy
 <h4 id="returns">Returns</h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>&gt;&gt;</p>
 <p>It's a relationship map of different kind food.</p>
-<h3 id="CatLibrary_Cat_2_Equals_System_Object_"> Equals(object)</h3>
+<h3 id="CatLibrary_Cat_2_Equals_System_Object_">Equals(object)</h3>
 <p>Override the method of <code>Object.Equals(object obj).</code></p>
 <pre><code class="lang-csharp">public override bool Equals(object obj)
 </code></pre>
@@ -206,7 +206,7 @@ public bool isHealthy
 <h4 id="returns-1">Returns</h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
 <p>The return value tell you whehter the compare operation is successful.</p>
-<h3 id="CatLibrary_Cat_2_GetTailLength_System_Int32__System_Object___"> GetTailLength(int*, params object[])</h3>
+<h3 id="CatLibrary_Cat_2_GetTailLength_System_Int32__System_Object___">GetTailLength(int*, params object[])</h3>
 <p>It's an <code>unsafe</code> method.
 As you see, <code class="paramref">catName</code> is a <b>pointer</b>, so we need to add <code class="languageKeyword">unsafe</code> keyword.</p>
 <pre><code class="lang-csharp">public long GetTailLength(int* catName, params object[] parameters)
@@ -219,7 +219,7 @@ As you see, <code class="paramref">catName</code> is a <b>pointer</b>, so we nee
 <h4 id="returns-2">Returns</h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></p>
 <p>Return cat tail's length.</p>
-<h3 id="CatLibrary_Cat_2_Jump__0__1_System_Boolean__"> Jump(T, K, ref bool)</h3>
+<h3 id="CatLibrary_Cat_2_Jump__0__1_System_Boolean__">Jump(T, K, ref bool)</h3>
 <p>This method have attribute above it.</p>
 <pre><code class="lang-csharp">[Conditional(&quot;Debug&quot;)]
 public void Jump(T ownType, K anotherOwnType, ref bool cheat)
@@ -234,14 +234,14 @@ public void Jump(T ownType, K anotherOwnType, ref bool cheat)
 <h4 id="exceptions">Exceptions</h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.argumentexception">ArgumentException</a></p>
 <p>This is an argument exception</p>
-<h3 id="CatLibrary_Cat_2_ownEat"> ownEat</h3>
+<h3 id="CatLibrary_Cat_2_ownEat">ownEat</h3>
 <p>Eat event of this cat</p>
 <pre><code class="lang-csharp">public event EventHandler ownEat
 </code></pre>
 <h4 id="event-type">Event Type</h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.eventhandler">EventHandler</a></p>
 <h2 id="operators">Operators</h2>
-<h3 id="CatLibrary_Cat_2_op_Addition_CatLibrary_Cat__0__1__System_Int32_"> operator +(Cat&lt;T, K&gt;, int)</h3>
+<h3 id="CatLibrary_Cat_2_op_Addition_CatLibrary_Cat__0__1__System_Int32_">operator +(Cat&lt;T, K&gt;, int)</h3>
 <p>Addition operator of this class.</p>
 <pre><code class="lang-csharp">public static int operator +(Cat&lt;T, K&gt; lsr, int rsr)
 </code></pre>
@@ -253,7 +253,7 @@ public void Jump(T ownType, K anotherOwnType, ref bool cheat)
 <h4 id="returns-3">Returns</h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></p>
 <p>Result with <i>int</i> type.</p>
-<h3 id="CatLibrary_Cat_2_op_Explicit_CatLibrary_Cat__0__1___CatLibrary_Tom"> explicit operator Tom(Cat&lt;T, K&gt;)</h3>
+<h3 id="CatLibrary_Cat_2_op_Explicit_CatLibrary_Cat__0__1___CatLibrary_Tom">explicit operator Tom(Cat&lt;T, K&gt;)</h3>
 <p>Expilicit operator of this class.</p>
 <p>It means this cat can evolve to change to Tom. Tom and Jerry.</p>
 <pre><code class="lang-csharp">public static explicit operator Tom(Cat&lt;T, K&gt; src)
@@ -264,7 +264,7 @@ public void Jump(T ownType, K anotherOwnType, ref bool cheat)
 <h4 id="returns-4">Returns</h4>
 <p><a href="CatLibrary.Tom.html">Tom</a></p>
 <p>Advanced class type of cat.</p>
-<h3 id="CatLibrary_Cat_2_op_Subtraction_CatLibrary_Cat__0__1__System_Int32_"> operator -(Cat&lt;T, K&gt;, int)</h3>
+<h3 id="CatLibrary_Cat_2_op_Subtraction_CatLibrary_Cat__0__1__System_Int32_">operator -(Cat&lt;T, K&gt;, int)</h3>
 <p>Similar with operaotr +, refer to that topic.</p>
 <pre><code class="lang-csharp">public static int operator -(Cat&lt;T, K&gt; lsr, int rsr)
 </code></pre>

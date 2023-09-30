@@ -85,6 +85,86 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "md/BuildFromAssembly.Class1.md",
+      "output": {
+        ".html": {
+          "relative_path": "md/BuildFromAssembly.Class1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md/BuildFromAssembly.md",
+      "output": {
+        ".html": {
+          "relative_path": "md/BuildFromAssembly.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md/BuildFromCSharpSourceCode.CSharp.md",
+      "output": {
+        ".html": {
+          "relative_path": "md/BuildFromCSharpSourceCode.CSharp.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md/BuildFromCSharpSourceCode.md",
+      "output": {
+        ".html": {
+          "relative_path": "md/BuildFromCSharpSourceCode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md/BuildFromProject.Class1.IIssue8948.md",
+      "output": {
+        ".html": {
+          "relative_path": "md/BuildFromProject.Class1.IIssue8948.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md/BuildFromProject.Class1.Issue8665.md",
+      "output": {
+        ".html": {
+          "relative_path": "md/BuildFromProject.Class1.Issue8665.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md/BuildFromProject.Class1.Issue8696Attribute.md",
+      "output": {
+        ".html": {
+          "relative_path": "md/BuildFromProject.Class1.Issue8696Attribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md/BuildFromProject.Class1.Issue8948.md",
+      "output": {
+        ".html": {
+          "relative_path": "md/BuildFromProject.Class1.Issue8948.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "md/BuildFromProject.Class1.Test-1.md",
       "output": {
         ".html": {
@@ -532,6 +612,46 @@
         },
         ".json": {
           "relative_path": "md/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/BuildFromAssembly.Class1.-ctor.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/BuildFromAssembly.Class1.-ctor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/BuildFromAssembly.Class1.HelloWorld.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/BuildFromAssembly.Class1.HelloWorld.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/BuildFromAssembly.Class1.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/BuildFromAssembly.Class1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "md2/BuildFromAssembly.md",
+      "output": {
+        ".html": {
+          "relative_path": "md2/BuildFromAssembly.html"
         }
       },
       "version": ""
@@ -1691,6 +1811,26 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "obj/api/BuildFromAssembly.Class1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BuildFromAssembly.Class1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/BuildFromAssembly.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BuildFromAssembly.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "obj/api/BuildFromCSharpSourceCode.CSharp.yml",
       "output": {
         ".html": {
@@ -2178,66 +2318,6 @@
         },
         ".json": {
           "relative_path": "api/toc.json"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "obj/md/BuildFromCSharpSourceCode.CSharp.md",
-      "output": {
-        ".html": {
-          "relative_path": "md/BuildFromCSharpSourceCode.CSharp.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "obj/md/BuildFromCSharpSourceCode.md",
-      "output": {
-        ".html": {
-          "relative_path": "md/BuildFromCSharpSourceCode.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "obj/md/BuildFromProject.Class1.IIssue8948.md",
-      "output": {
-        ".html": {
-          "relative_path": "md/BuildFromProject.Class1.IIssue8948.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "obj/md/BuildFromProject.Class1.Issue8665.md",
-      "output": {
-        ".html": {
-          "relative_path": "md/BuildFromProject.Class1.Issue8665.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "obj/md/BuildFromProject.Class1.Issue8696Attribute.md",
-      "output": {
-        ".html": {
-          "relative_path": "md/BuildFromProject.Class1.Issue8696Attribute.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "obj/md/BuildFromProject.Class1.Issue8948.md",
-      "output": {
-        ".html": {
-          "relative_path": "md/BuildFromProject.Class1.Issue8948.html"
         }
       },
       "version": ""
