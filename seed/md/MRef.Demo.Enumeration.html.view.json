@@ -1,9 +1,9 @@
 {
-  "conceptual": "\n<h3 id=\"enums\" sourcefile=\"obj/md/MRef.Demo.Enumeration.md\" sourcestartlinenumber=\"3\">Enums</h3>\n<p sourcefile=\"obj/md/MRef.Demo.Enumeration.md\" sourcestartlinenumber=\"5\"><a href=\"~/obj/md/MRef.Demo.Enumeration.ColorType.md\" sourcefile=\"obj/md/MRef.Demo.Enumeration.md\" sourcestartlinenumber=\"5\">ColorType</a></p>\n<p sourcefile=\"obj/md/MRef.Demo.Enumeration.md\" sourcestartlinenumber=\"7\">Enumeration ColorType</p>\n",
+  "conceptual": "\n<h3 id=\"enums\" sourcefile=\"md/MRef.Demo.Enumeration.md\" sourcestartlinenumber=\"3\">Enums</h3>\n<p sourcefile=\"md/MRef.Demo.Enumeration.md\" sourcestartlinenumber=\"5\"><a href=\"~/md/MRef.Demo.Enumeration.ColorType.md\" sourcefile=\"md/MRef.Demo.Enumeration.md\" sourcestartlinenumber=\"5\">ColorType</a></p>\n<p sourcefile=\"md/MRef.Demo.Enumeration.md\" sourcestartlinenumber=\"7\">Enumeration ColorType</p>\n",
   "type": "Conceptual",
   "source": {
     "remote": {
-      "path": "samples/seed/obj/md/MRef.Demo.Enumeration.md",
+      "path": "samples/seed/md/MRef.Demo.Enumeration.md",
       "branch": "main",
       "repo": "https://github.com/dotnet/docfx"
     },
@@ -11,10 +11,10 @@
     "endLine": 0.0,
     "isExternal": false
   },
-  "path": "obj/md/MRef.Demo.Enumeration.md",
+  "path": "md/MRef.Demo.Enumeration.md",
   "documentation": {
     "remote": {
-      "path": "samples/seed/obj/md/MRef.Demo.Enumeration.md",
+      "path": "samples/seed/md/MRef.Demo.Enumeration.md",
       "branch": "main",
       "repo": "https://github.com/dotnet/docfx"
     },
@@ -35,16 +35,16 @@
     "rawTitle",
     "wordCount"
   ],
-  "rawTitle": "<h1 id=\"namespace-mrefdemoenumeration\" sourcefile=\"obj/md/MRef.Demo.Enumeration.md\" sourcestartlinenumber=\"1\">Namespace MRef.Demo.Enumeration</h1>",
+  "rawTitle": "<h1 id=\"namespace-mrefdemoenumeration\" sourcefile=\"md/MRef.Demo.Enumeration.md\" sourcestartlinenumber=\"1\">Namespace MRef.Demo.Enumeration</h1>",
   "title": "Namespace MRef.Demo.Enumeration",
   "wordCount": 4.0,
-  "_key": "obj/md/MRef.Demo.Enumeration.md",
+  "_key": "md/MRef.Demo.Enumeration.md",
   "_navKey": "~/toc.yml",
   "_navPath": "toc.html",
   "_navRel": "../toc.html",
   "_path": "md/MRef.Demo.Enumeration.html",
   "_rel": "../",
-  "_tocKey": "~/obj/md/toc.yml",
+  "_tocKey": "~/md/toc.yml",
   "_tocPath": "md/toc.html",
   "_tocRel": "toc.html",
   "__global": {
@@ -122,5 +122,5 @@
     "_shared": {}
   },
   "_disableToc": false,
-  "docurl": "https://github.com/dotnet/docfx/blob/main/samples/seed/obj/md/MRef.Demo.Enumeration.md/#L1"
+  "docurl": "https://github.com/dotnet/docfx/blob/main/samples/seed/md/MRef.Demo.Enumeration.md/#L1"
 }
