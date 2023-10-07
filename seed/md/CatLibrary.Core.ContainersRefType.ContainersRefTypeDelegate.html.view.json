@@ -1,9 +1,9 @@
 {
-  "conceptual": "\n<p sourcefile=\"md/CatLibrary.Core.ContainersRefType.ContainersRefTypeDelegate.md\" sourcestartlinenumber=\"3\">Namespace: <a href=\"~/md/CatLibrary.Core.md\" sourcefile=\"md/CatLibrary.Core.ContainersRefType.ContainersRefTypeDelegate.md\" sourcestartlinenumber=\"3\">CatLibrary.Core</a><br>\nAssembly: CatLibrary.Core.dll</p>\n<p sourcefile=\"md/CatLibrary.Core.ContainersRefType.ContainersRefTypeDelegate.md\" sourcestartlinenumber=\"6\">Delegate ContainersRefTypeDelegate</p>\n<pre><code class=\"lang-csharp\" sourcefile=\"md/CatLibrary.Core.ContainersRefType.ContainersRefTypeDelegate.md\" sourcestartlinenumber=\"8\">public delegate void ContainersRefType.ContainersRefTypeDelegate()\n</code></pre>\n",
+  "conceptual": "\n<p sourcefile=\"obj/md/CatLibrary.Core.ContainersRefType.ContainersRefTypeDelegate.md\" sourcestartlinenumber=\"3\">Namespace: <a href=\"~/obj/md/CatLibrary.Core.md\" sourcefile=\"obj/md/CatLibrary.Core.ContainersRefType.ContainersRefTypeDelegate.md\" sourcestartlinenumber=\"3\">CatLibrary.Core</a><br>\nAssembly: CatLibrary.Core.dll</p>\n<p sourcefile=\"obj/md/CatLibrary.Core.ContainersRefType.ContainersRefTypeDelegate.md\" sourcestartlinenumber=\"6\">Delegate ContainersRefTypeDelegate</p>\n<pre><code class=\"lang-csharp\" sourcefile=\"obj/md/CatLibrary.Core.ContainersRefType.ContainersRefTypeDelegate.md\" sourcestartlinenumber=\"8\">public delegate void ContainersRefType.ContainersRefTypeDelegate()\n</code></pre>\n",
   "type": "Conceptual",
   "source": {
     "remote": {
-      "path": "samples/seed/md/CatLibrary.Core.ContainersRefType.ContainersRefTypeDelegate.md",
+      "path": "samples/seed/obj/md/CatLibrary.Core.ContainersRefType.ContainersRefTypeDelegate.md",
       "branch": "main",
       "repo": "https://github.com/dotnet/docfx"
     },
@@ -11,10 +11,10 @@
     "endLine": 0.0,
     "isExternal": false
   },
-  "path": "md/CatLibrary.Core.ContainersRefType.ContainersRefTypeDelegate.md",
+  "path": "obj/md/CatLibrary.Core.ContainersRefType.ContainersRefTypeDelegate.md",
   "documentation": {
     "remote": {
-      "path": "samples/seed/md/CatLibrary.Core.ContainersRefType.ContainersRefTypeDelegate.md",
+      "path": "samples/seed/obj/md/CatLibrary.Core.ContainersRefType.ContainersRefTypeDelegate.md",
       "branch": "main",
       "repo": "https://github.com/dotnet/docfx"
     },
@@ -35,16 +35,16 @@
     "rawTitle",
     "wordCount"
   ],
-  "rawTitle": "<h1 id=\"delegate-containersreftypecontainersreftypedelegate\" sourcefile=\"md/CatLibrary.Core.ContainersRefType.ContainersRefTypeDelegate.md\" sourcestartlinenumber=\"1\">Delegate ContainersRefType.ContainersRefTypeDelegate</h1>",
+  "rawTitle": "<h1 id=\"delegate-containersreftypecontainersreftypedelegate\" sourcefile=\"obj/md/CatLibrary.Core.ContainersRefType.ContainersRefTypeDelegate.md\" sourcestartlinenumber=\"1\">Delegate ContainersRefType.ContainersRefTypeDelegate</h1>",
   "title": "Delegate ContainersRefType.ContainersRefTypeDelegate",
   "wordCount": 10.0,
-  "_key": "md/CatLibrary.Core.ContainersRefType.ContainersRefTypeDelegate.md",
+  "_key": "obj/md/CatLibrary.Core.ContainersRefType.ContainersRefTypeDelegate.md",
   "_navKey": "~/toc.yml",
   "_navPath": "toc.html",
   "_navRel": "../toc.html",
   "_path": "md/CatLibrary.Core.ContainersRefType.ContainersRefTypeDelegate.html",
   "_rel": "../",
-  "_tocKey": "~/md/toc.yml",
+  "_tocKey": "~/obj/md/toc.yml",
   "_tocPath": "md/toc.html",
   "_tocRel": "toc.html",
   "__global": {
@@ -122,5 +122,5 @@
     "_shared": {}
   },
   "_disableToc": false,
-  "docurl": "https://github.com/dotnet/docfx/blob/main/samples/seed/md/CatLibrary.Core.ContainersRefType.ContainersRefTypeDelegate.md/#L1"
+  "docurl": "https://github.com/dotnet/docfx/blob/main/samples/seed/obj/md/CatLibrary.Core.ContainersRefType.ContainersRefTypeDelegate.md/#L1"
 }
