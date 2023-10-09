@@ -1,9 +1,9 @@
 {
-  "conceptual": "\n<h3 id=\"classes\" sourcefile=\"obj/md/BuildFromAssembly.md\" sourcestartlinenumber=\"3\">Classes</h3>\n<p sourcefile=\"obj/md/BuildFromAssembly.md\" sourcestartlinenumber=\"5\"><a href=\"~/obj/md/BuildFromAssembly.Class1.md\" sourcefile=\"obj/md/BuildFromAssembly.md\" sourcestartlinenumber=\"5\">Class1</a></p>\n<p sourcefile=\"obj/md/BuildFromAssembly.md\" sourcestartlinenumber=\"7\">This is a test class.</p>\n",
+  "conceptual": "\n<h3 id=\"classes\" sourcefile=\"md/BuildFromAssembly.md\" sourcestartlinenumber=\"3\">Classes</h3>\n<p sourcefile=\"md/BuildFromAssembly.md\" sourcestartlinenumber=\"5\"><a href=\"~/md/BuildFromAssembly.Class1.md\" sourcefile=\"md/BuildFromAssembly.md\" sourcestartlinenumber=\"5\">Class1</a></p>\n<p sourcefile=\"md/BuildFromAssembly.md\" sourcestartlinenumber=\"7\">This is a test class.</p>\n",
   "type": "Conceptual",
   "source": {
     "remote": {
-      "path": "samples/seed/obj/md/BuildFromAssembly.md",
+      "path": "samples/seed/md/BuildFromAssembly.md",
       "branch": "main",
       "repo": "https://github.com/dotnet/docfx"
     },
@@ -11,10 +11,10 @@
     "endLine": 0.0,
     "isExternal": false
   },
-  "path": "obj/md/BuildFromAssembly.md",
+  "path": "md/BuildFromAssembly.md",
   "documentation": {
     "remote": {
-      "path": "samples/seed/obj/md/BuildFromAssembly.md",
+      "path": "samples/seed/md/BuildFromAssembly.md",
       "branch": "main",
       "repo": "https://github.com/dotnet/docfx"
     },
@@ -35,16 +35,16 @@
     "rawTitle",
     "wordCount"
   ],
-  "rawTitle": "<h1 id=\"namespace-buildfromassembly\" sourcefile=\"obj/md/BuildFromAssembly.md\" sourcestartlinenumber=\"1\">Namespace BuildFromAssembly</h1>",
+  "rawTitle": "<h1 id=\"namespace-buildfromassembly\" sourcefile=\"md/BuildFromAssembly.md\" sourcestartlinenumber=\"1\">Namespace BuildFromAssembly</h1>",
   "title": "Namespace BuildFromAssembly",
   "wordCount": 7.0,
-  "_key": "obj/md/BuildFromAssembly.md",
+  "_key": "md/BuildFromAssembly.md",
   "_navKey": "~/toc.yml",
   "_navPath": "toc.html",
   "_navRel": "../toc.html",
   "_path": "md/BuildFromAssembly.html",
   "_rel": "../",
-  "_tocKey": "~/obj/md/toc.yml",
+  "_tocKey": "~/md/toc.yml",
   "_tocPath": "md/toc.html",
   "_tocRel": "toc.html",
   "__global": {
@@ -122,5 +122,5 @@
     "_shared": {}
   },
   "_disableToc": false,
-  "docurl": "https://github.com/dotnet/docfx/blob/main/samples/seed/obj/md/BuildFromAssembly.md/#L1"
+  "docurl": "https://github.com/dotnet/docfx/blob/main/samples/seed/md/BuildFromAssembly.md/#L1"
 }
