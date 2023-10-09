@@ -115,7 +115,7 @@
             ]
           },
           "source": {
-            "href": "https://github.com/dotnet/docfx/blob/fdfb5dcce831d62159aaec45ad4ead79135e0cde/samples/seed/dotnet/assembly/Class1.cs",
+            "href": "https://github.com/dotnet/docfx/blob/0445d81b8ae2341a69e317bb6ddd3d2196921e3f/samples/seed/dotnet/assembly/Class1.cs",
             "startLine": 0.0,
             "endLine": 0.0,
             "isExternal": false
@@ -173,7 +173,7 @@
           "summary": "",
           "platform": null,
           "docurl": "",
-          "sourceurl": "https://github.com/dotnet/docfx/blob/fdfb5dcce831d62159aaec45ad4ead79135e0cde/samples/seed/dotnet/assembly/Class1.cs",
+          "sourceurl": "https://github.com/dotnet/docfx/blob/0445d81b8ae2341a69e317bb6ddd3d2196921e3f/samples/seed/dotnet/assembly/Class1.cs",
           "remarks": "",
           "conceptual": "",
           "implements": "",
@@ -249,7 +249,7 @@
             ]
           },
           "source": {
-            "href": "https://github.com/dotnet/docfx/blob/fdfb5dcce831d62159aaec45ad4ead79135e0cde/samples/seed/dotnet/assembly/Class1.cs",
+            "href": "https://github.com/dotnet/docfx/blob/0445d81b8ae2341a69e317bb6ddd3d2196921e3f/samples/seed/dotnet/assembly/Class1.cs",
             "startLine": 0.0,
             "endLine": 0.0,
             "isExternal": false
@@ -308,7 +308,7 @@
           "summary": "<p sourcefile=\"obj/api/BuildFromAssembly.Class1.yml\" sourcestartlinenumber=\"1\">Hello World.</p>\n",
           "platform": null,
           "docurl": "",
-          "sourceurl": "https://github.com/dotnet/docfx/blob/fdfb5dcce831d62159aaec45ad4ead79135e0cde/samples/seed/dotnet/assembly/Class1.cs",
+          "sourceurl": "https://github.com/dotnet/docfx/blob/0445d81b8ae2341a69e317bb6ddd3d2196921e3f/samples/seed/dotnet/assembly/Class1.cs",
           "remarks": "",
           "conceptual": "",
           "implements": "",
@@ -356,7 +356,7 @@
   ],
   "type": "class",
   "source": {
-    "href": "https://github.com/dotnet/docfx/blob/fdfb5dcce831d62159aaec45ad4ead79135e0cde/samples/seed/dotnet/assembly/Class1.cs",
+    "href": "https://github.com/dotnet/docfx/blob/0445d81b8ae2341a69e317bb6ddd3d2196921e3f/samples/seed/dotnet/assembly/Class1.cs",
     "startLine": 0.0,
     "endLine": 0.0,
     "isExternal": false
@@ -948,7 +948,7 @@
   },
   "yamlmime": "ManagedReference",
   "docurl": "",
-  "sourceurl": "https://github.com/dotnet/docfx/blob/fdfb5dcce831d62159aaec45ad4ead79135e0cde/samples/seed/dotnet/assembly/Class1.cs",
+  "sourceurl": "https://github.com/dotnet/docfx/blob/0445d81b8ae2341a69e317bb6ddd3d2196921e3f/samples/seed/dotnet/assembly/Class1.cs",
   "remarks": "",
   "conceptual": "",
   "implements": "",
