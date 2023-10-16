@@ -85,76 +85,6 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "md/CatLibrary.Cat-2.md",
-      "output": {
-        ".html": {
-          "relative_path": "md/CatLibrary.Cat-2.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "md/CatLibrary.CatException-1.md",
-      "output": {
-        ".html": {
-          "relative_path": "md/CatLibrary.CatException-1.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "md/CatLibrary.Complex-2.md",
-      "output": {
-        ".html": {
-          "relative_path": "md/CatLibrary.Complex-2.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "md/CatLibrary.Core.ContainersRefType.ColorType.md",
-      "output": {
-        ".html": {
-          "relative_path": "md/CatLibrary.Core.ContainersRefType.ColorType.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "md/CatLibrary.Core.ContainersRefType.ContainersRefTypeChild.md",
-      "output": {
-        ".html": {
-          "relative_path": "md/CatLibrary.Core.ContainersRefType.ContainersRefTypeChild.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "md/CatLibrary.Core.ContainersRefType.ContainersRefTypeChildInterface.md",
-      "output": {
-        ".html": {
-          "relative_path": "md/CatLibrary.Core.ContainersRefType.ContainersRefTypeChildInterface.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "md/CatLibrary.Core.ContainersRefType.ContainersRefTypeDelegate.md",
-      "output": {
-        ".html": {
-          "relative_path": "md/CatLibrary.Core.ContainersRefType.ContainersRefTypeDelegate.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
       "source_relative_path": "md/CatLibrary.Core.ContainersRefType.md",
       "output": {
         ".html": {
@@ -2318,6 +2248,76 @@
       "output": {
         ".html": {
           "relative_path": "md/BuildFromVBSourceCode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "obj/md/CatLibrary.Cat-2.md",
+      "output": {
+        ".html": {
+          "relative_path": "md/CatLibrary.Cat-2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "obj/md/CatLibrary.CatException-1.md",
+      "output": {
+        ".html": {
+          "relative_path": "md/CatLibrary.CatException-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "obj/md/CatLibrary.Complex-2.md",
+      "output": {
+        ".html": {
+          "relative_path": "md/CatLibrary.Complex-2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "obj/md/CatLibrary.Core.ContainersRefType.ColorType.md",
+      "output": {
+        ".html": {
+          "relative_path": "md/CatLibrary.Core.ContainersRefType.ColorType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "obj/md/CatLibrary.Core.ContainersRefType.ContainersRefTypeChild.md",
+      "output": {
+        ".html": {
+          "relative_path": "md/CatLibrary.Core.ContainersRefType.ContainersRefTypeChild.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "obj/md/CatLibrary.Core.ContainersRefType.ContainersRefTypeChildInterface.md",
+      "output": {
+        ".html": {
+          "relative_path": "md/CatLibrary.Core.ContainersRefType.ContainersRefTypeChildInterface.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "obj/md/CatLibrary.Core.ContainersRefType.ContainersRefTypeDelegate.md",
+      "output": {
+        ".html": {
+          "relative_path": "md/CatLibrary.Core.ContainersRefType.ContainersRefTypeDelegate.html"
         }
       },
       "version": ""
