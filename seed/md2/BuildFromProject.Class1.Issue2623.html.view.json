@@ -1,5 +1,5 @@
 {
-  "conceptual": "\n<p sourcefile=\"md2/BuildFromProject.Class1.Issue2623.md\" sourcestartlinenumber=\"3\">Namespace: <a href=\"~/md2/BuildFromProject.md\" sourcefile=\"md2/BuildFromProject.Class1.Issue2623.md\" sourcestartlinenumber=\"3\">BuildFromProject</a><br>\nAssembly: BuildFromProject.dll</p>\n<h2 id=\"BuildFromProject_Class1_Issue2623\" sourcefile=\"md2/BuildFromProject.Class1.Issue2623.md\" sourcestartlinenumber=\"6\">Issue2623()</h2>\n<pre><code class=\"lang-csharp\" sourcefile=\"md2/BuildFromProject.Class1.Issue2623.md\" sourcestartlinenumber=\"8\">public void Issue2623()\n</code></pre>\n<h3 id=\"examples\" sourcefile=\"md2/BuildFromProject.Class1.Issue2623.md\" sourcestartlinenumber=\"12\">Examples</h3>\n<pre><code class=\"lang-csharp\" sourcefile=\"md2/BuildFromProject.Class1.Issue2623.md\" sourcestartlinenumber=\"14\">MyClass myClass = new MyClass();\n\nvoid Update()\n{\n    myClass.Execute();\n}\n</code></pre>\n<h3 id=\"remarks\" sourcefile=\"md2/BuildFromProject.Class1.Issue2623.md\" sourcestartlinenumber=\"23\">Remarks</h3>\n<p sourcefile=\"md2/BuildFromProject.Class1.Issue2623.md\" sourcestartlinenumber=\"25\">For example:</p>\n<pre><code sourcefile=\"md2/BuildFromProject.Class1.Issue2623.md\" sourcestartlinenumber=\"27\">MyClass myClass = new MyClass();\n\nvoid Update()\n{\n    myClass.Execute();\n}\n</code></pre>\n",
+  "conceptual": "\n<p sourcefile=\"md2/BuildFromProject.Class1.Issue2623.md\" sourcestartlinenumber=\"3\">Namespace: <a href=\"~/md2/BuildFromProject.md\" sourcefile=\"md2/BuildFromProject.Class1.Issue2623.md\" sourcestartlinenumber=\"3\">BuildFromProject</a><br>\nAssembly: BuildFromProject.dll</p>\n<h2 id=\"BuildFromProject_Class1_Issue2623\" sourcefile=\"md2/BuildFromProject.Class1.Issue2623.md\" sourcestartlinenumber=\"6\"> Issue2623()</h2>\n<pre><code class=\"lang-csharp\" sourcefile=\"md2/BuildFromProject.Class1.Issue2623.md\" sourcestartlinenumber=\"8\">public void Issue2623()\n</code></pre>\n<h3 id=\"examples\" sourcefile=\"md2/BuildFromProject.Class1.Issue2623.md\" sourcestartlinenumber=\"12\">Examples</h3>\n<pre><code class=\"lang-csharp\" sourcefile=\"md2/BuildFromProject.Class1.Issue2623.md\" sourcestartlinenumber=\"14\">MyClass myClass = new MyClass();\n\nvoid Update()\n{\n    myClass.Execute();\n}\n</code></pre>\n<h3 id=\"remarks\" sourcefile=\"md2/BuildFromProject.Class1.Issue2623.md\" sourcestartlinenumber=\"23\">Remarks</h3>\n<p sourcefile=\"md2/BuildFromProject.Class1.Issue2623.md\" sourcestartlinenumber=\"25\">For example:</p>\n<pre><code sourcefile=\"md2/BuildFromProject.Class1.Issue2623.md\" sourcestartlinenumber=\"27\">MyClass myClass = new MyClass();\n\nvoid Update()\n{\n    myClass.Execute();\n}\n</code></pre>\n",
   "type": "Conceptual",
   "source": {
     "remote": {
@@ -35,8 +35,8 @@
     "rawTitle",
     "wordCount"
   ],
-  "rawTitle": "<h1 id=\"method-issue2623\" sourcefile=\"md2/BuildFromProject.Class1.Issue2623.md\" sourcestartlinenumber=\"1\">Method Issue2623</h1>",
-  "title": "Method Issue2623",
+  "rawTitle": "<h1 id=\"BuildFromProject_Class1_Issue2623\" sourcefile=\"md2/BuildFromProject.Class1.Issue2623.md\" sourcestartlinenumber=\"1\"> Method Issue2623</h1>",
+  "title": " Method Issue2623",
   "wordCount": 32.0,
   "_key": "md2/BuildFromProject.Class1.Issue2623.md",
   "_navKey": "~/toc.yml",

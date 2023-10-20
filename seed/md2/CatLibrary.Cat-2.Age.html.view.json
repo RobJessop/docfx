@@ -1,5 +1,5 @@
 {
-  "conceptual": "\n<p sourcefile=\"md2/CatLibrary.Cat-2.Age.md\" sourcestartlinenumber=\"3\">Namespace: <a href=\"~/md2/CatLibrary.md\" sourcefile=\"md2/CatLibrary.Cat-2.Age.md\" sourcestartlinenumber=\"3\">CatLibrary</a><br>\nAssembly: CatLibrary.dll</p>\n<h2 id=\"CatLibrary_Cat_2_Age\" sourcefile=\"md2/CatLibrary.Cat-2.Age.md\" sourcestartlinenumber=\"6\">Age</h2>\n<p sourcefile=\"md2/CatLibrary.Cat-2.Age.md\" sourcestartlinenumber=\"8\">Hint cat's age.</p>\n<pre><code class=\"lang-csharp\" sourcefile=\"md2/CatLibrary.Cat-2.Age.md\" sourcestartlinenumber=\"10\">protected int Age { get; set; }\n</code></pre>\n<h3 id=\"property-value\" sourcefile=\"md2/CatLibrary.Cat-2.Age.md\" sourcestartlinenumber=\"14\">Property Value</h3>\n<p sourcefile=\"md2/CatLibrary.Cat-2.Age.md\" sourcestartlinenumber=\"16\"><a href=\"https://learn.microsoft.com/dotnet/api/system.int32\" sourcefile=\"md2/CatLibrary.Cat-2.Age.md\" sourcestartlinenumber=\"16\">int</a></p>\n",
+  "conceptual": "\n<p sourcefile=\"md2/CatLibrary.Cat-2.Age.md\" sourcestartlinenumber=\"3\">Namespace: <a href=\"~/md2/CatLibrary.md\" sourcefile=\"md2/CatLibrary.Cat-2.Age.md\" sourcestartlinenumber=\"3\">CatLibrary</a><br>\nAssembly: CatLibrary.dll</p>\n<h2 id=\"CatLibrary_Cat_2_Age\" sourcefile=\"md2/CatLibrary.Cat-2.Age.md\" sourcestartlinenumber=\"6\"> Age</h2>\n<p sourcefile=\"md2/CatLibrary.Cat-2.Age.md\" sourcestartlinenumber=\"8\">Hint cat's age.</p>\n<pre><code class=\"lang-csharp\" sourcefile=\"md2/CatLibrary.Cat-2.Age.md\" sourcestartlinenumber=\"10\">protected int Age { get; set; }\n</code></pre>\n<h3 id=\"property-value\" sourcefile=\"md2/CatLibrary.Cat-2.Age.md\" sourcestartlinenumber=\"14\">Property Value</h3>\n<p sourcefile=\"md2/CatLibrary.Cat-2.Age.md\" sourcestartlinenumber=\"16\"><a href=\"https://learn.microsoft.com/dotnet/api/system.int32\" sourcefile=\"md2/CatLibrary.Cat-2.Age.md\" sourcestartlinenumber=\"16\">int</a></p>\n",
   "type": "Conceptual",
   "source": {
     "remote": {
@@ -35,8 +35,8 @@
     "rawTitle",
     "wordCount"
   ],
-  "rawTitle": "<h1 id=\"property-age\" sourcefile=\"md2/CatLibrary.Cat-2.Age.md\" sourcestartlinenumber=\"1\">Property Age</h1>",
-  "title": "Property Age",
+  "rawTitle": "<h1 id=\"CatLibrary_Cat_2_Age\" sourcefile=\"md2/CatLibrary.Cat-2.Age.md\" sourcestartlinenumber=\"1\"> Property Age</h1>",
+  "title": " Property Age",
   "wordCount": 18.0,
   "_key": "md2/CatLibrary.Cat-2.Age.md",
   "_navKey": "~/toc.yml",

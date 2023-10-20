@@ -35,8 +35,8 @@
     "rawTitle",
     "wordCount"
   ],
-  "rawTitle": "<h1 id=\"namespace-catlibrary\" sourcefile=\"md/CatLibrary.md\" sourcestartlinenumber=\"1\">Namespace CatLibrary</h1>",
-  "title": "Namespace CatLibrary",
+  "rawTitle": "<h1 id=\"CatLibrary\" sourcefile=\"md/CatLibrary.md\" sourcestartlinenumber=\"1\"> Namespace CatLibrary</h1>",
+  "title": " Namespace CatLibrary",
   "wordCount": 130.0,
   "_key": "md/CatLibrary.md",
   "_navKey": "~/toc.yml",

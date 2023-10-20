@@ -35,8 +35,8 @@
     "rawTitle",
     "wordCount"
   ],
-  "rawTitle": "<h1 id=\"delegate-fakedelegatet\" sourcefile=\"md/CatLibrary.FakeDelegate-1.md\" sourcestartlinenumber=\"1\">Delegate FakeDelegate&lt;T&gt;</h1>",
-  "title": "Delegate FakeDelegate<T>",
+  "rawTitle": "<h1 id=\"CatLibrary_FakeDelegate_1\" sourcefile=\"md/CatLibrary.FakeDelegate-1.md\" sourcestartlinenumber=\"1\"> Delegate FakeDelegate&lt;T&gt;</h1>",
+  "title": " Delegate FakeDelegate<T>",
   "wordCount": 43.0,
   "_key": "md/CatLibrary.FakeDelegate-1.md",
   "_navKey": "~/toc.yml",

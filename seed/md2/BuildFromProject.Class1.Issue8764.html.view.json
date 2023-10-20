@@ -1,5 +1,5 @@
 {
-  "conceptual": "\n<p sourcefile=\"md2/BuildFromProject.Class1.Issue8764.md\" sourcestartlinenumber=\"3\">Namespace: <a href=\"~/md2/BuildFromProject.md\" sourcefile=\"md2/BuildFromProject.Class1.Issue8764.md\" sourcestartlinenumber=\"3\">BuildFromProject</a><br>\nAssembly: BuildFromProject.dll</p>\n<h2 id=\"BuildFromProject_Class1_Issue8764__1\" sourcefile=\"md2/BuildFromProject.Class1.Issue8764.md\" sourcestartlinenumber=\"6\">Issue8764&lt;T&gt;()</h2>\n<pre><code class=\"lang-csharp\" sourcefile=\"md2/BuildFromProject.Class1.Issue8764.md\" sourcestartlinenumber=\"8\">public void Issue8764&lt;T&gt;() where T : unmanaged\n</code></pre>\n<h3 id=\"type-parameters\" sourcefile=\"md2/BuildFromProject.Class1.Issue8764.md\" sourcestartlinenumber=\"12\">Type Parameters</h3>\n<p sourcefile=\"md2/BuildFromProject.Class1.Issue8764.md\" sourcestartlinenumber=\"14\"><code sourcefile=\"md2/BuildFromProject.Class1.Issue8764.md\" sourcestartlinenumber=\"14\">T</code></p>\n",
+  "conceptual": "\n<p sourcefile=\"md2/BuildFromProject.Class1.Issue8764.md\" sourcestartlinenumber=\"3\">Namespace: <a href=\"~/md2/BuildFromProject.md\" sourcefile=\"md2/BuildFromProject.Class1.Issue8764.md\" sourcestartlinenumber=\"3\">BuildFromProject</a><br>\nAssembly: BuildFromProject.dll</p>\n<h2 id=\"BuildFromProject_Class1_Issue8764__1\" sourcefile=\"md2/BuildFromProject.Class1.Issue8764.md\" sourcestartlinenumber=\"6\"> Issue8764&lt;T&gt;()</h2>\n<pre><code class=\"lang-csharp\" sourcefile=\"md2/BuildFromProject.Class1.Issue8764.md\" sourcestartlinenumber=\"8\">public void Issue8764&lt;T&gt;() where T : unmanaged\n</code></pre>\n<h3 id=\"type-parameters\" sourcefile=\"md2/BuildFromProject.Class1.Issue8764.md\" sourcestartlinenumber=\"12\">Type Parameters</h3>\n<p sourcefile=\"md2/BuildFromProject.Class1.Issue8764.md\" sourcestartlinenumber=\"14\"><code sourcefile=\"md2/BuildFromProject.Class1.Issue8764.md\" sourcestartlinenumber=\"14\">T</code></p>\n",
   "type": "Conceptual",
   "source": {
     "remote": {
@@ -35,8 +35,8 @@
     "rawTitle",
     "wordCount"
   ],
-  "rawTitle": "<h1 id=\"method-issue8764t\" sourcefile=\"md2/BuildFromProject.Class1.Issue8764.md\" sourcestartlinenumber=\"1\">Method Issue8764&lt;T&gt;</h1>",
-  "title": "Method Issue8764<T>",
+  "rawTitle": "<h1 id=\"BuildFromProject_Class1_Issue8764__1\" sourcefile=\"md2/BuildFromProject.Class1.Issue8764.md\" sourcestartlinenumber=\"1\"> Method Issue8764&lt;T&gt;</h1>",
+  "title": " Method Issue8764<T>",
   "wordCount": 14.0,
   "_key": "md2/BuildFromProject.Class1.Issue8764.md",
   "_navKey": "~/toc.yml",

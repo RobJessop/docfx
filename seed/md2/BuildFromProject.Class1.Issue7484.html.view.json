@@ -1,5 +1,5 @@
 {
-  "conceptual": "\n<p sourcefile=\"md2/BuildFromProject.Class1.Issue7484.md\" sourcestartlinenumber=\"3\">Namespace: <a href=\"~/md2/BuildFromProject.md\" sourcefile=\"md2/BuildFromProject.Class1.Issue7484.md\" sourcestartlinenumber=\"3\">BuildFromProject</a><br>\nAssembly: BuildFromProject.dll</p>\n<h2 id=\"BuildFromProject_Class1_Issue7484\" sourcefile=\"md2/BuildFromProject.Class1.Issue7484.md\" sourcestartlinenumber=\"6\">Issue7484()</h2>\n<pre><code class=\"lang-csharp\" sourcefile=\"md2/BuildFromProject.Class1.Issue7484.md\" sourcestartlinenumber=\"8\">public void Issue7484()\n</code></pre>\n<h3 id=\"remarks\" sourcefile=\"md2/BuildFromProject.Class1.Issue7484.md\" sourcestartlinenumber=\"12\">Remarks</h3>\n<p sourcefile=\"md2/BuildFromProject.Class1.Issue7484.md\" sourcestartlinenumber=\"14\">There's really no reason to not believe that this class can test things.</p>\n<table><thead><tr><th class=\"term\">Term</th><th class=\"description\">Description</th></tr></thead><tbody><tr><td class=\"term\">A Term</td><td class=\"description\">A Description</td></tr><tr><td class=\"term\">Bee Term</td><td class=\"description\">Bee Description</td></tr></tbody></table>\n",
+  "conceptual": "\n<p sourcefile=\"md2/BuildFromProject.Class1.Issue7484.md\" sourcestartlinenumber=\"3\">Namespace: <a href=\"~/md2/BuildFromProject.md\" sourcefile=\"md2/BuildFromProject.Class1.Issue7484.md\" sourcestartlinenumber=\"3\">BuildFromProject</a><br>\nAssembly: BuildFromProject.dll</p>\n<h2 id=\"BuildFromProject_Class1_Issue7484\" sourcefile=\"md2/BuildFromProject.Class1.Issue7484.md\" sourcestartlinenumber=\"6\"> Issue7484()</h2>\n<pre><code class=\"lang-csharp\" sourcefile=\"md2/BuildFromProject.Class1.Issue7484.md\" sourcestartlinenumber=\"8\">public void Issue7484()\n</code></pre>\n<h3 id=\"remarks\" sourcefile=\"md2/BuildFromProject.Class1.Issue7484.md\" sourcestartlinenumber=\"12\">Remarks</h3>\n<p sourcefile=\"md2/BuildFromProject.Class1.Issue7484.md\" sourcestartlinenumber=\"14\">There's really no reason to not believe that this class can test things.</p>\n<table><thead><tr><th class=\"term\">Term</th><th class=\"description\">Description</th></tr></thead><tbody><tr><td class=\"term\">A Term</td><td class=\"description\">A Description</td></tr><tr><td class=\"term\">Bee Term</td><td class=\"description\">Bee Description</td></tr></tbody></table>\n",
   "type": "Conceptual",
   "source": {
     "remote": {
@@ -35,8 +35,8 @@
     "rawTitle",
     "wordCount"
   ],
-  "rawTitle": "<h1 id=\"method-issue7484\" sourcefile=\"md2/BuildFromProject.Class1.Issue7484.md\" sourcestartlinenumber=\"1\">Method Issue7484</h1>",
-  "title": "Method Issue7484",
+  "rawTitle": "<h1 id=\"BuildFromProject_Class1_Issue7484\" sourcefile=\"md2/BuildFromProject.Class1.Issue7484.md\" sourcestartlinenumber=\"1\"> Method Issue7484</h1>",
+  "title": " Method Issue7484",
   "wordCount": 32.0,
   "_key": "md2/BuildFromProject.Class1.Issue7484.md",
   "_navKey": "~/toc.yml",

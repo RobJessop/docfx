@@ -35,8 +35,8 @@
     "rawTitle",
     "wordCount"
   ],
-  "rawTitle": "<h1 id=\"namespace-buildfromcsharpsourcecode\" sourcefile=\"md2/BuildFromCSharpSourceCode.md\" sourcestartlinenumber=\"1\">Namespace BuildFromCSharpSourceCode</h1>",
-  "title": "Namespace BuildFromCSharpSourceCode",
+  "rawTitle": "<h1 id=\"BuildFromCSharpSourceCode\" sourcefile=\"md2/BuildFromCSharpSourceCode.md\" sourcestartlinenumber=\"1\"> Namespace BuildFromCSharpSourceCode</h1>",
+  "title": " Namespace BuildFromCSharpSourceCode",
   "wordCount": 2.0,
   "_key": "md2/BuildFromCSharpSourceCode.md",
   "_navKey": "~/toc.yml",

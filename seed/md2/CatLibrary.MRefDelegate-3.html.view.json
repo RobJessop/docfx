@@ -35,8 +35,8 @@
     "rawTitle",
     "wordCount"
   ],
-  "rawTitle": "<h1 id=\"delegate-mrefdelegatek-t-l\" sourcefile=\"md2/CatLibrary.MRefDelegate-3.md\" sourcestartlinenumber=\"1\">Delegate MRefDelegate&lt;K, T, L&gt;</h1>",
-  "title": "Delegate MRefDelegate<K, T, L>",
+  "rawTitle": "<h1 id=\"CatLibrary_MRefDelegate_3\" sourcefile=\"md2/CatLibrary.MRefDelegate-3.md\" sourcestartlinenumber=\"1\"> Delegate MRefDelegate&lt;K, T, L&gt;</h1>",
+  "title": " Delegate MRefDelegate<K, T, L>",
   "wordCount": 55.0,
   "_key": "md2/CatLibrary.MRefDelegate-3.md",
   "_navKey": "~/toc.yml",

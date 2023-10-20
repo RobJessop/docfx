@@ -1,5 +1,5 @@
 {
-  "conceptual": "\n<p sourcefile=\"md2/CatLibrary.Core.ContainersRefType.ContainersRefTypeEventHandler.md\" sourcestartlinenumber=\"3\">Namespace: <a href=\"~/md2/CatLibrary.Core.md\" sourcefile=\"md2/CatLibrary.Core.ContainersRefType.ContainersRefTypeEventHandler.md\" sourcestartlinenumber=\"3\">CatLibrary.Core</a><br>\nAssembly: CatLibrary.Core.dll</p>\n<h2 id=\"CatLibrary_Core_ContainersRefType_ContainersRefTypeEventHandler\" sourcefile=\"md2/CatLibrary.Core.ContainersRefType.ContainersRefTypeEventHandler.md\" sourcestartlinenumber=\"6\">ContainersRefTypeEventHandler</h2>\n<pre><code class=\"lang-csharp\" sourcefile=\"md2/CatLibrary.Core.ContainersRefType.ContainersRefTypeEventHandler.md\" sourcestartlinenumber=\"8\">public event EventHandler ContainersRefTypeEventHandler\n</code></pre>\n<h3 id=\"event-type\" sourcefile=\"md2/CatLibrary.Core.ContainersRefType.ContainersRefTypeEventHandler.md\" sourcestartlinenumber=\"12\">Event Type</h3>\n<p sourcefile=\"md2/CatLibrary.Core.ContainersRefType.ContainersRefTypeEventHandler.md\" sourcestartlinenumber=\"14\"><a href=\"https://learn.microsoft.com/dotnet/api/system.eventhandler\" sourcefile=\"md2/CatLibrary.Core.ContainersRefType.ContainersRefTypeEventHandler.md\" sourcestartlinenumber=\"14\">EventHandler</a></p>\n",
+  "conceptual": "\n<p sourcefile=\"md2/CatLibrary.Core.ContainersRefType.ContainersRefTypeEventHandler.md\" sourcestartlinenumber=\"3\">Namespace: <a href=\"~/md2/CatLibrary.Core.md\" sourcefile=\"md2/CatLibrary.Core.ContainersRefType.ContainersRefTypeEventHandler.md\" sourcestartlinenumber=\"3\">CatLibrary.Core</a><br>\nAssembly: CatLibrary.Core.dll</p>\n<h2 id=\"CatLibrary_Core_ContainersRefType_ContainersRefTypeEventHandler\" sourcefile=\"md2/CatLibrary.Core.ContainersRefType.ContainersRefTypeEventHandler.md\" sourcestartlinenumber=\"6\"> ContainersRefTypeEventHandler</h2>\n<pre><code class=\"lang-csharp\" sourcefile=\"md2/CatLibrary.Core.ContainersRefType.ContainersRefTypeEventHandler.md\" sourcestartlinenumber=\"8\">public event EventHandler ContainersRefTypeEventHandler\n</code></pre>\n<h3 id=\"event-type\" sourcefile=\"md2/CatLibrary.Core.ContainersRefType.ContainersRefTypeEventHandler.md\" sourcestartlinenumber=\"12\">Event Type</h3>\n<p sourcefile=\"md2/CatLibrary.Core.ContainersRefType.ContainersRefTypeEventHandler.md\" sourcestartlinenumber=\"14\"><a href=\"https://learn.microsoft.com/dotnet/api/system.eventhandler\" sourcefile=\"md2/CatLibrary.Core.ContainersRefType.ContainersRefTypeEventHandler.md\" sourcestartlinenumber=\"14\">EventHandler</a></p>\n",
   "type": "Conceptual",
   "source": {
     "remote": {
@@ -35,8 +35,8 @@
     "rawTitle",
     "wordCount"
   ],
-  "rawTitle": "<h1 id=\"event-containersreftypeeventhandler\" sourcefile=\"md2/CatLibrary.Core.ContainersRefType.ContainersRefTypeEventHandler.md\" sourcestartlinenumber=\"1\">Event ContainersRefTypeEventHandler</h1>",
-  "title": "Event ContainersRefTypeEventHandler",
+  "rawTitle": "<h1 id=\"CatLibrary_Core_ContainersRefType_ContainersRefTypeEventHandler\" sourcefile=\"md2/CatLibrary.Core.ContainersRefType.ContainersRefTypeEventHandler.md\" sourcestartlinenumber=\"1\"> Event ContainersRefTypeEventHandler</h1>",
+  "title": " Event ContainersRefTypeEventHandler",
   "wordCount": 12.0,
   "_key": "md2/CatLibrary.Core.ContainersRefType.ContainersRefTypeEventHandler.md",
   "_navKey": "~/toc.yml",

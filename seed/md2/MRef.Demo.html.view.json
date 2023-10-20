@@ -35,8 +35,8 @@
     "rawTitle",
     "wordCount"
   ],
-  "rawTitle": "<h1 id=\"namespace-mrefdemo\" sourcefile=\"md2/MRef.Demo.md\" sourcestartlinenumber=\"1\">Namespace MRef.Demo</h1>",
-  "title": "Namespace MRef.Demo",
+  "rawTitle": "<h1 id=\"MRef_Demo\" sourcefile=\"md2/MRef.Demo.md\" sourcestartlinenumber=\"1\"> Namespace MRef.Demo</h1>",
+  "title": " Namespace MRef.Demo",
   "wordCount": 2.0,
   "_key": "md2/MRef.Demo.md",
   "_navKey": "~/toc.yml",

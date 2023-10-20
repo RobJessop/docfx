@@ -35,8 +35,8 @@
     "rawTitle",
     "wordCount"
   ],
-  "rawTitle": "<h1 id=\"interface-iinheritdoc\" sourcefile=\"md2/BuildFromProject.IInheritdoc.md\" sourcestartlinenumber=\"1\">Interface IInheritdoc</h1>",
-  "title": "Interface IInheritdoc",
+  "rawTitle": "<h1 id=\"BuildFromProject_IInheritdoc\" sourcefile=\"md2/BuildFromProject.IInheritdoc.md\" sourcestartlinenumber=\"1\"> Interface IInheritdoc</h1>",
+  "title": " Interface IInheritdoc",
   "wordCount": 14.0,
   "_key": "md2/BuildFromProject.IInheritdoc.md",
   "_navKey": "~/toc.yml",

@@ -35,8 +35,8 @@
     "rawTitle",
     "wordCount"
   ],
-  "rawTitle": "<h1 id=\"enum-colortype\" sourcefile=\"md2/MRef.Demo.Enumeration.ColorType.md\" sourcestartlinenumber=\"1\">Enum ColorType</h1>",
-  "title": "Enum ColorType",
+  "rawTitle": "<h1 id=\"MRef_Demo_Enumeration_ColorType\" sourcefile=\"md2/MRef.Demo.Enumeration.ColorType.md\" sourcestartlinenumber=\"1\"> Enum ColorType</h1>",
+  "title": " Enum ColorType",
   "wordCount": 41.0,
   "_key": "md2/MRef.Demo.Enumeration.ColorType.md",
   "_navKey": "~/toc.yml",

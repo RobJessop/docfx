@@ -35,8 +35,8 @@
     "rawTitle",
     "wordCount"
   ],
-  "rawTitle": "<h1 id=\"interface-ianimal\" sourcefile=\"md2/CatLibrary.IAnimal.md\" sourcestartlinenumber=\"1\">Interface IAnimal</h1>",
-  "title": "Interface IAnimal",
+  "rawTitle": "<h1 id=\"CatLibrary_IAnimal\" sourcefile=\"md2/CatLibrary.IAnimal.md\" sourcestartlinenumber=\"1\"> Interface IAnimal</h1>",
+  "title": " Interface IAnimal",
   "wordCount": 50.0,
   "_key": "md2/CatLibrary.IAnimal.md",
   "_navKey": "~/toc.yml",

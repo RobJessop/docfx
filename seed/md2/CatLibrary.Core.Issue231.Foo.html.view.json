@@ -1,5 +1,5 @@
 {
-  "conceptual": "\n<p sourcefile=\"md2/CatLibrary.Core.Issue231.Foo.md\" sourcestartlinenumber=\"3\">Namespace: <a href=\"~/md2/CatLibrary.Core.md\" sourcefile=\"md2/CatLibrary.Core.Issue231.Foo.md\" sourcestartlinenumber=\"3\">CatLibrary.Core</a><br>\nAssembly: CatLibrary.Core.dll</p>\n<h2 id=\"CatLibrary_Core_Issue231_Foo_CatLibrary_Core_ContainersRefType_\" sourcefile=\"md2/CatLibrary.Core.Issue231.Foo.md\" sourcestartlinenumber=\"6\">Foo(ContainersRefType)</h2>\n<pre><code class=\"lang-csharp\" sourcefile=\"md2/CatLibrary.Core.Issue231.Foo.md\" sourcestartlinenumber=\"8\">public static void Foo(this ContainersRefType c)\n</code></pre>\n<h3 id=\"parameters\" sourcefile=\"md2/CatLibrary.Core.Issue231.Foo.md\" sourcestartlinenumber=\"12\">Parameters</h3>\n<p sourcefile=\"md2/CatLibrary.Core.Issue231.Foo.md\" sourcestartlinenumber=\"14\"><code sourcefile=\"md2/CatLibrary.Core.Issue231.Foo.md\" sourcestartlinenumber=\"14\">c</code> <a href=\"~/md2/CatLibrary.Core.ContainersRefType.md\" sourcefile=\"md2/CatLibrary.Core.Issue231.Foo.md\" sourcestartlinenumber=\"14\">ContainersRefType</a></p>\n",
+  "conceptual": "\n<p sourcefile=\"md2/CatLibrary.Core.Issue231.Foo.md\" sourcestartlinenumber=\"3\">Namespace: <a href=\"~/md2/CatLibrary.Core.md\" sourcefile=\"md2/CatLibrary.Core.Issue231.Foo.md\" sourcestartlinenumber=\"3\">CatLibrary.Core</a><br>\nAssembly: CatLibrary.Core.dll</p>\n<h2 id=\"CatLibrary_Core_Issue231_Foo_CatLibrary_Core_ContainersRefType_\" sourcefile=\"md2/CatLibrary.Core.Issue231.Foo.md\" sourcestartlinenumber=\"6\"> Foo(ContainersRefType)</h2>\n<pre><code class=\"lang-csharp\" sourcefile=\"md2/CatLibrary.Core.Issue231.Foo.md\" sourcestartlinenumber=\"8\">public static void Foo(this ContainersRefType c)\n</code></pre>\n<h3 id=\"parameters\" sourcefile=\"md2/CatLibrary.Core.Issue231.Foo.md\" sourcestartlinenumber=\"12\">Parameters</h3>\n<p sourcefile=\"md2/CatLibrary.Core.Issue231.Foo.md\" sourcestartlinenumber=\"14\"><code sourcefile=\"md2/CatLibrary.Core.Issue231.Foo.md\" sourcestartlinenumber=\"14\">c</code> <a href=\"~/md2/CatLibrary.Core.ContainersRefType.md\" sourcefile=\"md2/CatLibrary.Core.Issue231.Foo.md\" sourcestartlinenumber=\"14\">ContainersRefType</a></p>\n",
   "type": "Conceptual",
   "source": {
     "remote": {
@@ -35,8 +35,8 @@
     "rawTitle",
     "wordCount"
   ],
-  "rawTitle": "<h1 id=\"method-foo\" sourcefile=\"md2/CatLibrary.Core.Issue231.Foo.md\" sourcestartlinenumber=\"1\">Method Foo</h1>",
-  "title": "Method Foo",
+  "rawTitle": "<h1 id=\"CatLibrary_Core_Issue231_Foo_CatLibrary_Core_ContainersRefType_\" sourcefile=\"md2/CatLibrary.Core.Issue231.Foo.md\" sourcestartlinenumber=\"1\"> Method Foo</h1>",
+  "title": " Method Foo",
   "wordCount": 14.0,
   "_key": "md2/CatLibrary.Core.Issue231.Foo.md",
   "_navKey": "~/toc.yml",
