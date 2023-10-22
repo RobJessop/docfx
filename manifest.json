@@ -17,26 +17,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Docfx.Build.OneOfJsonConverterFactory.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Docfx.Build.OneOfJsonConverterFactory.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Docfx.Build.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Docfx.Build.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/Docfx.BuildOptions.yml",
       "output": {
         ".html": {

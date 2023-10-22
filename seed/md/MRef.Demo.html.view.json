@@ -1,9 +1,9 @@
 {
-  "conceptual": "\n<h3 id=\"namespaces\" sourcefile=\"md/MRef.Demo.md\" sourcestartlinenumber=\"3\">Namespaces</h3>\n<p sourcefile=\"md/MRef.Demo.md\" sourcestartlinenumber=\"5\"><a href=\"~/md/MRef.Demo.Enumeration.md\" sourcefile=\"md/MRef.Demo.md\" sourcestartlinenumber=\"5\">MRef.Demo.Enumeration</a></p>\n",
+  "conceptual": "\n<h3 id=\"namespaces\" sourcefile=\"obj/md/MRef.Demo.md\" sourcestartlinenumber=\"3\">Namespaces</h3>\n<p sourcefile=\"obj/md/MRef.Demo.md\" sourcestartlinenumber=\"5\"><a href=\"~/obj/md/MRef.Demo.Enumeration.md\" sourcefile=\"obj/md/MRef.Demo.md\" sourcestartlinenumber=\"5\">MRef.Demo.Enumeration</a></p>\n",
   "type": "Conceptual",
   "source": {
     "remote": {
-      "path": "samples/seed/md/MRef.Demo.md",
+      "path": "samples/seed/obj/md/MRef.Demo.md",
       "branch": "main",
       "repo": "https://github.com/dotnet/docfx"
     },
@@ -11,10 +11,10 @@
     "endLine": 0.0,
     "isExternal": false
   },
-  "path": "md/MRef.Demo.md",
+  "path": "obj/md/MRef.Demo.md",
   "documentation": {
     "remote": {
-      "path": "samples/seed/md/MRef.Demo.md",
+      "path": "samples/seed/obj/md/MRef.Demo.md",
       "branch": "main",
       "repo": "https://github.com/dotnet/docfx"
     },
@@ -35,16 +35,16 @@
     "rawTitle",
     "wordCount"
   ],
-  "rawTitle": "<h1 id=\"MRef_Demo\" sourcefile=\"md/MRef.Demo.md\" sourcestartlinenumber=\"1\"> Namespace MRef.Demo</h1>",
+  "rawTitle": "<h1 id=\"MRef_Demo\" sourcefile=\"obj/md/MRef.Demo.md\" sourcestartlinenumber=\"1\"> Namespace MRef.Demo</h1>",
   "title": " Namespace MRef.Demo",
   "wordCount": 2.0,
-  "_key": "md/MRef.Demo.md",
+  "_key": "obj/md/MRef.Demo.md",
   "_navKey": "~/toc.yml",
   "_navPath": "toc.html",
   "_navRel": "../toc.html",
   "_path": "md/MRef.Demo.html",
   "_rel": "../",
-  "_tocKey": "~/md/toc.yml",
+  "_tocKey": "~/obj/md/toc.yml",
   "_tocPath": "md/toc.html",
   "_tocRel": "toc.html",
   "__global": {
@@ -122,5 +122,5 @@
     "_shared": {}
   },
   "_disableToc": false,
-  "docurl": "https://github.com/dotnet/docfx/blob/main/samples/seed/md/MRef.Demo.md/#L1"
+  "docurl": "https://github.com/dotnet/docfx/blob/main/samples/seed/obj/md/MRef.Demo.md/#L1"
 }

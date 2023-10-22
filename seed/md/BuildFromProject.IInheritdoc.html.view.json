@@ -1,9 +1,9 @@
 {
-  "conceptual": "\n<p sourcefile=\"md/BuildFromProject.IInheritdoc.md\" sourcestartlinenumber=\"3\">Namespace: <a href=\"~/md/BuildFromProject.md\" sourcefile=\"md/BuildFromProject.IInheritdoc.md\" sourcestartlinenumber=\"3\">BuildFromProject</a><br>\nAssembly: BuildFromProject.dll</p>\n<pre><code class=\"lang-csharp\" sourcefile=\"md/BuildFromProject.IInheritdoc.md\" sourcestartlinenumber=\"6\">public interface IInheritdoc\n</code></pre>\n<h2 id=\"methods\" sourcefile=\"md/BuildFromProject.IInheritdoc.md\" sourcestartlinenumber=\"10\">Methods</h2>\n<h3 id=\"BuildFromProject_IInheritdoc_Issue7629\" sourcefile=\"md/BuildFromProject.IInheritdoc.md\" sourcestartlinenumber=\"12\"> Issue7629()</h3>\n<p sourcefile=\"md/BuildFromProject.IInheritdoc.md\" sourcestartlinenumber=\"14\">This method should do something...</p>\n<pre><code class=\"lang-csharp\" sourcefile=\"md/BuildFromProject.IInheritdoc.md\" sourcestartlinenumber=\"16\">void Issue7629()\n</code></pre>\n",
+  "conceptual": "\n<p sourcefile=\"obj/md/BuildFromProject.IInheritdoc.md\" sourcestartlinenumber=\"3\">Namespace: <a href=\"~/obj/md/BuildFromProject.md\" sourcefile=\"obj/md/BuildFromProject.IInheritdoc.md\" sourcestartlinenumber=\"3\">BuildFromProject</a><br>\nAssembly: BuildFromProject.dll</p>\n<pre><code class=\"lang-csharp\" sourcefile=\"obj/md/BuildFromProject.IInheritdoc.md\" sourcestartlinenumber=\"6\">public interface IInheritdoc\n</code></pre>\n<h2 id=\"methods\" sourcefile=\"obj/md/BuildFromProject.IInheritdoc.md\" sourcestartlinenumber=\"10\">Methods</h2>\n<h3 id=\"BuildFromProject_IInheritdoc_Issue7629\" sourcefile=\"obj/md/BuildFromProject.IInheritdoc.md\" sourcestartlinenumber=\"12\"> Issue7629()</h3>\n<p sourcefile=\"obj/md/BuildFromProject.IInheritdoc.md\" sourcestartlinenumber=\"14\">This method should do something...</p>\n<pre><code class=\"lang-csharp\" sourcefile=\"obj/md/BuildFromProject.IInheritdoc.md\" sourcestartlinenumber=\"16\">void Issue7629()\n</code></pre>\n",
   "type": "Conceptual",
   "source": {
     "remote": {
-      "path": "samples/seed/md/BuildFromProject.IInheritdoc.md",
+      "path": "samples/seed/obj/md/BuildFromProject.IInheritdoc.md",
       "branch": "main",
       "repo": "https://github.com/dotnet/docfx"
     },
@@ -11,10 +11,10 @@
     "endLine": 0.0,
     "isExternal": false
   },
-  "path": "md/BuildFromProject.IInheritdoc.md",
+  "path": "obj/md/BuildFromProject.IInheritdoc.md",
   "documentation": {
     "remote": {
-      "path": "samples/seed/md/BuildFromProject.IInheritdoc.md",
+      "path": "samples/seed/obj/md/BuildFromProject.IInheritdoc.md",
       "branch": "main",
       "repo": "https://github.com/dotnet/docfx"
     },
@@ -35,16 +35,16 @@
     "rawTitle",
     "wordCount"
   ],
-  "rawTitle": "<h1 id=\"BuildFromProject_IInheritdoc\" sourcefile=\"md/BuildFromProject.IInheritdoc.md\" sourcestartlinenumber=\"1\"> Interface IInheritdoc</h1>",
+  "rawTitle": "<h1 id=\"BuildFromProject_IInheritdoc\" sourcefile=\"obj/md/BuildFromProject.IInheritdoc.md\" sourcestartlinenumber=\"1\"> Interface IInheritdoc</h1>",
   "title": " Interface IInheritdoc",
   "wordCount": 16.0,
-  "_key": "md/BuildFromProject.IInheritdoc.md",
+  "_key": "obj/md/BuildFromProject.IInheritdoc.md",
   "_navKey": "~/toc.yml",
   "_navPath": "toc.html",
   "_navRel": "../toc.html",
   "_path": "md/BuildFromProject.IInheritdoc.html",
   "_rel": "../",
-  "_tocKey": "~/md/toc.yml",
+  "_tocKey": "~/obj/md/toc.yml",
   "_tocPath": "md/toc.html",
   "_tocRel": "toc.html",
   "__global": {
@@ -122,5 +122,5 @@
     "_shared": {}
   },
   "_disableToc": false,
-  "docurl": "https://github.com/dotnet/docfx/blob/main/samples/seed/md/BuildFromProject.IInheritdoc.md/#L1"
+  "docurl": "https://github.com/dotnet/docfx/blob/main/samples/seed/obj/md/BuildFromProject.IInheritdoc.md/#L1"
 }

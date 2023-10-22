@@ -1,14 +1,4 @@
 {
-  "api/Docfx.Build.OneOfJsonConverterFactory.html": {
-    "href": "api/Docfx.Build.OneOfJsonConverterFactory.html",
-    "title": "Class OneOfJsonConverterFactory | docfx",
-    "keywords": "Class OneOfJsonConverterFactory Namespace Docfx.Build Assembly Docfx.Dotnet.dll public class OneOfJsonConverterFactory : JsonConverterFactory Inheritance object JsonConverter JsonConverterFactory OneOfJsonConverterFactory Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods CanConvert(Type) Determines whether the type can be converted. public override bool CanConvert(Type typeToConvert) Parameters typeToConvert Type The type is checked as to whether it can be converted. Returns bool True if the type can be converted, false otherwise. CreateConverter(Type, JsonSerializerOptions) Create a converter for the provided Type. public override JsonConverter CreateConverter(Type typeToConvert, JsonSerializerOptions options) Parameters typeToConvert Type The Type being converted. options JsonSerializerOptions The JsonSerializerOptions being used. Returns JsonConverter An instance of a JsonConverter<T> where T is compatible with typeToConvert. If null is returned, a NotSupportedException will be thrown."
-  },
-  "api/Docfx.Build.html": {
-    "href": "api/Docfx.Build.html",
-    "title": "Namespace Docfx.Build | docfx",
-    "keywords": "Namespace Docfx.Build Classes OneOfJsonConverterFactory"
-  },
   "api/Docfx.BuildOptions.html": {
     "href": "api/Docfx.BuildOptions.html",
     "title": "Class BuildOptions | docfx",

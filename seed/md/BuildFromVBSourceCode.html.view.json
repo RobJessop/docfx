@@ -1,9 +1,9 @@
 {
-  "conceptual": "\n<h3 id=\"classes\" sourcefile=\"md/BuildFromVBSourceCode.md\" sourcestartlinenumber=\"3\">Classes</h3>\n<p sourcefile=\"md/BuildFromVBSourceCode.md\" sourcestartlinenumber=\"5\"><a href=\"~/md/BuildFromVBSourceCode.BaseClass1.md\" sourcefile=\"md/BuildFromVBSourceCode.md\" sourcestartlinenumber=\"5\">BaseClass1</a></p>\n<p sourcefile=\"md/BuildFromVBSourceCode.md\" sourcestartlinenumber=\"7\">This is the BaseClass</p>\n<p sourcefile=\"md/BuildFromVBSourceCode.md\" sourcestartlinenumber=\"9\"><a href=\"~/md/BuildFromVBSourceCode.Class1.md\" sourcefile=\"md/BuildFromVBSourceCode.md\" sourcestartlinenumber=\"9\">Class1</a></p>\n<p sourcefile=\"md/BuildFromVBSourceCode.md\" sourcestartlinenumber=\"11\">This is summary from vb class...</p>\n",
+  "conceptual": "\n<h3 id=\"classes\" sourcefile=\"obj/md/BuildFromVBSourceCode.md\" sourcestartlinenumber=\"3\">Classes</h3>\n<p sourcefile=\"obj/md/BuildFromVBSourceCode.md\" sourcestartlinenumber=\"5\"><a href=\"~/obj/md/BuildFromVBSourceCode.BaseClass1.md\" sourcefile=\"obj/md/BuildFromVBSourceCode.md\" sourcestartlinenumber=\"5\">BaseClass1</a></p>\n<p sourcefile=\"obj/md/BuildFromVBSourceCode.md\" sourcestartlinenumber=\"7\">This is the BaseClass</p>\n<p sourcefile=\"obj/md/BuildFromVBSourceCode.md\" sourcestartlinenumber=\"9\"><a href=\"~/obj/md/BuildFromVBSourceCode.Class1.md\" sourcefile=\"obj/md/BuildFromVBSourceCode.md\" sourcestartlinenumber=\"9\">Class1</a></p>\n<p sourcefile=\"obj/md/BuildFromVBSourceCode.md\" sourcestartlinenumber=\"11\">This is summary from vb class...</p>\n",
   "type": "Conceptual",
   "source": {
     "remote": {
-      "path": "samples/seed/md/BuildFromVBSourceCode.md",
+      "path": "samples/seed/obj/md/BuildFromVBSourceCode.md",
       "branch": "main",
       "repo": "https://github.com/dotnet/docfx"
     },
@@ -11,10 +11,10 @@
     "endLine": 0.0,
     "isExternal": false
   },
-  "path": "md/BuildFromVBSourceCode.md",
+  "path": "obj/md/BuildFromVBSourceCode.md",
   "documentation": {
     "remote": {
-      "path": "samples/seed/md/BuildFromVBSourceCode.md",
+      "path": "samples/seed/obj/md/BuildFromVBSourceCode.md",
       "branch": "main",
       "repo": "https://github.com/dotnet/docfx"
     },
@@ -35,16 +35,16 @@
     "rawTitle",
     "wordCount"
   ],
-  "rawTitle": "<h1 id=\"BuildFromVBSourceCode\" sourcefile=\"md/BuildFromVBSourceCode.md\" sourcestartlinenumber=\"1\"> Namespace BuildFromVBSourceCode</h1>",
+  "rawTitle": "<h1 id=\"BuildFromVBSourceCode\" sourcefile=\"obj/md/BuildFromVBSourceCode.md\" sourcestartlinenumber=\"1\"> Namespace BuildFromVBSourceCode</h1>",
   "title": " Namespace BuildFromVBSourceCode",
   "wordCount": 13.0,
-  "_key": "md/BuildFromVBSourceCode.md",
+  "_key": "obj/md/BuildFromVBSourceCode.md",
   "_navKey": "~/toc.yml",
   "_navPath": "toc.html",
   "_navRel": "../toc.html",
   "_path": "md/BuildFromVBSourceCode.html",
   "_rel": "../",
-  "_tocKey": "~/md/toc.yml",
+  "_tocKey": "~/obj/md/toc.yml",
   "_tocPath": "md/toc.html",
   "_tocRel": "toc.html",
   "__global": {
@@ -122,5 +122,5 @@
     "_shared": {}
   },
   "_disableToc": false,
-  "docurl": "https://github.com/dotnet/docfx/blob/main/samples/seed/md/BuildFromVBSourceCode.md/#L1"
+  "docurl": "https://github.com/dotnet/docfx/blob/main/samples/seed/obj/md/BuildFromVBSourceCode.md/#L1"
 }
