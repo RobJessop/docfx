@@ -145,6 +145,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "obj/api/BuildFromProject.Class1.Issue9260.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BuildFromProject.Class1.Issue9260.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "obj/api/BuildFromProject.Class1.Test-1.yml",
       "output": {
         ".html": {
@@ -632,6 +642,16 @@
       "output": {
         ".html": {
           "relative_path": "apipage/BuildFromProject.Class1.Issue8948.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ApiPage",
+      "source_relative_path": "obj/apipage/BuildFromProject.Class1.Issue9260.yml",
+      "output": {
+        ".html": {
+          "relative_path": "apipage/BuildFromProject.Class1.Issue9260.html"
         }
       },
       "version": ""
@@ -1145,6 +1165,16 @@
       "output": {
         ".html": {
           "relative_path": "md/BuildFromProject.Class1.Issue8948.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "obj/md/BuildFromProject.Class1.Issue9260.md",
+      "output": {
+        ".html": {
+          "relative_path": "md/BuildFromProject.Class1.Issue9260.html"
         }
       },
       "version": ""
