@@ -1413,6 +1413,19 @@ references:
   isSpec: "True"
   fullName: Docfx.Dotnet.DotnetApiOptions.IncludeAttribute
   nameWithType: DotnetApiOptions.IncludeAttribute
+- uid: Docfx.Dotnet.DotnetApiOptions.SourceUrl
+  name: SourceUrl
+  href: api/Docfx.Dotnet.DotnetApiOptions.html#Docfx_Dotnet_DotnetApiOptions_SourceUrl
+  commentId: P:Docfx.Dotnet.DotnetApiOptions.SourceUrl
+  fullName: Docfx.Dotnet.DotnetApiOptions.SourceUrl
+  nameWithType: DotnetApiOptions.SourceUrl
+- uid: Docfx.Dotnet.DotnetApiOptions.SourceUrl*
+  name: SourceUrl
+  href: api/Docfx.Dotnet.DotnetApiOptions.html#Docfx_Dotnet_DotnetApiOptions_SourceUrl_
+  commentId: Overload:Docfx.Dotnet.DotnetApiOptions.SourceUrl
+  isSpec: "True"
+  fullName: Docfx.Dotnet.DotnetApiOptions.SourceUrl
+  nameWithType: DotnetApiOptions.SourceUrl
 - uid: Docfx.Dotnet.SymbolIncludeState
   name: SymbolIncludeState
   href: api/Docfx.Dotnet.SymbolIncludeState.html
