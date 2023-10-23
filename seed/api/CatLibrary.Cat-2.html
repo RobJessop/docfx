@@ -115,6 +115,7 @@ This is a CAT class</p>
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Serializable]
+[Obsolete]
 public class Cat&lt;T, K&gt; : ICat, IAnimal where T : class, new() where K : struct</code></pre>
   </div>
 
@@ -206,7 +207,7 @@ unsafe
 
   <h3 id="CatLibrary_Cat_2__ctor" data-uid="CatLibrary.Cat`2.#ctor">
   Cat()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dotnet/docfx/blob/main/samples/seed/dotnet/solution/CatLibrary/Class1.cs/#L122"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dotnet/docfx/blob/main/samples/seed/dotnet/solution/CatLibrary/Class1.cs/#L123"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Default constructor.</p>
@@ -233,7 +234,7 @@ unsafe
 
   <h3 id="CatLibrary_Cat_2__ctor_System_String_System_Int32__System_String_System_Boolean_" data-uid="CatLibrary.Cat`2.#ctor(System.String,System.Int32@,System.String,System.Boolean)">
   Cat(string, out int, string, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dotnet/docfx/blob/main/samples/seed/dotnet/solution/CatLibrary/Class1.cs/#L137"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dotnet/docfx/blob/main/samples/seed/dotnet/solution/CatLibrary/Class1.cs/#L138"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>It's a complex constructor. The parameter will have some attributes.</p>
@@ -275,7 +276,7 @@ unsafe
 
   <h3 id="CatLibrary_Cat_2__ctor__0_" data-uid="CatLibrary.Cat`2.#ctor(`0)">
   Cat(T)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dotnet/docfx/blob/main/samples/seed/dotnet/solution/CatLibrary/Class1.cs/#L128"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dotnet/docfx/blob/main/samples/seed/dotnet/solution/CatLibrary/Class1.cs/#L129"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Constructor with one generic parameter.</p>
@@ -311,7 +312,7 @@ unsafe
 
   <h3 id="CatLibrary_Cat_2_isHealthy" data-uid="CatLibrary.Cat`2.isHealthy">
   isHealthy
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dotnet/docfx/blob/main/samples/seed/dotnet/solution/CatLibrary/Class1.cs/#L231"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dotnet/docfx/blob/main/samples/seed/dotnet/solution/CatLibrary/Class1.cs/#L235"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Field with attribute.</p>
@@ -321,6 +322,7 @@ unsafe
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[ContextStatic]
 [NonSerialized]
+[Obsolete]
 public bool isHealthy</code></pre>
   </div>
 
@@ -349,7 +351,7 @@ public bool isHealthy</code></pre>
 
   <h3 id="CatLibrary_Cat_2_Age" data-uid="CatLibrary.Cat`2.Age">
   Age
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dotnet/docfx/blob/main/samples/seed/dotnet/solution/CatLibrary/Class1.cs/#L213"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dotnet/docfx/blob/main/samples/seed/dotnet/solution/CatLibrary/Class1.cs/#L214"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Hint cat's age.</p>
@@ -357,7 +359,8 @@ public bool isHealthy</code></pre>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected int Age { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete]
+protected int Age { get; set; }</code></pre>
   </div>
 
 
@@ -381,7 +384,7 @@ public bool isHealthy</code></pre>
 
   <h3 id="CatLibrary_Cat_2_Item_System_String_" data-uid="CatLibrary.Cat`2.Item(System.String)">
   this[string]
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dotnet/docfx/blob/main/samples/seed/dotnet/solution/CatLibrary/Class1.cs/#L204"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dotnet/docfx/blob/main/samples/seed/dotnet/solution/CatLibrary/Class1.cs/#L205"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>This is index property of Cat. You can see that the visibility is different between <code>get</code> and <code>set</code> method.</p>
@@ -420,7 +423,7 @@ public bool isHealthy</code></pre>
 
   <h3 id="CatLibrary_Cat_2_Name" data-uid="CatLibrary.Cat`2.Name">
   Name
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dotnet/docfx/blob/main/samples/seed/dotnet/solution/CatLibrary/Class1.cs/#L255"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dotnet/docfx/blob/main/samples/seed/dotnet/solution/CatLibrary/Class1.cs/#L259"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>EII property.</p>
@@ -456,7 +459,7 @@ public bool isHealthy</code></pre>
 
   <h3 id="CatLibrary_Cat_2_CalculateFood_System_DateTime_" data-uid="CatLibrary.Cat`2.CalculateFood(System.DateTime)">
   Override CalculateFood Name
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dotnet/docfx/blob/main/samples/seed/dotnet/solution/CatLibrary/Class1.cs/#L145"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dotnet/docfx/blob/main/samples/seed/dotnet/solution/CatLibrary/Class1.cs/#L146"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>It's an overridden summary in <code>markdown</code> format</p>
@@ -503,7 +506,7 @@ public bool isHealthy</code></pre>
 
   <h3 id="CatLibrary_Cat_2_Equals_System_Object_" data-uid="CatLibrary.Cat`2.Equals(System.Object)">
   Equals(object)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dotnet/docfx/blob/main/samples/seed/dotnet/solution/CatLibrary/Class1.cs/#L165"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dotnet/docfx/blob/main/samples/seed/dotnet/solution/CatLibrary/Class1.cs/#L166"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Override the method of <code>Object.Equals(object obj).</code></p>
@@ -542,7 +545,7 @@ public bool isHealthy</code></pre>
 
   <h3 id="CatLibrary_Cat_2_GetTailLength_System_Int32__System_Object___" data-uid="CatLibrary.Cat`2.GetTailLength(System.Int32*,System.Object[])">
   GetTailLength(int*, params object[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dotnet/docfx/blob/main/samples/seed/dotnet/solution/CatLibrary/Class1.cs/#L174"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dotnet/docfx/blob/main/samples/seed/dotnet/solution/CatLibrary/Class1.cs/#L175"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>It's an <code>unsafe</code> method.
@@ -585,7 +588,7 @@ As you see, <code class="paramref">catName</code> is a <b>pointer</b>, so we nee
 
   <h3 id="CatLibrary_Cat_2_Jump__0__1_System_Boolean__" data-uid="CatLibrary.Cat`2.Jump(`0,`1,System.Boolean@)">
   Jump(T, K, ref bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dotnet/docfx/blob/main/samples/seed/dotnet/solution/CatLibrary/Class1.cs/#L154"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dotnet/docfx/blob/main/samples/seed/dotnet/solution/CatLibrary/Class1.cs/#L155"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>This method have attribute above it.</p>
@@ -634,7 +637,7 @@ public void Jump(T ownType, K anotherOwnType, ref bool cheat)</code></pre>
 
   <h3 id="CatLibrary_Cat_2_ownEat" data-uid="CatLibrary.Cat`2.ownEat">
   ownEat
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dotnet/docfx/blob/main/samples/seed/dotnet/solution/CatLibrary/Class1.cs/#L223"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dotnet/docfx/blob/main/samples/seed/dotnet/solution/CatLibrary/Class1.cs/#L226"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Eat event of this cat</p>
@@ -642,7 +645,8 @@ public void Jump(T ownType, K anotherOwnType, ref bool cheat)</code></pre>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public event EventHandler ownEat</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;This _event handler_ is deprecated.&quot;)]
+public event EventHandler ownEat</code></pre>
   </div>
 
 
@@ -670,7 +674,7 @@ public void Jump(T ownType, K anotherOwnType, ref bool cheat)</code></pre>
 
   <h3 id="CatLibrary_Cat_2_op_Addition_CatLibrary_Cat__0__1__System_Int32_" data-uid="CatLibrary.Cat`2.op_Addition(CatLibrary.Cat{`0,`1},System.Int32)">
   operator +(Cat&lt;T, K&gt;, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dotnet/docfx/blob/main/samples/seed/dotnet/solution/CatLibrary/Class1.cs/#L183"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dotnet/docfx/blob/main/samples/seed/dotnet/solution/CatLibrary/Class1.cs/#L184"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Addition operator of this class.</p>
@@ -712,7 +716,7 @@ public void Jump(T ownType, K anotherOwnType, ref bool cheat)</code></pre>
 
   <h3 id="CatLibrary_Cat_2_op_Explicit_CatLibrary_Cat__0__1___CatLibrary_Tom" data-uid="CatLibrary.Cat`2.op_Explicit(CatLibrary.Cat{`0,`1})~CatLibrary.Tom">
   explicit operator Tom(Cat&lt;T, K&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dotnet/docfx/blob/main/samples/seed/dotnet/solution/CatLibrary/Class1.cs/#L196"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dotnet/docfx/blob/main/samples/seed/dotnet/solution/CatLibrary/Class1.cs/#L197"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Expilicit operator of this class.</p>
@@ -752,7 +756,7 @@ public void Jump(T ownType, K anotherOwnType, ref bool cheat)</code></pre>
 
   <h3 id="CatLibrary_Cat_2_op_Subtraction_CatLibrary_Cat__0__1__System_Int32_" data-uid="CatLibrary.Cat`2.op_Subtraction(CatLibrary.Cat{`0,`1},System.Int32)">
   operator -(Cat&lt;T, K&gt;, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dotnet/docfx/blob/main/samples/seed/dotnet/solution/CatLibrary/Class1.cs/#L188"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dotnet/docfx/blob/main/samples/seed/dotnet/solution/CatLibrary/Class1.cs/#L189"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Similar with operaotr +, refer to that topic.</p>
