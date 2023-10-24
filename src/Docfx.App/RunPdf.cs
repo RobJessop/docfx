@@ -4,6 +4,7 @@
 using Docfx.Common;
 using Docfx.Exceptions;
 using Docfx.HtmlToPdf;
+using Docfx.Pdf;
 using Docfx.Plugins;
 
 namespace Docfx;
@@ -20,6 +21,9 @@ internal static class RunPdf
     /// </summary>
     public static void Exec(PdfJsonConfig config, BuildOptions buildOptions, string configDirectory, string outputDirectory = null)
     {
+        PdfBuilder.CreatePdf(new Uri("http://localhost:3000/test/api/toc.json")).Wait();
+        return;
+
         EnvironmentContext.SetBaseDirectory(Path.GetFullPath(string.IsNullOrEmpty(configDirectory) ? Directory.GetCurrentDirectory() : configDirectory));
         // TODO: remove BaseDirectory from Config, it may cause potential issue when abused
         var baseDirectory = EnvironmentContext.BaseDirectory;
